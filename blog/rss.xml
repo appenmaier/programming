@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Programmieren mit Java Blog</title>
+        <link>https://appenmaier.github.io/programming/blog</link>
+        <description>Programmieren mit Java Blog</description>
+        <lastBuildDate>Sat, 10 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>de</language>
+        <item>
+            <title><![CDATA[Willkommen einrichten]]></title>
+            <link>https://appenmaier.github.io/programming/blog/Willkommen</link>
+            <guid>Willkommen</guid>
+            <pubDate>Sat, 10 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Willkommen]]></description>
+            <content:encoded><![CDATA[<p>Willkommen</p>]]></content:encoded>
+            <category>willkommen</category>
+        </item>
+    </channel>
+</rss>

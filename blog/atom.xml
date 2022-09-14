@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://appenmaier.github.io/programming/blog</id>
+    <title>Programmieren mit Java Blog</title>
+    <updated>2022-09-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://appenmaier.github.io/programming/blog"/>
+    <subtitle>Programmieren mit Java Blog</subtitle>
+    <icon>https://appenmaier.github.io/programming/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Willkommen einrichten]]></title>
+        <id>Willkommen</id>
+        <link href="https://appenmaier.github.io/programming/blog/Willkommen"/>
+        <updated>2022-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Willkommen]]></summary>
+        <content type="html"><![CDATA[<p>Willkommen</p>]]></content>
+        <author>
+            <name>Daniel Appenmaier</name>
+            <uri>https://github.com/appenmaier</uri>
+        </author>
+        <category label="willkommen" term="willkommen"/>
+    </entry>
+</feed>
