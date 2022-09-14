@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Willkommen einrichten","permalink":"/programming/blog/Willkommen"}]}')}}]);
