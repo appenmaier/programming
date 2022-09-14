@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[2538],{5255:e=>{e.exports=JSON.parse('[{"label":"willkommen","permalink":"/programming/blog/tags/willkommen","count":1}]')}}]);
