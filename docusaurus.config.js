@@ -49,9 +49,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'documentation/programming',
             position: 'left',
             label: 'Vorlesungsunterlagen',
+          },
+          {
+            type: 'doc',
+            docId: 'exercises/oo/oo',
+            position: 'left',
+            label: 'Übungsaufgaben',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
