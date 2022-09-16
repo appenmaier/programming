@@ -2,8 +2,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const config = {
-  title: 'Programmieren mit Java',
-  tagline: 'Code is like humor. When you have to explain it, it´s bad. (Cory House)',
+  title: 'Java',
+  tagline: 'Programmieren mit Java',
   url: 'https://appenmaier.github.io',
   baseUrl: '/programming/',
   onBrokenLinks: 'throw',
@@ -55,7 +55,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'exercises/oo/oo',
+            docId: 'exercises/programming/programming',
             position: 'left',
             label: 'Übungsaufgaben',
           },
@@ -110,7 +110,7 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} Daniel Appenmaier Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Daniel Appenmaier & Steffen Merk Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
