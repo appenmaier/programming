@@ -4,26 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Titel 1',
+  title: 'Everything as Code',
     description: (
       <>
-        Beschreibung 1
+        Wir versuchen alles in Textform (Code) bereitzustellen.
+        Dadurch kann nach allem schnell gesucht werden und ist nachvollziehbar.
       </>
     ),
   },
   {
-    title: 'Titel 2',
+    title: 'Community by Design',
     description: (
       <>
-        Beschreibung 2
+        Professionelle Softwareentwicklung bedeutet Collaboration.
+        Findet ihr einen Rechtschreibfehler?
+        Ein Dozent hat einen Fehler gemacht? 
+        Lasst es ihn auf moderne Weise wissen.
+        (Issues, Pull Request, Discussions).
       </>
     ),
   },
   {
-    title: 'Titel 3',
+    title: 'Unsponsored',
     description: (
       <>
-        Beschreibung 3
+        Die verwendeten Tools und Methoden wurden freiwillig ausgesucht.
+        Sie spiegeln die persoenlichen Praeferenzen der Dozenten wieder
+        und wurden auf bestehenden Erfahrungswerten ausgesucht.
+        Was nicht bedeuted, dass es keine anderen oder besseren Tools gibt.
       </>
     ),
   },
