@@ -5,7 +5,7 @@ sidebar_position: 290
 tags: []
 ---
 
-Der Umgang mit null-Werten stellt in vielen Programmiersprachen eine große Herausforderung dar. Zur Vermeidung von Laufzeitfehlern (`NUllPointerException`) müsste vor jedem Methodenaufruf eigentlich überprüft werden, ob ein gültiger Wert vorliegt oder nicht.
+Der Umgang mit null-Werten stellt in vielen Programmiersprachen eine große Herausforderung dar. Zur Vermeidung von Laufzeitfehlern (`NullPointerException`) müsste vor jedem Methodenaufruf eigentlich überprüft werden, ob ein gültiger Wert vorliegt oder nicht.
 
 ```java
 public class MainClass() {
@@ -32,7 +32,7 @@ public class MainClass() {
   
   public static void main(String[] args) {
       Optional<String> optionalText = foo();
-      optionalText.ifPresent(System.out::println);
+      optionalText.ifPresent(t -> System.out.println(t.lenght()));
   }
   
   public static Optional<String> foo() {
