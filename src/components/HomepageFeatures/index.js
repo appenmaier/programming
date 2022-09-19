@@ -7,8 +7,8 @@ const FeatureList = [
   title: 'Everything as Code',
     description: (
       <>
-        Wir versuchen alles in Textform (Code) bereitzustellen.
-        Dadurch kann nach allem schnell gesucht werden und ist nachvollziehbar.
+        Wir versuchen, alles in Textform (Code) bereitzustellen.
+        Dadurch kann nach allem schnell gesucht werden und alles ist gut nachvollziehbar.
       </>
     ),
   },
@@ -17,10 +17,9 @@ const FeatureList = [
     description: (
       <>
         Professionelle Softwareentwicklung bedeutet Collaboration.
-        Findet ihr einen Rechtschreibfehler?
-        Ein Dozent hat einen Fehler gemacht? 
-        Lasst es ihn auf moderne Weise wissen.
-        (Issues, Pull Request, Discussions).
+        Ihr findet einen Rechtschreibfehler?
+        Etwas ist unverständlich oder fehlerhaft beschrieben?
+        Teilt es uns auf moderne Art und Weise (per Issues, Pull Requests oder Discussions) mit.
       </>
     ),
   },
@@ -28,10 +27,9 @@ const FeatureList = [
     title: 'Unsponsored',
     description: (
       <>
-        Die verwendeten Tools und Methoden wurden freiwillig ausgesucht.
-        Sie spiegeln die persoenlichen Praeferenzen der Dozenten wieder
-        und wurden auf bestehenden Erfahrungswerten ausgesucht.
-        Was nicht bedeuted, dass es keine anderen oder besseren Tools gibt.
+        Die verwendeten Tools und Methodiken wurden aufgrund persönlicher Präferenzen und bestehender Erfahrungswerte der Dozenten ausgesucht.
+        Dies bedeutet natürlich nicht, dass es keine anderen Tools und Methodiken gibt.
+        Letztlich muss jeder für sich sein ideales Entwicklungsumfeld herausfinden.
       </>
     ),
   },
