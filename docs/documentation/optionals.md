@@ -32,7 +32,7 @@ public class MainClass() {
   
   public static void main(String[] args) {
       Optional<String> optionalText = foo();
-      optionalText.ifPresent(t -> System.out.println(t.lenght()));
+      optionalText.ifPresent(t -> System.out.println(t.length()));
   }
   
   public static Optional<String> foo() {
