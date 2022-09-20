@@ -8,16 +8,17 @@
     <subtitle>Java Blog</subtitle>
     <icon>https://appenmaier.github.io/programming/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Willkommen einrichten]]></title>
-        <id>Willkommen</id>
-        <link href="https://appenmaier.github.io/programming/blog/Willkommen"/>
+        <title type="html"><![CDATA[Migration von Jekyll zu Docusaurus]]></title>
+        <id>Migration von Jekyll zu Docusaurus</id>
+        <link href="https://appenmaier.github.io/programming/blog/Migration von Jekyll zu Docusaurus"/>
         <updated>2022-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Willkommen]]></summary>
-        <content type="html"><![CDATA[<p>Willkommen</p>]]></content>
+        <summary type="html"><![CDATA[Mit der Migration von Jekyll zu Docusaurus ist die Transformation der Java-Vorlesungsunterlagen nun abgeschlossen. Docusaurus bietet im Gegensatz zu Jekyll durch die Docs standardmäßig eine bessere Möglichkeit der Navigation und ist insgesamt deutlich mächtiger. Da das Grundgerüst der Seite nun steht, können Steffen und ich uns in den nächsten Wochen und Monaten nun gezielt den Inhalten widmen. Viele Texte sind "in die Jahre" gekommen und bedürfen einer Überarbeitung. Zudem wollen wir, gemäß dem Ansatz Everything as Code, mittel- bis langfristig sämtliche Abbildungen, die aktuell noch als raw-Dateien eingebettet sind, in Textform umwandeln. Hierzu werden wir Mermaid verwenden.]]></summary>
+        <content type="html"><![CDATA[<p>Mit der Migration von <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> zu <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a> ist die Transformation der Java-Vorlesungsunterlagen nun abgeschlossen. Docusaurus bietet im Gegensatz zu Jekyll durch die <em>Docs</em> standardmäßig eine bessere Möglichkeit der Navigation und ist insgesamt deutlich mächtiger. Da das Grundgerüst der Seite nun steht, können Steffen und ich uns in den nächsten Wochen und Monaten nun gezielt den Inhalten widmen. Viele Texte sind "in die Jahre" gekommen und bedürfen einer Überarbeitung. Zudem wollen wir, gemäß dem Ansatz <em>Everything as Code</em>, mittel- bis langfristig sämtliche Abbildungen, die aktuell noch als raw-Dateien eingebettet sind, in Textform umwandeln. Hierzu werden wir <a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener noreferrer">Mermaid</a> verwenden. </p><p>Ein großes Dankeschön an dieser Stelle an Steffen, ohne den diese Transformation nie durchgeführt worden wäre.</p>]]></content>
         <author>
             <name>Daniel Appenmaier</name>
             <uri>https://github.com/appenmaier</uri>
         </author>
-        <category label="willkommen" term="willkommen"/>
+        <category label="jekyll" term="jekyll"/>
+        <category label="docusaurus" term="docusaurus"/>
     </entry>
 </feed>
