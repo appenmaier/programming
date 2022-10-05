@@ -1,7 +1,7 @@
 ---
 title: JavaFX einrichten
 description: ""
-sidebar_position: 20
+sidebar_position: 30
 --- 
 
 ## JavaFX SDK herunterladen und installieren
