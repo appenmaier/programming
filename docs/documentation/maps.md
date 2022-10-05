@@ -18,7 +18,7 @@ public class MainClass {
     public static void main(String[] args) {
 
         HashMap<Integer, String> foos = new HashMap<>();
-        … 
+        ...
         for (Entry<Integer, String> entry : foos.entrySet()) {
             System.out.println(entry.getKey());
             System.out.println(entry.getValue());
