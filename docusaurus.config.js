@@ -51,7 +51,7 @@ const config = {
             type: 'doc',
             docId: 'documentation/programming',
             position: 'left',
-            label: 'Vorlesungsunterlagen',
+            label: 'Dokumentation',
           },
           {
             type: 'doc',
