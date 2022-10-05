@@ -59,6 +59,12 @@ const config = {
             position: 'left',
             label: 'Übungsaufgaben',
           },
+          {
+            type: 'doc',
+            docId: 'instructions/cmd',
+            position: 'left',
+            label: 'Anleitungen',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/appenmaier/programming',
