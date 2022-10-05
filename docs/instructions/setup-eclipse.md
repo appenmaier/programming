@@ -1,5 +1,5 @@
 ---
-title: Entwicklungsumgebung einrichten
+title: Eclipse einrichten
 description: ""
 sidebar_position: 10
 --- 
