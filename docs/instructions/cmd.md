@@ -1,5 +1,5 @@
 ---
-title: Kompilieren und Ausführen eines Java-Programms mit Hilfe der Eingabeaufforderung (Command Prompt)
+title: Arbeiten mit der Eingabeaufforderung
 description: ""
 sidebar_position: 10
 --- 
@@ -25,12 +25,12 @@ zu den Windows-System-Anwendungen und kann über den Suchbegriff `CMD` gestartet
 
 ```
 C:\Users>cd..
-C:\>cd "Users/Maier/Projects/Java/src"
-C:\Users/Maier/Projects/Java/src>
+C:\>cd "Users\Maier\Projects\Java\src"
+C:\Users\Maier\Projects\Java\src>
 ```
 
 :::note Hinweis
-Mit dem Befehl `cd <Pfad/Verzeichnis>` kann zum angegebenen Verzeichnis gewechselt werden, mit dem Befehl `cd ..` zum übergeordneten Verzeichnis und mit dem Befehl
+Mit dem Befehl `cd <Pfad\Verzeichnis>` kann zum angegebenen Verzeichnis gewechselt werden, mit dem Befehl `cd..` zum übergeordneten Verzeichnis und mit dem Befehl
 `<Laufwerksbuchstabe>:` zum angegebenen Laufwerk.
 :::
 
@@ -39,7 +39,7 @@ Das Überführen einer Quellcode-Datei in eine Bytecode-Datei erfolgt mit Hilfe 
 Dateiendung angegeben werden.
 
 ```
-C:\Users/Maier/Projects/Java/src>javac demos/MainClass.java -d ../bin
+C:\Users\Maier\Projects\Java\src>javac demos/MainClass.java -d ../bin
 ```
 
 :::note Hinweis
@@ -51,10 +51,10 @@ Das Ausführen einer Bytecode-Datei erfolgt über die Java Virtual Machine. Auch
 Dateiendung.
 
 ```
-C:\Users/Maier/Projects/Java/src>cd..
-C:\Users/Maier/Projects/Java>cd bin
-C:\Users/Maier/Projects/Java/bin>java demos.MainClass
+C:\Users\Maier\Projects\Java\src>cd..
+C:\Users\Maier\Projects\Java>cd bin
+C:\Users\Maier\Projects\Java\bin>java demos.MainClass
 ```
 :::danger Hinweis
-Um eine Bytecode-Datei ausführen zu können, benötigt die dazueghörige Java-Klasse die Methode `void main(String[])`.
+Um eine Bytecode-Datei ausführen zu können, benötigt die dazugehörige Java-Klasse die Methode `void main(String[])`.
 :::
