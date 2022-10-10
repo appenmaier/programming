@@ -1,11 +1,18 @@
 ---
-title: Übungsaufgabe ClassStructure01
+title: Class Structure 01
 ---
 
-Erstelle eine ausführbare Klasse, welche einen festgelegten Text auf der Konsole ausgibt.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse, welche "Hello World" auf der Konsole ausgibt.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 Hallo Welt
 ```
+
+<Exercise pullRequest="1" branchSuffix="class-structure/01" />
+
