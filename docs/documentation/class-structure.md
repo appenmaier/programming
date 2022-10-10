@@ -5,11 +5,65 @@ sidebar_position: 20
 tags: [main-methode, statische methode, kommentar, entwicklungspaket]
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Klassen stellen den grundlegenden Rahmen für Programme dar. Jede Klasse kann Daten (**Attribute**) und Routinen (**Methoden**) besitzen. Routinen bestehen dabei aus Folgen von verzweigten und sich wiederholenden Anweisungen, wobei Anweisungen wohldefinierte
 Befehle darstellen, die der Interpreter zur Laufzeit ausführt. Anweisungen müssen in Java mit dem Semikolon abgeschlossen werden und können zu Anweisungsblöcken zusammengefasst werden, die durch geschweifte Klammern umschlossen werden. Innerhalb eines 
 Anweisungsblocks können sich weitere Anweisungsblöcke befinden.
 
-![image](https://user-images.githubusercontent.com/47243617/171618228-09459c0c-34bb-4bb5-85da-414e62d05c96.png)
+<Tabs>
+  <TabItem value="class" label="Klasse" default>
+
+  ```java title="MainClass.java" showLineNumbers
+
+  // highlight-start
+  public class MainClass {
+
+    public static void main(String[] args) {
+      System.out.println("Hallo Welt");
+    }
+
+  }
+  // highlight-end
+
+  ```
+
+  </TabItem>
+  <TabItem value="method" label="Methode">
+
+  ```java title="MainClass.java" showLineNumbers
+
+  public class MainClass {
+
+    // highlight-start
+    public static void main(String[] args) {
+      System.out.println("Hallo Welt");
+    }
+    // highlight-end
+
+  }
+
+  ```
+
+  </TabItem>
+  <TabItem value="statement" label="Anweisung">
+
+  ```java title="MainClass.java" showLineNumbers
+
+  public class MainClass {
+
+    public static void main(String[] args) {
+    // highlight-start
+      System.out.println("Hallo Welt");
+    // highlight-end
+    }
+
+  }
+
+  ```
+  </TabItem>
+</Tabs>
 
 ## Statische Methoden
 Statische Methoden sind abgeschlossene Programmteile, die Parameter enthalten und einen Wert zurückgeben können. Sie müssen mit dem Schlüsselwort `static` gekennzeichnet werden. Bei statischen Methoden, die einen Wert zurückgeben, muss der Datentyp des 
