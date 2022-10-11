@@ -21,7 +21,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         Alle  Änderungen zwischen der Aufgabe und der Lösung findest du in
         diesem{" "}
         <Link
-          to={`https://github.com/jappuccini/java-exercises/pull/${pullRequest}/files`}
+          to={`https://github.com/jappuccini/java-exercises/pull/${pullRequest}/files?diff=split`}
         >
           PR#{pullRequest}
         </Link>
