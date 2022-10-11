@@ -14,5 +14,5 @@ Erstelle eine ausführbare Klasse, welche "Hello World" auf der Konsole ausgibt.
 Hallo Welt
 ```
 
-<Exercise pullRequest="1" branchSuffix="class-structure/01" />
+<Exercise pullRequest="2" branchSuffix="class-structure/01" />
 
