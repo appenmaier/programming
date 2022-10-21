@@ -1,13 +1,18 @@
 ---
-title: Übungsaufgabe ConsoleApplications01
+title: Console Applications 01
 ---
 
-Erstelle eine ausführbare Klasse, welche zwei Ganzzahlen von der Konsole einliest, addiert und das Ergebnis auf der Konsole ausgibt.
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse, welche zwei Ganzzahlen von der Konsole
+einliest, addiert und das Ergebnis auf der Konsole ausgibt.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 Gib bitte eine ganze Zahl ein: 4
 Gib bitte eine weitere ganze Zahl ein: 5
 Ergebnis: 4 + 5 = 9
 ```
+
+<Exercise pullRequest="5" branchSuffix="console-applications/01" />
