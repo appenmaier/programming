@@ -1,12 +1,17 @@
 ---
-title: Übungsaufgabe Loops05
+title: Loops 05
 ---
 
-Erstelle eine ausführbare Klasse, welche es dem Anwender ermöglicht, eine Zufallszahl zwischen 1 und 100 zu erraten. Dazu soll er solange Zahlen eingeben, bis er die gesuchte Zahl erraten hat oder das Spiel freiwillig beendet.
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse, welche es dem Anwender ermöglicht, eine 
+Zufallszahl zwischen 1 und 100 zu erraten. Dazu soll er solange Zahlen 
+eingeben, bis er die gesuchte Zahl erraten hat oder das Spiel freiwillig 
+beendet.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 Gib bitte Deinen Tipp ein: 23
 Leider falsch, die gesuchte Zahl ist größer
 Möchtest Du nochmals raten (true, false)?: true
@@ -16,3 +21,5 @@ Möchtest Du nochmals raten (true, false)?: true
 Gib bitte Deinen Tipp eingeben: 47
 Richtig. Du hast 3 Versuche benötigt
 ```
+
+<Exercise pullRequest="14" branchSuffix="loops/05" />
