@@ -1,12 +1,15 @@
 ---
-title: Übungsaufgabe Arrays05
+title: Arrays 05
 ---
 
-Erstelle eine ausführbare Klasse, welche es ermöglicht, Aufgaben hinzuzufügen, zu löschen und auf der Konsole auszugeben.
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse, welche es ermöglicht, Aufgaben hinzuzufügen,
+zu löschen und auf der Konsole auszugeben.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 Optionen
 1: Aufgabe hinzufügen
 2: Aufgabe löschen
@@ -32,3 +35,5 @@ Aufgaben
 
 Was möchtest Du tun?: 4
 ```
+
+<Exercise pullRequest="22" branchSuffix="arrays/05" />

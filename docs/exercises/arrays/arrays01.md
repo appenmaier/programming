@@ -1,12 +1,15 @@
 ---
-title: Übungsaufgabe Arrays01
+title: Arrays 01
 ---
 
-Erstelle eine ausführbare Klasse, welche alle Zweierpotenzen von 20 bis 27 berechnet, in einem Feld speichert und anschließend auf dem Bildschirm ausgibt.
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse, welche alle Zweierpotenzen von 0 bis 15
+berechnet, in einem Feld speichert und anschließend auf dem Bildschirm ausgibt.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 Zweierpotenzen:
 1
 2
@@ -16,7 +19,12 @@ Zweierpotenzen:
 32
 64
 128
+...
 ```
 
 ## Hinweis
-Die statische Methode `double pow(double, double)` der Klasse `Math` gibt den Potenzwert zur eingehenden Basis und dem eingehenden Exponenten zurück.
+
+Die statische Methode `double pow(double, double)` der Klasse `Math` gibt
+den Potenzwert zur eingehenden Basis und dem eingehenden Exponenten zurück.
+
+<Exercise pullRequest="18" branchSuffix="arrays/01" />
