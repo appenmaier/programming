@@ -2,12 +2,12 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const config = {
-  title: 'Java',
-  tagline: 'Programmieren mit Java',
+  title: 'Programmieren mit Java',
+  tagline: '',
   url: 'https://appenmaier.github.io',
   baseUrl: '/programming/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'appenmaier',
   projectName: 'programming',
@@ -22,15 +22,12 @@ const config = {
       'classic',
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/appenmaier/programming/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/appenmaier/programming/tree/main/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -49,7 +46,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'documentation/programming',
+            docId: 'documentation/introduction',
             position: 'left',
             label: 'Dokumentation',
           },
@@ -65,57 +62,15 @@ const config = {
             position: 'left',
             label: 'Anleitungen',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/appenmaier/programming',
             label: 'GitHub',
-            position: 'left',
+            position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        /*links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],*/
         copyright: `Copyright © ${new Date().getFullYear()} Daniel Appenmaier & Steffen Merk Built with Docusaurus.`,
       },
       prism: {
