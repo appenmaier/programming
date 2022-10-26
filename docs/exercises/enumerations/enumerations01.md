@@ -1,10 +1,14 @@
 ---
-title: Übungsaufgabe Enumerations01
+title: Enumerations 01
 ---
 
+import Exercise from '@site/src/components/Exercise';
+
 - Erstelle die Aufzählung `Engine` mit Hilfe der abgebildeten Informationen
-- Passe die Klasse `Vehicle` aus Übungsaufgabe [OO07](../oo/oo07.md) mit Hilfe der abgebildeten Informationen an
-- Passe die ausführbare Klasse aus Übungsaufgabe [OO07](../oo/oo07.md) so an, dass sie fehlerfrei ausgeführt werden kann
+- Passe die Klasse `Vehicle` aus Übungsaufgabe [OO07](../oo/oo07.md) mit
+  Hilfe der abgebildeten Informationen an
+- Passe die ausführbare Klasse aus Übungsaufgabe [OO07](../oo/oo07.md) so an,
+  dass sie fehlerfrei ausgeführt werden kann
 
 ## Aufzählungskonstanten der Klasse Engine
 
@@ -30,7 +34,7 @@ title: Übungsaufgabe Enumerations01
 
 ## Attribute der Klasse Vehicle
 
-| Attribut         | Datentyp | Sichtbarkeit |Level             |
+| Attribut         | Datentyp | Sichtbarkeit | Level            |
 | ---------------- | -------- | ------------ | ---------------- |
 | make             | String   | private      | nicht-statisch   |
 | model            | String   | private      | nicht-statisch   |
@@ -51,3 +55,5 @@ title: Übungsaufgabe Enumerations01
 | brake(int)                        | void         | public       | nicht-statisch   | Reduzierung der Geschwindigkeit um den eingehenden Wert |
 | print()                           | void         | public       | nicht-statisch   | _Ausgabe: Hersteller Modell (Motorenbeschreibung)_      |
 | getNumberOfVehicles()             | int          | public       | statisch         | Rückgabe der Anzahl Fahrzeuge                           |
+
+<Exercise pullRequest="34" branchSuffix="enums/01" />
