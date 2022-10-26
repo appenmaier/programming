@@ -1,15 +1,20 @@
 ---
-title: Übungsaufgabe JavaAPI02
+title: Java API 02
 ---
 
-Erstelle eine ausführbare Klasse zum Lösen einer quadratischen Gleichung mit Hilfe der Mitternachtsformel.
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse zum Lösen einer quadratischen Gleichung mit
+Hilfe der Mitternachtsformel.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 Gib bitte einen Wert für a ein: 6
 Gib bitte einen Wert für b ein: 8
 Gib bitte einen Wert für c ein: 2
 x1 = -0.3
 x2 = -1.0
 ```
+
+<Exercise pullRequest="31" branchSuffix="java-api/02" />

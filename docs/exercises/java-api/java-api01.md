@@ -1,12 +1,15 @@
 ---
-title: Übungsaufgabe JavaAPI01
+title: Java API 01
 ---
 
-Erstelle eine ausführbare Klasse, welche den Sinus von 0.0 bis 1.0 in Zehnerschritten tabellarisch auf der Konsole ausgibt.
+import Exercise from '@site/src/components/Exercise';
+
+Erstelle eine ausführbare Klasse, welche den Sinus von 0.0 bis 1.0 in
+Zehnerschritten tabellarisch auf der Konsole ausgibt.
 
 ## Konsolenausgabe
 
-```markdown
+```console
 x = 0.0, sin(x) = 0.0
 x = 0.1, sin(x) = 0.1
 x = 0.2, sin(x) = 0.2
@@ -19,3 +22,5 @@ x = 0.8, sin(x) = 0.7
 x = 0.9, sin(x) = 0.8
 x = 1.0, sin(x) = 0.8
 ```
+
+<Exercise pullRequest="30" branchSuffix="java-api/01" />
