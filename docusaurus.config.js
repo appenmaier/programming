@@ -7,7 +7,7 @@ const config = {
   url: 'https://appenmaier.github.io',
   baseUrl: '/programming/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'appenmaier',
   projectName: 'programming',
