@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Migration von Jekyll zu Docusaurus","permalink":"/programming/blog/Migration von Jekyll zu Docusaurus"}]}')}}]);

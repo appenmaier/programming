@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[4326],{6731:r=>{r.exports=JSON.parse('{"label":"compiler","permalink":"/programming/tags/compiler","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/programming","title":"Programmieren","description":"","permalink":"/programming/documentation/programming"}]}')}}]);

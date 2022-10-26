@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[4214],{9161:e=>{e.exports=JSON.parse('{"label":"object","permalink":"/programming/tags/object","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/object","title":"Die Mutter aller Klassen","description":"","permalink":"/programming/documentation/object"}]}')}}]);

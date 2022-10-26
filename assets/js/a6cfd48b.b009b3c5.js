@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[1211],{7746:a=>{a.exports=JSON.parse('{"label":"api","permalink":"/programming/tags/api","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/java-api/java-api","title":"Die Java API","description":"","permalink":"/programming/documentation/java-api/"}]}')}}]);

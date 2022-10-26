@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[1967],{7968:e=>{e.exports=JSON.parse('{"label":"methode","permalink":"/programming/tags/methode","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/oo","title":"Objektorientierte Programmierung","description":"","permalink":"/programming/documentation/oo"}]}')}}]);

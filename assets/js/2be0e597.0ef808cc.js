@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[8285],{4481:r=>{r.exports=JSON.parse('{"label":"downcast","permalink":"/programming/tags/downcast","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/polymorphie","title":"Polymorphie","description":"","permalink":"/programming/documentation/polymorphie"}]}')}}]);
