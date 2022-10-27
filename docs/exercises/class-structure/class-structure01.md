@@ -9,7 +9,7 @@ Erstelle eine ausführbare Klasse, welche "Hello World" auf der Konsole ausgibt.
 ## Konsolenausgabe
 
 ```console
-Hallo Welt
+Hello World
 ```
 
 <Exercise pullRequest="2" branchSuffix="class-structure/01" />
