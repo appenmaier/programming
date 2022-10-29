@@ -19,7 +19,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       ({
         docs: {
           routeBasePath: '/',
@@ -29,7 +29,11 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./node_modules/reveal.js/dist/reveal.css'),
+            require.resolve('./node_modules/reveal.js/dist/theme/black.css'),
+            require.resolve('./src/css/custom.css'),
+          ],
         },
       }),
     ],
