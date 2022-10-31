@@ -11,11 +11,21 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         <CodeBlock language="console">
           {`git switch exercises/${branchSuffix}`}
         </CodeBlock>
+        <Link 
+          to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/exercises/${branchSuffix}`}
+        >
+          <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"></img>
+        </Link>
       </TabItem>
       <TabItem value="solution" label="Solution">
         <CodeBlock language="console">
           {`git switch solutions/${branchSuffix}`}
         </CodeBlock>
+        <Link 
+          to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/solutions/${branchSuffix}`}
+        >
+          <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"></img>
+        </Link>
       </TabItem>
       <TabItem value="pullrequest" label="Pull Request">
         Alle  Änderungen zwischen der Aufgabe und der Lösung findest du in
