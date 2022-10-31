@@ -1,10 +1,10 @@
-import Reveal from 'reveal.js/dist/reveal.esm.js';
-import Zoom from 'reveal.js/plugin/zoom/zoom.esm.js';
-import Notes from 'reveal.js/plugin/Notes/notes.esm.js';
-import Search from 'reveal.js/plugin/search/search.esm.js';
-import Highlight from 'reveal.js/plugin/highlight/highlight.esm.js';
-
-export const defaultInitSlides = () =>
+export const defaultInitSlides = () => {
+  const Zoom = require('reveal.js/dist/reveal.js');
+  const Notes = require('reveal.js/plugin/notes/notes.js');
+  const Search = require('reveal.js/plugin/search/search.js');
+  const Highlight = require('reveal.js/plugin/highlight/highlight.js');
+  const Reveal = require('reveal.js/dist/reveal.js');
   new Reveal({
     plugins: [Zoom, Notes, Search, Highlight],
   }).initialize({ hash: true });
+};
