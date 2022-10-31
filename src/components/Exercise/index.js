@@ -14,7 +14,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         <Link 
           to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/exercises/${branchSuffix}`}
         >
-          <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg">
+          <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"></img>
         </Link>
       </TabItem>
       <TabItem value="solution" label="Solution">
@@ -25,7 +25,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         <Link 
           to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/solutions/${branchSuffix}`}
         >
-          <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg">
+          <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"></img>
         </Link>
       </TabItem>
       <TabItem value="pullrequest" label="Pull Request">
