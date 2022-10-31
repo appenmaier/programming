@@ -1,8 +1,8 @@
 ---
 title: Konsolenanwendungen
-description: ""
+description: ''
 sidebar_position: 90
-tags: [scanner, konsoleneingabe, konsolenausgabe]
+tags: [console-applications]
 ---
 
 Konsolenanwendungen sind Programme ohne eine grafische Benutzeroberfläche d.h. die Steuerung sowie die Eingabe und Ausgabe erfolgen ausschließlich über textuelle Anweisungen.

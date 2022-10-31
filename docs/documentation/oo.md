@@ -1,8 +1,8 @@
 ---
 title: Objektorientierte Programmierung
-description: ""
+description: ''
 sidebar_position: 130
-tags: [klasse, attribut, methode, objekt, referenzvariable, konstruktor, überladene methode, statische methode]
+tags: [oo]
 ---
 
 Die reale Welt besteht aus Objekten mit individuellen Eigenschaften und individuellem Verhalten. Für ein einfacheres Verständnis werden Objekte kategorisiert, also zu sinnhaften Einheiten verbunden. In der objektorientierten Programmierung werden Beobachtungen 

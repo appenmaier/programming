@@ -1,8 +1,8 @@
 ---
 title: Aufbau einer Java-Klasse
-description: ""
+description: ''
 sidebar_position: 20
-tags: [main-methode, statische methode, kommentar, entwicklungspaket]
+tags: [class-structure]
 ---
 
 import Tabs from '@theme/Tabs';

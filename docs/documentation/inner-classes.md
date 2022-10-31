@@ -1,8 +1,8 @@
 ---
 title: Innere Klassen (Inner Classes)
-description: ""
+description: ''
 sidebar_position: 260
-tags: []
+tags: [inner-classes]
 ---
 
 Java bietet die Möglichkeit, Klassen und Schnittstellen zu verschachteln. Das Ziel von inneren Klassen ist eine Definition von Hilfsklassen möglichst nahe an der Stelle, wo sie gebraucht werden. Beispiele für Hilfsklassen sind Ausnahmeklassen, Komparatoren und 

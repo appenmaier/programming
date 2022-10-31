@@ -1,7 +1,8 @@
 ---
 title: Kontrollstrukturen
-description: ""
+description: ''
 sidebar_position: 60
+tags: [control-structures, cases, loops]
 ---
 
 ## Übungsaufgaben

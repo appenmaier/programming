@@ -1,8 +1,8 @@
 ---
 title: Komponententests (Unit Tests)
-description: ""
+description: ''
 sidebar_position: 320
-tags: []
+tags: [unit-tests]
 ---
 
 Komponententests (Unit Tests) werden zum Testen einzelner, abgeschlossener Softwarebausteine verwendete. JUnit ist ein weit verbreitetes Framework zur Erstellung von Komponententests bzw. zum automatisierten Testen von Klassen und Methoden in Java. Die aktuelle 

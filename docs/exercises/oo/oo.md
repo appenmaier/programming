@@ -1,7 +1,8 @@
 ---
 title: Objektorientierte Programmierung
-description: ""
+description: ''
 sidebar_position: 80
+tags: [oo]
 ---
 
 ## Übungsaufgaben

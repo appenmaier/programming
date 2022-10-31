@@ -1,8 +1,8 @@
 ---
 title: Mathematische Berechnungen
-description: ""
+description: ''
 sidebar_position: 70
-tags: [mathematische berechnungen]
+tags: []
 ---
 
 Die Klasse `Math` stellt neben einigen Konstanten wie der Kreiszahl _Pi_ und der Eulerschen Zahl _E_ zahlreiche Methoden für mathematische Berechnungen zur Verfügung.

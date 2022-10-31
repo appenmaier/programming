@@ -1,8 +1,8 @@
 ---
 title: Listen
-description: ""
+description: ''
 sidebar_position: 120
-tags: [liste, fabrikmethode]
+tags: []
 ---
 
 Die Java API stellt eine Reihe von Klassen und Schnittstellen zur Verfügung, mit deren Hilfe Listen realisiert werden. Unter einer Liste versteht man eine geordnete Folge von Elementen, die auch doppelt enthalten sein können. Der Zugriff auf die Elemente erfolgt

@@ -1,8 +1,8 @@
 ---
 title: Dateien und Verzeichnisse
-description: ""
+description: ''
 sidebar_position: 30
-tags: [datei, verzeichnis, pfadangabe]
+tags: [java-api, files]
 ---
 
 Die Klasse `File` ermöglicht die Arbeit mit Dateien und Verzeichnissen. Mit Hilfe der Methode `boolean exists()` kann beispielsweise geprüft werden, ob ein entsprechendes Verzeichnis bzw. eine entsprechende Datei existiert oder nicht. Die Klasse bietet zudem M

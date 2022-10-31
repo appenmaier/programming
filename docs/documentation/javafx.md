@@ -1,6 +1,6 @@
 ---
 title: JavaFX-Anwendungen
-description: ""
+description: ''
 sidebar_position: 330
 tags: []
 ---

@@ -1,8 +1,8 @@
 ---
 title: Assoziativspeicher (Maps)
-description: ""
+description: ''
 sidebar_position: 280
-tags: []
+tags: [maps]
 ---
 
 Unter einem Assoziativspeicher (Map) versteht man eine Menge zusammengehöriger Paare von Objekten. Das erste Objekt stellt dabei den Schlüssel (Key), das zweite Objekt den Wert (Value) dar. Jeder Schlüssel kann dabei nur einmal in einem Assoziativspeicher 

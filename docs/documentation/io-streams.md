@@ -1,6 +1,6 @@
 ---
 title: Datenströme (IO-Streams)
-description: ""
+description: ''
 sidebar_position: 340
 tags: []
 ---

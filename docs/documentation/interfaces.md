@@ -1,8 +1,8 @@
 ---
 title: Schnittstellen (Interfaces)
-description: ""
+description: ''
 sidebar_position: 210
-tags: [schnittstelle]
+tags: [interfaces]
 ---
 
 Wird eine Klasse von mehreren Klassen abgeleitet, spricht man von Mehrfachvererbung. Das Prinzip der Mehrfachvererbung wird von vielen Programmiersprachen allerdings nicht (direkt) unterstützt. Der Hauptgrund hier sind mögliche Mehrdeutigkeiten. Erbt eine Klasse

@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit der Eingabeaufforderung
-description: ""
+description: ''
 sidebar_position: 10
 --- 
 

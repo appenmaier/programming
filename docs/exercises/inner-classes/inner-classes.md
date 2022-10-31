@@ -1,7 +1,8 @@
 ---
 title: Innere Klassen (Inner Classes)
-description: ""
+description: ''
 sidebar_position: 180
+tags: [inner-classes]
 ---
 
 ## Übungsaufgaben

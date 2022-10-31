@@ -1,8 +1,8 @@
 ---
 title: Aufzählungen (Enumerations)
-description: ""
+description: ''
 sidebar_position: 150
-tags: [aufzählung]
+tags: [enumerations]
 ---
 
 Bei einer Aufzählung (Enumeration) handelt es sich um eine spezielle Klasse, von der nur eine vorgegebene, endliche Anzahl an Instanzen existiert. Diese Instanzen werden als **Aufzählungskonstanten** bezeichnet. Technisch gesehen handelt es sich bei 

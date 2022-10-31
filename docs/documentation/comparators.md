@@ -1,8 +1,8 @@
 ---
 title: Komparatoren
-description: ""
+description: ''
 sidebar_position: 220
-tags: [schnittstelle, komparator]
+tags: [comparators]
 ---
 
 Mit Hilfe der Methode `int compareTo(T)` der Schnittstelle `Comparable<T>` bzw. der Methode `int compare(T, T)` der Schnittstelle `Comparator<T>` können Objekte einer Klasse miteinander verglichen werden. Der Rückgabewert beider Methoden gibt die Ordnung der zu 

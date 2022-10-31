@@ -1,8 +1,8 @@
 ---
 title: Generische Programmierung
-description: ""
+description: ''
 sidebar_position: 270
-tags: []
+tags: [generics]
 ---
 
 Quellcode sollte generell so allgemein bzw. generisch geschrieben werden, dass er für unterschiedliche Datenstrukturen und Datentypen verwendet werden kann. Das Ziel der generischen Programmierung ist die Entwicklung von wiederverwendbarem Code. In Java 

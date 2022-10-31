@@ -1,8 +1,8 @@
 ---
 title: Datentypen
-description: ""
+description: ''
 sidebar_position: 30
-tags: [datentyp, typumwandlung, abstrakter datentyp, generischer datentyp, primitiver datentyp, komplexer datentyp]
+tags: []
 ---
 
 Datentypen legen neben der Größe des Arbeitsspeichers, die ein Datenobjekt benötigt, auch die Art der Information fest, die im Datenobjekt gespeichert werden kann.

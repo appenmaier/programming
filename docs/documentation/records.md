@@ -1,8 +1,8 @@
 ---
 title: Datenklassen (Records)
-description: ""
+description: ''
 sidebar_position: 250
-tags: [datenklasse]
+tags: []
 ---
 
 Datenklassen sind Klassen die lediglich der Kapselung unveränderlicher Daten dienen. Daher bestehen Datenklassen häufig aus Boilerplate-Code. Unter Boilerplate-Code versteht man Anweisungblöcke, die an verschiedenen Stellen mehr oder weniger identisch verwendet 

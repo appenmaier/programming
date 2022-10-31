@@ -1,7 +1,8 @@
 ---
 title: Die Java Stream API
-description: ""
+description: ''
 sidebar_position: 200
+tags: [java-stream-api]
 ---
 
 ## Übungsaufgaben

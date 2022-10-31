@@ -1,7 +1,8 @@
 ---
 title: Generische Programmierung
-description: ""
+description: ''
 sidebar_position: 170
+tags: [generics]
 ---
 
 ## Übungsaufgaben

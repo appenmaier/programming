@@ -1,7 +1,8 @@
 ---
 title: Aufzählungen (Enumerations)
-description: ""
+description: ''
 sidebar_position: 100
+tags: [enumerations]
 ---
 
 ## Übungsaufgaben

@@ -1,8 +1,8 @@
 ---
 title: Wrapper-Klassen
-description: ""
+description: ''
 sidebar_position: 10
-tags: [wrapper-klassen, java-api]
+tags: [java-api, wrappers]
 ---
 
 Wrapper-Klassen verpacken primitive Datentypen in vollwertigen Klassen und erweitern so die primitiven Datentypen um hilfreiche Methoden. Das Verpacken eines primitiven Datentyps bezeichnet man als **Boxing**, das Entpacken als **Unboxing**.

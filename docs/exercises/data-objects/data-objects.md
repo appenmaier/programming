@@ -1,7 +1,8 @@
 ---
 title: Datenobjekte
-description: ""
+description: ''
 sidebar_position: 30
+tags: [data-objects]
 ---
 
 ## Übungsaufgaben

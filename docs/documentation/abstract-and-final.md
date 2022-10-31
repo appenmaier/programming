@@ -1,8 +1,8 @@
 ---
 title: Abstrakte und finale Klassen und Methoden
-description: ""
+description: ''
 sidebar_position: 200
-tags: [abstrakt, final]
+tags: [abstract-and-final]
 ---
 
 Mit Hilfe der Schlüsselwörter `abstract` und `final` kann die Verwendung von Klassen vorgegeben bzw. eingeschänkt werden.

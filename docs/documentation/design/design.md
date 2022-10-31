@@ -1,8 +1,8 @@
 ---
 title: Softwaregestaltung (Softwaredesign)
-description: ""
+description: ''
 sidebar_position: 240
-tags: [softwaregestaltung, entwurfsmuster, gestaltungsprinzip]
+tags: []
 ---
 
 Als Teilprozess der Softwareentwicklumg umfasst die Softwaregestaltung (Softwaredesign) die Datenmodellierung, den Entwurf der Softwarearchitektur sowie das Festlegen benötigter Komponenten, Datentypen und Algorithmen. Bei der Datenmodellierung werden alle 

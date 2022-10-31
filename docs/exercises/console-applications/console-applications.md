@@ -1,7 +1,8 @@
 ---
 title: Konsolenanwendungen
-description: ""
+description: ''
 sidebar_position: 50
+tags: [console-applications]
 ---
 
 ## Übungsaufgaben

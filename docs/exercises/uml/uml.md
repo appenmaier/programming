@@ -1,7 +1,8 @@
 ---
 title: Darstellung von Klassen und Programmabläufen
-description: ""
+description: ''
 sidebar_position: 110
+tags: [uml, class-diagrams, activity-diagrams]
 ---
 
 ## Übungsaufgaben

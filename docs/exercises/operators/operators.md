@@ -1,7 +1,8 @@
 ---
 title: Operatoren
-description: ""
+description: ''
 sidebar_position: 40
+tags: [operators]
 ---
 
 ## Übungsaufgaben

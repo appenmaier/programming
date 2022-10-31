@@ -1,8 +1,8 @@
 ---
 title: Polymorphie
-description: ""
+description: ''
 sidebar_position: 180
-tags: [polymorphie, upcast, downcast]
+tags: [polymorphism]
 ---
 
 Unter Polymorphie (griechisch für Vielgestaltigkeit) versteht man, dass eine Referenzvariable zur Laufzeit durch Typumwandlung Referenzen auf Objekte unterschiedlicher Klassen besitzen kann und dass dadurch unterschiedliche Methodenimplementierungen aufgerufen 

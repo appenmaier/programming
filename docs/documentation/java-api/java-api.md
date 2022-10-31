@@ -1,8 +1,8 @@
 ---
 title: Die Java API
-description: ""
+description: ''
 sidebar_position: 140
-tags: [api]
+tags: [java-api]
 ---
 
 Die Java API (Java Application Programming Interface) stellt eine umfangreiche Bibliothek wichtiger Java-Klassen dar. Neben dem eigentlichen Quellcode stellt die Java API auch detaillierte Informationen zu den Klassen (Paketzugehörigkeit, Attribute, Methoden,…) 

@@ -1,8 +1,8 @@
 ---
 title: Klassendiagramme
-description: ""
+description: ''
 sidebar_position: 10
-tags: [uml, klassendiagramm]
+tags: [uml, class-diagrams]
 ---
 
 Klassendiagramme sind ein Diagrammtyp der UML und gehören dort zum Bereich der Strukturdiagramme. Das Klassendiagramm dient zur leicht lesbaren Dokumentation des Aufbaus von Klassen und deren Beziehungen (Relationen). Klassendiagramme können Informationen zu 

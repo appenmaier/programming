@@ -1,7 +1,8 @@
 ---
 title: Aufbau einer Java-Klasse
-description: ""
+description: ''
 sidebar_position: 20
+tags: [class-structure]
 ---
 
 ## Übungsaufgaben

@@ -1,6 +1,6 @@
 ---
 title: JavaFX einrichten
-description: ""
+description: ''
 sidebar_position: 30
 --- 
 

@@ -1,8 +1,8 @@
 ---
 title: Datums- und Zeitangaben
-description: ""
+description: ''
 sidebar_position: 20
-tags: [datum, zeit]
+tags: [java-api, dates-and-times]
 ---
 
 Die Klasse `LocalDateTime` liefert alle relevanten Informationen zum fast weltweit verwendeten Kalendersystem ISO-8601 (gregorianischer Kalender).

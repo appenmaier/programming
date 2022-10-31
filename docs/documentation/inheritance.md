@@ -1,8 +1,8 @@
 ---
 title: Vererbung
-description: ""
+description: ''
 sidebar_position: 170
-tags: [vererbung, überschriebene methode, unterklasse, oberklasse, generalisierung, spezialisierung]
+tags: []
 ---
 
 Bei der Modellierung von Klassen stellt man häufig fest, dass sich einige Klassen der Struktur und dem Verhalten nach ähneln. In solchen Fällen hat man die Möglichkeit, die gemeinsamen Strukturen und Verhaltensweisen aus den speziellen Klassen zu extrahieren 

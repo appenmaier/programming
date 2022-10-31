@@ -1,7 +1,8 @@
 ---
 title: Schnittstellen (Interfaces)
-description: ""
+description: ''
 sidebar_position: 140
+tags: [interfaces]
 ---
 
 ## Übungsaufgaben

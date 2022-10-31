@@ -1,8 +1,8 @@
 ---
 title: Entwurfsmuster (Design Patterns)
-description: ""
+description: ''
 sidebar_position: 20
-tags: [entwurfmuster, mvc, beobachter, einzelstück, adapter]
+tags: []
 ---
 
 Entwurfsmuster (Design Patterns) sind Lösungsansätze für wiederkehrende Probleme der Softwareentwicklung und sollen dabei helfen, Programmierfehler zu vermeiden, Programmentwürfe wiederverwendbar und möglichst effizient zu gestalten. Sie können u.a. in 

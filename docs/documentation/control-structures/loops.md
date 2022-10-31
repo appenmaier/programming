@@ -1,8 +1,8 @@
 ---
 title: Schleifen
-description: ""
+description: ''
 sidebar_position: 20
-tags: [schleife]
+tags: [control-structures, loops]
 ---
 
 Schleifen sind eine von zwei Möglichkeiten, Anweisungsblöcke wiederholt auszuführen. Die zweite Möglichkeit sind Selbstaufrufe in Form rekursiver Methoden.

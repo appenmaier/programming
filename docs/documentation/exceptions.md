@@ -1,8 +1,8 @@
 ---
 title: Ausnahmen (Exceptions)
-description: ""
+description: ''
 sidebar_position: 230
-tags: []
+tags: [exceptions]
 ---
 
 Programmfehler (Bugs) führen dazu, dass Programme unerwartete Ergebnisse liefern oder abstürzen. Je komplexer das Programm, desto wichtiger wird eine durchdachte und konsequente Fehlerbehandlung. Man unterscheidt dabei zwischen verschiedenen Fehlerarten:

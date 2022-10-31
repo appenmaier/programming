@@ -1,7 +1,8 @@
 ---
 title: Assoziativspeicher (Maps)
-description: ""
+description: ''
 sidebar_position: 190
+tags: [maps]
 ---
 
 ## Übungsaufgaben

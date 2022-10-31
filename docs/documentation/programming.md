@@ -1,8 +1,8 @@
 ---
 title: Programmieren
-description: ""
+description: ''
 sidebar_position: 10
-tags: [programmieren, java, programmierparadigma, jdk, jre, compiler, interpreter]
+tags: [programming]
 ---
 
 Als ein Teilbereich der Softwareentwicklung umfasst das Programmieren vor allem die Umsetzung eines Softwareentwurfes in Quellcode. Generell versteht man unter Programmieren die Umsetzung von Algorithmen in lauffähige Computer-Programme.

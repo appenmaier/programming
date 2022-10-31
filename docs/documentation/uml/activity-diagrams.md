@@ -1,8 +1,8 @@
 ---
 title: Aktivitätsdiagramme
-description: ""
+description: ''
 sidebar_position: 20
-tags: [uml, aktivitätsdiagramm]
+tags: [uml, activity-diagrams]
 ---
 
 Aktivitätsdiagramme sind ein Diagrammtyp der UML und gehören dort zum Bereich der Verhaltensdiagramme. Der Fokus von Aktivitätsdiagrammen liegt auf imperativen Verarbeitungsaspekten. Eine Aktivität stellt einen gerichteten Graphen dar, der über Knoten (Aktionen,

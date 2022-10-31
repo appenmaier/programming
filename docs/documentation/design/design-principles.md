@@ -1,8 +1,8 @@
 ---
 title: Gestaltungsprinzipien (Design Principles)
-description: ""
+description: ''
 sidebar_position: 10
-tags: [gestaltungsprinzip, dry, kiss, yagni, solid, separation of concerns, inversion of control]
+tags: []
 ---
 
 Unter Gestaltungsprinzipien (Design Principles) versteht man Richtlinien, welche eine hohe Softwarequalität sicherstellen sollen. Neben einfachen Gestaltungsprinzipen wie **DRY** (Don´t Repeat Yourself), **KISS** (Keep It Simple, Stupid) und **YAGNI**

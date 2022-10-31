@@ -1,8 +1,8 @@
 ---
 title: Pseudozufallszahlen
-description: ""
+description: ''
 sidebar_position: 80
-tags: [pseudozufallszahlen, java api]
+tags: []
 ---
 
 Die Klasse `Random` ermöglicht das Erzeugen von Pseudozufallszahlen. Pseudozufallszahlen sind scheinbar zufällige Zahlen, die aber auf Grund einer Formel berechnet werden.

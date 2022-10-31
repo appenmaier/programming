@@ -1,7 +1,8 @@
 ---
 title: Felder (Arrays)
-description: ""
+description: ''
 sidebar_position: 70
+tags: [arrays]
 ---
 
 ## Übungsaufgaben

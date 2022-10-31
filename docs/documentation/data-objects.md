@@ -1,8 +1,8 @@
 ---
 title: Datenobjekte
-description: ""
+description: ''
 sidebar_position: 40
-tags: [datenobjekt, deklaration, initialisierung, typinferenz, gültigkeitsbereich]
+tags: [data-objects]
 ---
 
 Ein Datenobjekt ist ein Platzhalter, der zur Laufzeit eine bestimmte Stelle des Arbeitsspeichers belegt. Die Größe des reservierten Speichers ist abhängig vom gewählten [Datentyp](data-types.md)). Datenobjekte können mit Werten belegt werden, Bezeichner 

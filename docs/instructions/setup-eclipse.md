@@ -1,6 +1,6 @@
 ---
 title: Eclipse einrichten
-description: ""
+description: ''
 sidebar_position: 20
 --- 
 

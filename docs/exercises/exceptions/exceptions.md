@@ -1,7 +1,8 @@
 ---
 title: Ausnahmen (Exceptions)
-description: ""
+description: ''
 sidebar_position: 160
+tags: [exceptions]
 ---
 
 ## Übungsaufgaben

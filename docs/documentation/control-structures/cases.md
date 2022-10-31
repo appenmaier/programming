@@ -1,8 +1,8 @@
 ---
 title: Verzweigungen
-description: ""
+description: ''
 sidebar_position: 10
-tags: [verzweigung]
+tags: [control-structures, cases]
 ---
 
 Mit Hilfe von Verzweigungen können unterschiedliche Anweisungsblöcke ausgeführt werden.

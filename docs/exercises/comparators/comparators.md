@@ -1,7 +1,8 @@
 ---
 title: Komparatoren
-description: ""
+description: ''
 sidebar_position: 150
+tags: [comparators]
 ---
 
 ## Übungsaufgaben

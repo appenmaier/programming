@@ -1,8 +1,8 @@
 ---
 title: Die Mutter aller Klassen
-description: ""
+description: ''
 sidebar_position: 190
-tags: [object]
+tags: []
 ---
 
 Alle Klassen in Java sind letztlich Unterklassen der Klasse `Object`. Daher wird diese auch als die Mutter aller Klassen bezeichnet. Die Klasse vererbt ihren Unterklassen wichtige Methoden, die jede Unterklasse überschreiben sollte:

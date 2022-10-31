@@ -1,8 +1,8 @@
 ---
 title: Zeichenketten (Strings)
-description: ""
+description: ''
 sidebar_position: 50
-tags: [zeichenkette, textblock]
+tags: []
 ---
 
 Ketten von beliebigen Zeichen werden durch die Klasse `String` realisiert. Diese stellt einige hilfreiche Methoden zur Verfügung, die bei der Analyse und der Verarbeitung von Zeichenketten Verwendung finden. Die Angabe einer Zeichenkette erfolgt über die 

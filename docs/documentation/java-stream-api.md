@@ -1,8 +1,8 @@
 ---
 title: Die Java Stream API
-description: ""
+description: ''
 sidebar_position: 300
-tags: []
+tags: [java-stream-api]
 ---
 
 Die Java Stream API stellt Klassen zum Erzeugen von und Arbeiten mit Strömen (Streams) bereit. Ein Strom stellt eine Folge von Elementen dar, die das Ausführen verketteter, intermediärer und terminaler Operationen auf diesen Elementen nacheinander oder parallel 

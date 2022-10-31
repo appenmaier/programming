@@ -1,8 +1,8 @@
 ---
 title: Darstellung von Klassen und Programmabläufen
-description: ""
+description: ''
 sidebar_position: 160
-tags: [uml, klassendiagramm, aktivitätsdiagramm]
+tags: [uml]
 ---
 
 UML (Unified Modeling Language) ist eine grafische Modellierungssprache zur Darstellung von Software-Systemen. UML wurde in den 1990er-Jahren entwickelt und ist im ISO/IEC 19505 festgelegt. Die Sprache UML definiert mehrere Diagramme, die sich in zwei 

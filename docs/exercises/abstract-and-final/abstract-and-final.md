@@ -1,7 +1,8 @@
 ---
 title: Abstrakte und finale Klassen und Methoden
-description: ""
+description: ''
 sidebar_position: 130
+tags: [abstract-and-final]
 ---
 
 ## Übungsaufgaben

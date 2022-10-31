@@ -1,8 +1,8 @@
 ---
 title: Felder (Arrays)
-description: ""
+description: ''
 sidebar_position: 110
-tags: [feld, index, vararg]
+tags: [arrays]
 ---
 
 Wenn eine große Menge an Daten verarbeitet werden soll, kann man auf spezielle Datenstruktur-Variablen, sogenannte **Felder** (Arrays), zurückgreifen. Die einzelnen Speicherplätze in einem Feld werden als Elemente bezeichnet, die über einen Index angesprochen 

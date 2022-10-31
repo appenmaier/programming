@@ -1,8 +1,8 @@
 ---
 title: Operatoren
-description: ""
+description: ''
 sidebar_position: 60
-tags: [operator]
+tags: [operators]
 ---
 
 Operatoren sind Zeichen, mit denen Daten manipuliert werden können. Mit Hilfe von Operanden und Operatoren können beliebig komplexe Ausdrücke abgebildet werden. Operatoren mit einem, zwei oder drei Operanden werden als **unäre Operatoren**, **binäre Operatoren**
