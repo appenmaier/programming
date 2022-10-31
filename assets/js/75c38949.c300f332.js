@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[5174],{8335:a=>{a.exports=JSON.parse('{"label":"komparator","permalink":"/programming/tags/komparator","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/comparators","title":"Komparatoren","description":"","permalink":"/programming/documentation/comparators"}]}')}}]);

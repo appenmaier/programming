@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[3794],{482:r=>{r.exports=JSON.parse('{"label":"vararg","permalink":"/programming/tags/vararg","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/arrays","title":"Felder (Arrays)","description":"","permalink":"/programming/documentation/arrays"}]}')}}]);

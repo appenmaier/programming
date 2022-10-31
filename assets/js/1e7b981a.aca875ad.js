@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[1608],{1046:e=>{e.exports=JSON.parse('{"label":"unterklasse","permalink":"/programming/tags/unterklasse","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/inheritance","title":"Vererbung","description":"","permalink":"/programming/documentation/inheritance"}]}')}}]);

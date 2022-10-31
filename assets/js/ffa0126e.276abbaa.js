@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[3701],{3392:e=>{e.exports=JSON.parse('{"label":"fabrikmethode","permalink":"/programming/tags/fabrikmethode","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/lists","title":"Listen","description":"","permalink":"/programming/documentation/lists"}]}')}}]);

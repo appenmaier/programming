@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[5867],{6569:a=>{a.exports=JSON.parse('{"label":"datentyp","permalink":"/programming/tags/datentyp","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/data-types","title":"Datentypen","description":"","permalink":"/programming/documentation/data-types"}]}')}}]);

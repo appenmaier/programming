@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprogrammierung=self.webpackChunkprogrammierung||[]).push([[6495],{7215:r=>{r.exports=JSON.parse('{"label":"operator","permalink":"/programming/tags/operator","allTagsPath":"/programming/tags","count":1,"items":[{"id":"documentation/operators","title":"Operatoren","description":"","permalink":"/programming/documentation/operators"}]}')}}]);
