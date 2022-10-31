@@ -12,7 +12,7 @@ Aufzählungskonstanten um öffentliche, statische Konstanten vom Typ der Aufzäh
 Die Definition einer Aufzählung erfolgt analog zur Definition von Klassen, das Schlüsselwort hierfür lautet `enum`.
 
 ```java
-public enum WeekDays {  
+public enum WeekDay {  
 
     MONDAY("Montag", true),
     TUESDAY("Dienstag", true),
@@ -25,7 +25,7 @@ public enum WeekDays {
     private String description;
     private boolean isWorkingDay;
   
-    WorkingDay(String description, boolean isWorkingDay) {
+    WeekDay(String description, boolean isWorkingDay) {
         this.description = description;
         this.isWorkingday = isWorkingDay;
     }
