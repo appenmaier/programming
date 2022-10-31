@@ -18,8 +18,8 @@ Primitve Datentypen sind fest in der Programmiersprache verankert und können du
 | short    | 2 Byte | -32.768 bis +32.767                                       |
 | int      | 4 Byte | -2.147.483.648 bis +2.147.483.647                         |
 | long     | 8 Byte | -9.233.372.036.854.775.808 bis +9.233.372.036.854.775.807 |
-| float    | 4 Byte | +/-1,4E-45 bis +/-3,4028235e+38                           |
-| double   | 8 Byte | +/-4,9E-324 bis +/-1,7976931348623157e+308                |
+| float    | 4 Byte | +/-1,4e-45 bis +/-3,4028235e+38                           |
+| double   | 8 Byte | +/-4,9e-324 bis +/-1,7976931348623157e+308                |
 
 ## Komplexe Datentypen
 Klassen, die über mehrere Attribute verfügen, können im Gegensatz zu den primitiven Datentypen nicht nur eine Information speichern und werden daher als komplexe Datentypen bezeichnet.
