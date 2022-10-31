@@ -16,51 +16,45 @@ Anweisungsblocks können sich weitere Anweisungsblöcke befinden.
   <TabItem value="class" label="Klasse" default>
 
   ```java title="MainClass.java" showLineNumbers
-
   // highlight-start
   public class MainClass {
 
     public static void main(String[] args) {
-      System.out.println("Hallo Welt");
+      System.out.println("Winter is Coming");
     }
 
   }
   // highlight-end
-
   ```
 
   </TabItem>
   <TabItem value="method" label="Methode">
 
   ```java title="MainClass.java" showLineNumbers
-
   public class MainClass {
 
     // highlight-start
     public static void main(String[] args) {
-      System.out.println("Hallo Welt");
+      System.out.println("Winter is Coming");
     }
     // highlight-end
 
   }
-
   ```
 
   </TabItem>
   <TabItem value="statement" label="Anweisung">
 
   ```java title="MainClass.java" showLineNumbers
-
   public class MainClass {
 
     public static void main(String[] args) {
     // highlight-start
-      System.out.println("Hallo Welt");
+      System.out.println("Winter is Coming");
     // highlight-end
     }
 
   }
-
   ```
   </TabItem>
 </Tabs>
@@ -69,7 +63,7 @@ Anweisungsblocks können sich weitere Anweisungsblöcke befinden.
 Statische Methoden sind abgeschlossene Programmteile, die Parameter enthalten und einen Wert zurückgeben können. Sie müssen mit dem Schlüsselwort `static` gekennzeichnet werden. Bei statischen Methoden, die einen Wert zurückgeben, muss der Datentyp des 
 Rückgabewertes angegeben werden; bei statische Methoden, die keinen Wert zurückgeben, das Schlüsselwort `void`. Der Aufruf einer statischen Methode erfolgt über den Klassennamen gefolgt von einem Punkt.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
     public static void main(String[] args) {
@@ -96,7 +90,7 @@ Die statischen Methoden einer Startklasse werden auch als **Unterprogramme** bez
 Die Methode `void main(String[])` ist eine spezielle Methode in Java und stellt Startpunkt sowie Endpunkt einer Anwendung bzw. eines Programms dar. Nur Klassen mit einer main-Methode können von der Laufzeitumgebung ausgeführt werden. Aus diesem Grund werden 
 Klassen mit einer main-Methode auch als **ausführbare Klassen** oder als **Startklassen** bezeichnet.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
     
     public static void main(String[] args) {
@@ -109,7 +103,7 @@ public class MainClass {
 ## Kommentare
 Kommentare sollen die Lesbarkeit des Programms verbessern. Sie bewirken bei der Ausführung keine Aktion und werden vom Java-Compiler ignoriert. Java kennt einzeilige Kommentare mit `//`, Kommentarblöcke mit `/* */` und Dokumentationskommentare mit `/** */`.
 
-```java
+```java title="MainClass.java" showLineNumbers
 /**
   * Startklasse
   *
