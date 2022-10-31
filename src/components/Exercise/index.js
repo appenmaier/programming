@@ -12,7 +12,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
           {`git switch exercises/${branchSuffix}`}
         </CodeBlock>
         <Link 
-          to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/exercises/${branchSuffix}`}
+          to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/blob/exercises/${branchSuffix}/Exercise.java`}
         >
           <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"></img>
         </Link>
@@ -22,7 +22,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
           {`git switch solutions/${branchSuffix}`}
         </CodeBlock>
         <Link 
-          to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/solutions/${branchSuffix}`}
+          to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/blob/solutions/${branchSuffix}/Exercise.java`}
         >
           <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"></img>
         </Link>
