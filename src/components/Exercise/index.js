@@ -11,6 +11,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         <CodeBlock language="console">
           {`git switch exercises/${branchSuffix}`}
         </CodeBlock>
+        </br>
         <Link 
           to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/exercises/${branchSuffix}`}
         >
@@ -21,7 +22,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         <CodeBlock language="console">
           {`git switch solutions/${branchSuffix}`}
         </CodeBlock>
-        <br>
+        </br>
         <Link 
           to={`https://gitpod.io/#https://github.com/jappuccini/java-exercises/solutions/${branchSuffix}`}
         >
