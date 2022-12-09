@@ -1,5 +1,5 @@
 ---
-title: Übungsaufgabe UnitTest02
+title: Übungsaufgabe UnitTests02
 ---
 
 Erstelle die Klasse `RentalTest` und erweitere die Klasse `Rental` aus Übungsaufgabe [Exceptions01](../exceptions/exceptions01.md) anhand des abgebildeten Klassendiagramms.
