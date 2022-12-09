@@ -63,9 +63,9 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'instructions/cmd',
+            docId: 'additional-material/instructions/instructions',
             position: 'left',
-            label: 'Anleitungen',
+            label: 'Zusatzmaterial',
           },
           {
             href: 'https://github.com/appenmaier/programming',
