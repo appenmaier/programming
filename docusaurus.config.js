@@ -63,7 +63,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'additional-material/instructions/instructions/cmd',
+            docId: 'additional-material/instructions/cmd',
             position: 'left',
             label: 'Zusatzmaterial',
           },
