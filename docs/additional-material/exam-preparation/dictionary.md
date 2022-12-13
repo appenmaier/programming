@@ -1,5 +1,5 @@
 ---
-title: Wörterbuch
+title: Programmierung 2 - Wörterbuch
 description: ''
 ---
 
