@@ -1,5 +1,5 @@
 ---
-title: Lego-Baustein
+title: Programmierung 2 - Lego-Baustein
 description: ''
 ---
 
