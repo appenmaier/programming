@@ -1,5 +1,5 @@
 ---
-title: Programmierung 2- Personalverwaltung
+title: Programmierung 2 - Personalverwaltung
 description: ''
 ---
 
