@@ -1,7 +1,7 @@
 ---
 title: Bibliothek
 description: ''
-tags: [excetions, polymorphy]
+tags: [exceptions, polymorphy]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
