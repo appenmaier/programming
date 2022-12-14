@@ -1,6 +1,7 @@
 ---
-title: Programmierung 2 - Messdaten
+title: Messdaten
 description: ''
+tags: [java-stream-api]
 ---
 
 - Erstelle die Klasse `MeasurementData` anhand des abgebildeten Quellcodes

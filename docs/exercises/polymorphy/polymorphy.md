@@ -2,7 +2,7 @@
 title: Polymorphie
 description: ''
 sidebar_position: 120
-tags: [polymorphism]
+tags: [polymorphy]
 ---
 
 ## Übungsaufgaben
