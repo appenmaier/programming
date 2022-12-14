@@ -28,8 +28,7 @@ export default function Exercise({ pullRequest, branchSuffix }) {
         </Link>
       </TabItem>
       <TabItem value="pullrequest" label="Pull Request">
-        Alle  Änderungen zwischen der Aufgabe und der Lösung findest du in
-        diesem{" "}
+        Alle  Änderungen zwischen der Aufgabe und der Lösung findest du im Pull Request {" "}
         <Link
           to={`https://github.com/jappuccini/java-exercises/pull/${pullRequest}/files?diff=split`}
         >
