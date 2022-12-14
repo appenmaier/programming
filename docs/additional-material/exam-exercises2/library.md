@@ -7,7 +7,7 @@ tags: [excetions, polymorphy]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/207535156-0ea13604-66af-4219-a8ee-2c6b1b487663.png)
+![image](https://user-images.githubusercontent.com/47243617/207538622-2222371e-1225-4b1e-a732-d7d36e02c516.png)
 
 ## Hinweise zur Klasse Library
 - Die Methode `void addBook(book: Book)` soll der Bücherliste (`books`) das eingehende Buch hinzufügen
