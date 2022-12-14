@@ -5,7 +5,7 @@ title: Abstract and Final 01
 import Exercise from '@site/src/components/Exercise';
 
 Passe die Klassen `Vehicle`, `Car` und `Truck` aus Übungsaufgabe
-[Polymorphie03](../polymorphie/polymorphie03.md) anhand des abgebildeten
+[Polymorphy03](../polymorphie/polymorphy03.md) anhand des abgebildeten
 Klassendiagramms an.
 
 ## Klassendiagramm

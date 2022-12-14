@@ -1,12 +1,12 @@
 ---
-title: Polymorphie 02
+title: Polymorphy 02
 ---
 
 import Exercise from '@site/src/components/Exercise';
 
 - Erstelle die Klasse `Rental` anhand des abgebildeten Klassendiagramms
 - Passe die ausführbare Klasse aus Übungsaufgabe
-  [Polymorphie01](polymorphie01.md) so an, dass alle erzeugten Autos und
+  [Polymorphie01](polymorphy01.md) so an, dass alle erzeugten Autos und
   Lastwagen in einer Fahrzeugvermietung abgelegt und alle Attribute der
   Fahrzeugvermietung ausgegeben werden
 
