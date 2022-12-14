@@ -14,6 +14,6 @@ Die Methode `int compareTo(other: Word)` soll so implementiert werden, dass dami
 
 ## Hinweise zur Klasse Dictionary
 - Die Methode `void addEntry(sourceWord: Word, targetWord: Word)` soll den Einträgen des Wörterbuches (`entries`) die eingehenden Wörter als Eintrag hinzufügen
-- Die Methode `void importEntries(file: File)` soll den Einträgen des Wörterbuches (`entries`) die Wörtder der eingehenden Datei als Einträge hinzufügen
+- Die Methode `void importEntries(file: File)` soll den Einträgen des Wörterbuches (`entries`) die Wörter der eingehenden Datei als Einträge hinzufügen
 - Die Methode `String getTranslation(word: String)` soll die Übersetzung zur eingehenden Zeichenkette zurückgeben. Für den Fall, dass keine Übersetzung vorhanden ist,
 soll der Wert `null` zurückgegeben werden
