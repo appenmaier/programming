@@ -1,5 +1,5 @@
 ---
-title: Polymorphie 01
+title: Polymorphy 01
 ---
 
 import Exercise from '@site/src/components/Exercise';
