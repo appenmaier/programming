@@ -1,6 +1,7 @@
 ---
-title: Programmierung 2 - Lego-Baustein
+title: Lego-Baustein
 description: ''
+tags: [interfaces, comparators, polymorphy]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
