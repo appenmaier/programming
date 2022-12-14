@@ -1,6 +1,7 @@
 ---
-title: Programmierung 2 - Wörterbuch
+title: Wörterbuch
 description: ''
+tags: [interfaces, comparators]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
