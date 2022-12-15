@@ -11,20 +11,20 @@ ethoden zum Erstellen und Löschen von Verzeichnissen bzw. Dateien. Zum Erzeugen
 ## Lesen von Dateien mit Hilfe der Klasse `Scanner`
 Zum Lesen einer Datei können entweder [Datenstromklassen](../io-streams.md) oder die Klasse `Scanner` verwendet werden.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("text.txt");
-        Scanner scanner = new Scanner(file);
+  public static void main(String[] args) throws FileNotFoundException {
+    File file = new File("text.txt");
+    Scanner scanner = new Scanner(file);
 
-        while (scanner.hasNextLine()) {
-            String line = scanner.nextLine();
-            System.out.println(line);
-        }
-
-        scanner.close();
+    while (scanner.hasNextLine()) {
+      String line = scanner.nextLine();
+      System.out.println(line);
     }
+
+    scanner.close();
+  }
 
 }
 ```
