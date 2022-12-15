@@ -66,18 +66,18 @@ Rückgabewertes angegeben werden; bei statische Methoden, die keinen Wert zurüc
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        MainClass.printStarkMotto();
-        MainClass.printText("Winter is Coming");
-    }
+  public static void main(String[] args) {
+    MainClass.printStarkMotto();
+    MainClass.printText("Winter is Coming");
+  }
 
-    public static void printStarkMotto() {
-        System.out.println("Winter is Coming");
-    }
+  public static void printStarkMotto() {
+    System.out.println("Winter is Coming");
+  }
 
-    public static void printText(String text) {
-        System.out.println(text);
-    }
+  public static void printText(String text) {
+    System.out.println(text);
+  }
 
 }
 ```
@@ -92,11 +92,11 @@ Klassen mit einer main-Methode auch als **ausführbare Klassen** oder als **Star
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
-    
-    public static void main(String[] args) {
-        System.out.println("Winter is Coming");
-    }
-  
+
+  public static void main(String[] args) {
+    System.out.println("Winter is Coming");
+  }
+
 }
 ```
 
@@ -105,24 +105,23 @@ Kommentare sollen die Lesbarkeit des Programms verbessern. Sie bewirken bei der 
 
 ```java title="MainClass.java" showLineNumbers
 /**
-  * Startklasse
-  *
-  * @author Daniel Appenmaier
-  * @version 1.0
-  */
+ * Beschreibung der Klasse
+ *
+ * @author Autor der Klasse
+ * @version Version
+ * 
+ */
 public class MainClass {
 
-    /**
-      * Main-Methode
-      *
-      * @param args Argumente
-      */
-    public static void main(String[] args) { 
-        /*
-         * Ausgabe
-         */
-        System.out.println("Winter is Coming"); // Ausgabe
-    }
+  /**
+   * Beschreibung der Methode
+   *
+   * @param args Beschreibung der Parameter
+   */
+  public static void main(String[] args) {
+    /* Kommentarblock */
+    System.out.println("Winter is Coming"); // Kommentar
+  }
 
 }
 ```
