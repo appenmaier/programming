@@ -24,7 +24,7 @@ Die Klasse `Throwable` stellt die Oberklasse aller Laufzeitfehler dar. Schwerwie
 ## Definition von Ausnahmenklassen
 Eigene Ausnahmenklassen werden durch einfaches Ableiten von einer bestehenden Ausnahmenklasse definiert. Ausnahmenklassen sollten dabei immer von der Klasse `Exception` oder einer ihrer Unterklassen abgeleitet werden, nicht von der Klasse `Error`.
 
-```java title="MainClass.java" showLineNumbers
+```java title="QuxException.java" showLineNumbers
 public class QuxException extends Exception {
 
   public QuxException() {}
@@ -37,7 +37,7 @@ public class QuxException extends Exception {
 ## Auslösen von Ausnahmen
 Mit dem Schlüsselwort `throw` kann innerhalb einer Methode eine Ausnahme ausgelöst werden. Die Methode, in der die Ausnahme ausgelöst wird, muss mit dem Schlüsselwort `throws` die Ausnahmenklasse angeben, die ausgelöst werden kann.
 
-```java title="MainClass.java" showLineNumbers
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
   public void bar() throws QuxException {
@@ -50,7 +50,9 @@ public class Foo {
 ## Weiterleiten von Ausnahmen
 Ausnahmen können weitergeleitet werden. Hierbei wird die Fehlerbehandlung an die nächsthöhere Ebene weitergegeben. Um eine Ausnahme weiterzuleiten, muss in der weiterleitenden Methode mit `throws` die Ausnahme angegeben werden, die ausgelöst werden kann.
 
-```java title="MainClass.java" showLineNumbers
+```java title="Foo.java" showLineNumbers
+public class Foo {
+
   public void bar() throws QuxException {
     throw new QuxException();
   }
