@@ -18,18 +18,18 @@ Ströme (Paket `java.util.stream`) haben nichts mit [Datenströmen (IO-Streams)]
 ## Erzeugen von Strömen
 Ströme können unter anderem aus Feldern, Datensammlungen wie z.B. Listen und Mengen sowie Einzelobjekten erzeugt werden. 
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {        
-        int[] array = {4, 8, 15, 16, 23, 42};
-        IntStream integerStream = Arrays.stream(array);
+  public static void main(String[] args) {
+    int[] array = {4, 8, 15, 16, 23, 42};
+    IntStream integerStream = Arrays.stream(array);
 
-        List<Integer> list = List.of(4, 8, 15, 16, 23, 42);
-        Stream<Integer> integerStream2 = list.stream();
+    List<Integer> list = List.of(4, 8, 15, 16, 23, 42);
+    Stream<Integer> integerStream2 = list.stream();
 
-        Stream<Integer> integerStream3 = Stream.of(4, 8, 15, 16, 23, 42);
-    }
+    Stream<Integer> integerStream3 = Stream.of(4, 8, 15, 16, 23, 42);
+  }
 
 }
 ```
@@ -40,15 +40,15 @@ Die Zahlenfolge 4-8-15-16-23-42 spielt eine große Rolle in der Fernsehserie _Lo
 
 Im Gegensatz zu "normalen" Strömen besitzen Objekte der Klassen `IntStreams`, `DoubleStreams` und `LongStreams` Methoden zur Weiterverarbeitung ihrer primitiver Werte.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int[] array = {4, 8, 15, 16, 23, 42};
-        IntStream integerStream = Arrays.stream(array);
-        int sum = integerStream.sum();
-    }
-    
+  public static void main(String[] args) {
+    int[] array = {4, 8, 15, 16, 23, 42};
+    IntStream integerStream = Arrays.stream(array);
+    int sum = integerStream.sum();
+  }
+
 }
 ```
 
@@ -93,18 +93,18 @@ ausgeführt.
 In der main-Methode der Startklasse wird auf den Zahlenstrom 4-8-15-16-23-42 zunächst der Filter _Zahl > 15_ angewendet, anschließend der Filter _Zahl = ganze Zahl_ und abschließend werden die verbliebenen Zahlen auf der Konsole ausgegeben. Zum Nachvollziehen
 werden die Zahlen auch bei den beiden Filtern auf der Konsole ausgegeben.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        Stream.of(4, 8, 15, 16, 23, 42).filter(i -> {
-            System.out.println(i + ": filter 1");
-            return i % 2 == 0;;
-        }).filter(i -> {
-            System.out.println(i + ": filter 2");
-            return > 15;
-        }).forEach(i -> System.out.println(i + ": forEach"));
-    }
+  public static void main(String[] args) {
+    Stream.of(4, 8, 15, 16, 23, 42).filter(i -> {
+      System.out.println(i + ": filter 1");
+      return i % 2 == 0;
+    }).filter(i -> {
+      System.out.println(i + ": filter 2");
+      return i > 15;
+    }).forEach(i -> System.out.println(i + ": forEach"));
+  }
 
 }
 ```
@@ -151,14 +151,14 @@ Die Java Stream API stellt drei Methoden zur Verfügung, mit deren Hilfe (un)end
 
 In der main-Methode der Startklasse werden drei (un)endliche Zahlenströme erzeugt.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        Stream.iterate(0, i -> ++i).limit(100).forEach(System.out::println);
-        Stream.iterate(0, i -> i < 100, i -> ++i).forEach(System.out::println);
-        Stream.generate(() -> new Random().nextInt(100)).limit(100).forEach(System.out::println);
-    }
+  public static void main(String[] args) {
+    Stream.iterate(0, i -> ++i).limit(100).forEach(System.out::println);
+    Stream.iterate(0, i -> i < 100, i -> ++i).forEach(System.out::println);
+    Stream.generate(() -> new Random().nextInt(100)).limit(100).forEach(System.out::println);
+  }
 
 }
 ```
