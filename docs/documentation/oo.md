@@ -36,14 +36,15 @@ Um die Sichtbarkeit von Attributen und Methoden zu definieren, existieren versch
 ## Definition von Klassen
 Klassen werden in Java mit dem Schlüsselwort `class` definiert. Die Angabe des Zugriffsrechts legt die Sichtbarkeit der Klasse fest.
 
-```java
-public class Foo { }
+```java title="Foo.java" showLineNumbers
+public class Foo {
+}
 ```
 
 ## Definition von Attributen
 Die Attribute einer Klasse sind Datenobjekte und werdern daher analog zu Variablen und Konstanten definiert. Die Angabe des Zugriffsrechts legt die Sichtbarkeit des Attributs fest.
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
   public String bar;
@@ -52,18 +53,26 @@ public class Foo {
 }
 ```
 
-## Definition von Methoden
+## Definition und Implementierung von Methoden
 Methoden sind in der Programmierung eine Verallgemeinerung von mathematischen Funktionen. Eine Methode besteht aus einem Methodennamen, einer Liste von Eingabeparameter (optional), einem Rückgabewert (optional) sowie dem Methodenrumpf.
 
 Methoden können entweder genau einen Rückgabewert oder keinen Rückgabewert besitzen. Methoden mit genau einem Rückgabewert müssen vor dem Methodennamen den Datentyp des Rückgabewerts angeben und am Ende des Methodenrumpfes immer die Anweisung `return` besitzen,
 Methoden ohne Rückgabewert müssen dies mit dem Schlüsselwort `void` kenntlich machen.
 
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public void bar(Qux qux);
-  public int baz();
+  public String bar;
+  public int baz;
+
+  public void setBar(String bar) {
+    this.bar = bar;
+  }
+
+  public String getBar() {
+    return bar;
+  }
 
 }
 ```
@@ -86,9 +95,23 @@ Der Standarwert von Referenzvariablen ist `null`.
 ## Erzeugen von Objekten
 Beim Erzeugen eines Objekts mit Hilfe des Operators `new` wird der bei der Deklaration reservierte Speicherplatz durch das Objekt belegt.
 
-```java
-public class Foo { }
+```java title="Foo.java" showLineNumbers
+public class Foo {
 
+  public String bar;
+  public int baz;
+
+  public void setBar(String bar) {
+    this.bar = bar;
+  }
+
+  public String getBar() {
+    return bar;
+  }
+
+}
+```
+```java  title="MainClass.java" showLineNumbers
 public class MainClass {
 
   public static void main(String[] args) {
@@ -105,20 +128,29 @@ Nach dem new-Operator muss immer ein Konstruktor der Klasse stehen.
 ## Zugriff auf Attribute und Aufruf von Methoden
 Erlauben die Zugriffsrechte den Zugriff auf ein Attribut, kann über die deklarierte Referenzvariable und einem nachgestellten Punkt auf das Attribut zugegriffen werden. Auch sichtbare Methoden werden über diese Syntax aufgerufen.
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
   public String bar;
-  public void baz(Qux qux) { }
+  public int baz;
+
+  public void setBar(String bar) {
+    this.bar = bar;
+  }
+
+  public String getBar() {
+    return bar;
+  }
 
 }
-
+```
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
   public static void main(String[] args) {
     Foo foo = new Foo();
-    foo.bar = "Hallo Welt";
-    foo.baz(new Qux());
+    foo.bar = "Winter is Coming";
+    System.out.println(foo.getBar());
   }
 
 }
@@ -131,12 +163,27 @@ Beim Aufruf einer Methode müssen alle Parameter in der richtigen Reihenfolge ve
 ## Überladene Methoden
 Gleichnamige Methoden mit unterschiedlichen Parameterlisten einer Klasse werden in Java als überladene Methoden bezeichnet.
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public void bar() { }
-  public void bar(Qux qux) { }
-  public void bar(Qux qux, Quux quux) { }
+  public String bar;
+  public int baz;
+
+  public void setBar(String bar) {
+    this.bar = bar;
+  }
+
+  public String getBar() {
+    return bar;
+  }
+
+  public void setBaz(int baz) {
+    this.baz = baz;
+  }
+
+  public void setBaz() {
+    this.baz = 42;
+  }
 
 }
 ```
@@ -152,7 +199,7 @@ festgelegt werden, da diese implizit die Referenz auf das Objekt zurückgeben.
 Im Gegensatz zu z.B. C++ existieren in Java keine Destruktoren, die nicht mehr benötigte Objekte aus dem Speicher entfernen. Stattdessen läuft im Hintergrund der sogenannte Garbage Collector, der nicht mehr benötigte Objekte (also Objekte, die nicht mehr über 
 eine Referenzvariable angesprochen werden können) löscht.
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
   public Foo() { }
@@ -173,14 +220,16 @@ dieselben Werte. Innerhalb einer statischen Methode kann nur auf die statischen 
 Bei der Deklaration von statischen Attributen und statischen Methoden kommt das Schlüsselwort `static` zum Einsatz. Für den Zugriff auf ein statisches Attribut bzw. den Aufruf einer statischen Methode wird keine Instanziierung benötigt, d.h. der der Zugriff 
 bzw. Aufruf erfolgt über den Klassennamen.
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo {
 
   public static String bar;
   public static void baz() { }
 
 }
+```
 
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
   public static void main(String[] args) {
