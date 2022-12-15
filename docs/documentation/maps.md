@@ -12,27 +12,30 @@ vorhanden sein. Aufgrund dieses Aufbaus werden Assoziativspeicher auch als Wört
 
 Um auf die Einträge, Schlüssel und Werte eines Assoziativspeichers zugreifen können, stellt die Schnittstelle `Map` die Methoden `Set<Entry<K, V>> entrySet()`, `Set<K> keySet()` und `Collection<V> values()` zur Verfügung. 
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        HashMap<Integer, String> foos = new HashMap<>();
-        ...
-        for (Entry<Integer, String> entry : foos.entrySet()) {
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
-        }
-      
-        for (Integer i : foos.keySet()) {
-            System.out.println(i);
-        }
-      
-        for (String s : foos.values()) {
-            System.out.println(s);
-        }
+    HashMap<Integer, String> foos = new HashMap<>();
+    foos.put(834, "Hans");
+    foos.put(269, "Peter");
+    foos.put(771, "Lisa");
 
+    for (Entry<Integer, String> entry : foos.entrySet()) {
+      System.out.println(entry.getKey());
+      System.out.println(entry.getValue());
     }
+
+    for (Integer i : foos.keySet()) {
+      System.out.println(i);
+    }
+
+    for (String s : foos.values()) {
+      System.out.println(s);
+    }
+
+  }
 
 }
 ```
