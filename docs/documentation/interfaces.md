@@ -17,11 +17,12 @@ bereitstellen und dass verschiedene Klassen miteinander kommunizieren können.
 ## Definition von Schnittstellen
 Die Definition einer Schnittstelle erfolgt analog zur Definition von Klassen. Das Schlüsselwort für Schnittstellen lautet `interface`. Eine Schnittstelle kann nur öffentliche, abstrakte und öffentliche, statische Methoden beinhalten.
 
-```java
-public interface Foo {  
+```java title="Foo.java" showLineNumbers
+public interface Foo {
 
-    void bar();
-    void baz();  
+  void bar();
+
+  void baz();
 
 }
 ```
@@ -33,11 +34,16 @@ Die Angabe von `abstract` und `public` bei Methoden ist nicht erforderlich.
 ## Implementieren von Schnittstellen
 Schnittstellen werden mit Hilfe des Schlüsselworts `implements` von einer Klasse implementiert. Durch die Implementierung der Schnittstelle verpflichtet sich die Klasse, alle Methoden der Schnittstelle zu implementieren.
 
-```java
+```java title="Qux.java" showLineNumbers
 public class Qux implements Foo {
 
-    public void bar() { }
-    public void baz() { }
+  public void bar() {
+    System.out.println("bar");
+  }
+
+  public void baz() {
+    System.out.println("baz");
+  }
 
 }
 ```
@@ -45,14 +51,14 @@ public class Qux implements Foo {
 ## Verwenden von Schnittstellen
 Schnittstellen können ebenso wie Klassen als Datentypen verwendet werden. Die Typumwandlung von der implementierenden Klasse zur Schnittstelle bezeichnet man als **Upcast**, die Rückumwandlung als **Downcast**.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        Foo foo;
-        Qux qux = new Qux();
-        foo = qux; // Upcast
-    }
+  public static void main(String[] args) {
+    Foo foo;
+    Qux qux = new Qux();
+    foo = qux; // Upcast
+  }
 
 }
 ```
