@@ -11,7 +11,7 @@ Aufzählungskonstanten um öffentliche, statische Konstanten vom Typ der Aufzäh
 ## Implementieren von Aufzählungen
 Die Definition einer Aufzählung erfolgt analog zur Definition von Klassen, das Schlüsselwort hierfür lautet `enum`.
 
-```java title="MainClass.java" showLineNumbers
+```java title="WeekDay.java" showLineNumbers
 public enum WeekDay {
 
   MONDAY("Montag", true), TUESDAY("Dienstag", true), WEDNESDAY("Mittwoch", true), THURSDAY(
