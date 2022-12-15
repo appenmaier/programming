@@ -10,14 +10,14 @@ Konsolenanwendungen sind Programme ohne eine grafische Benutzeroberfläche d.h. 
 ## Konsoleneingaben
 Die Klasse `Scanner` im Paket `java.util` stellt Methoden zur Verfügung, um Eingaben von der Konsole einzulesen und in entsprechende Datentypen umzuwandeln.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int i = scanner.nextInt();
-        System.out.println(i);
-    }
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int i = scanner.nextInt();
+    System.out.println(i);
+  }
 
 }
 ```
@@ -32,14 +32,14 @@ Der Standard-Ausgabestrom `System.out` bietet verschiedene Methoden, um Informat
 - Bei den println-Methoden wird die Information unverändert und linksbündig ausgegeben. Zusätzlich wird ein Zeilenumbruch ausgeführt
 - Bei den printf-Methoden wird die Information formatiert ausgegeben. Die Formatierungsregeln sind nach dem Muster _[flags]\[width][.precision]conversion-character_  aufgebaut
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        System.out.print("Winter is Coming");
-        System.out.println("Winter is Coming");
-        System.out.printf("%25S", "Winter is Coming");
-    }
+  public static void main(String[] args) {
+    System.out.print("Winter is Coming");
+    System.out.println("Winter is Coming");
+    System.out.printf("%25S", "Winter is Coming");
+  }
 
 }
 ```
