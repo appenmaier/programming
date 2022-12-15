@@ -14,7 +14,7 @@ können und der dadurch notwendige Downcast zu Laufzeitfehlern führen kann.
 
 Die Klasse `Box` ermöglicht das Speichern einer beliebig typisierten Information.
 
-```java title="MainClass.java" showLineNumbers
+```java title="Box.java" showLineNumbers
 public class Box {
 
   private Object content;
@@ -51,7 +51,7 @@ durch die konkreten Datentypen ersetzt. Durch die dadurch vorhandene statische T
 
 Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information mit Hilfe des Typparameters `T`.
 
-```java title="MainClass.java" showLineNumbers
+```java title="GenericBox.java" showLineNumbers
 public class GenericBox<T> {
 
   private T content;
@@ -125,7 +125,7 @@ Angabe eines unbestimmten Typs.
 
 Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information.
 
-```java title="MainClass.java" showLineNumbers
+```java title="GenericBox.java" showLineNumbers
 public class GenericBox<T> {
 
   private T content;
@@ -143,9 +143,13 @@ public class GenericBox<T> {
 
 Die Drei Klassen `Above`, `Center` und `Below` bilden eine Generalisierungshierarchie ab, wobei die Klasse `Below` eine Unterklasse der Klasse `Center` und diese wiederum eine Unterklasse der Klasse `Above` darstellt.
 
-```java title="MainClass.java" showLineNumbers
+```java title="Above.java" showLineNumbers
 public class Above {}
+```
+```java title="Center.java" showLineNumbers
 public class Center extends Above {}
+```
+```java title="Below.java" showLineNumbers
 public class Below extends Center {}
 ```
 
