@@ -13,7 +13,7 @@ vergleichenden Objekte an:
 
 Objekte der Klasse `Foo` können durch die Implementierung der Methode `int compareTo(T)` der Schnittstelle `Comparable<T>` miteinander verglichen werden.
 
-```java title="MainClass.java" showLineNumbers
+```java title="Container.java" showLineNumbers
 public class Container implements Comparable<Container> {
 
   private String value;
