@@ -13,7 +13,7 @@ Die Beziehung zwischen einer speziellen Klasse und einer allgemeinen Klasse wird
 Die Vererbung wird mit dem Schlüsselwort `extends` realisiert. In der Oberklasse können Attribute und Methoden mit dem Schlüsselwort `protected` als geschützt festlegt werden. Unterklassen können auf alle öffentlichen und geschützten Attribute und Methoden der 
 Oberklasse zugreifen.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class SuperClass {
 
     public Foo foo;
@@ -49,7 +49,7 @@ In den Konstruktoren der Unterklasse muss ein Konstruktor der Oberklasse mit Hil
 Wird in einer Unterklasse eine Methode definiert, die der Signatur einer Methode der Oberklasse entspricht, wird die Methode der Oberklasse "überschrieben", d.h. von der Unterklasse neu implementiert. Bei Bedarf kann die ursprüngliche Methodenimplementierung 
 der Oberklasse mit Hilfe der Objektreferenz `super` aufgerufen werden.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class SuperClass {
 
     public void foo(){
