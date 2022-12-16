@@ -53,7 +53,7 @@ XML (Extensible Markup Language) stellt eine Auszeichnungssprache zur Beschreibu
 ## Definition von FXML-Dokumenten
 Die einzelnen Bildschirmelemente der Szene werden in einem FXML-Dokument als geschachtelte Elemente dargestellt.
 
-```xml
+```xml title="View.fxml" showLineNumbers
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
@@ -63,28 +63,28 @@ Die einzelnen Bildschirmelemente der Szene werden in einem FXML-Dokument als ges
 <?import javafx.scene.layout.VBox?>
 
 <VBox spacing="5.0" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Button text="Drucktaste" />
-      <Label text="Ausgabefeld" />
-      <TextField promptText="Eingabefeld" />
-   </children>
-   <padding>
-      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
-   </padding>
+  <children>
+    <Button text="Drucktaste" />
+    <Label text="Ausgabefeld" />
+    <TextField promptText="Eingabefeld" />
+  </children>
+  <padding>
+    <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+  </padding>
 </VBox>
 ```
 
 ## Verwenden von FXML-Dokumenten
 Die statische Methode `Parent load(URL)` der Klasse `FXMLLoader` überführt das angegebene FXML-Dokument in einen Szenegraphen und gibt den dazugehörigen Wurzelknoten vom Typ `Parent` zurück, mit dessen Hilfe anschließend die Szene erstellt werden kann.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass extends Application {
 
   public void start(Stage primaryStage) throws IOException {
     Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
     Scene scene = new Scene(root);
     primaryStage.setTitle("Aufbau einer Szene");
-    primaryStage.setScene(scene);    
+    primaryStage.setScene(scene);
     primaryStage.show();
   }
 
@@ -94,17 +94,17 @@ public class MainClass extends Application {
 ## Initialisieren einer Szene
 Die Methode `void initialize(URL, ResourceBundle)` der Schnittstelle `Initializable` wird vom FXML-Loader vor Anzeige der dazugehörigen Szene aufgerufen und ermöglicht es, die Szene dynamisch anzupassen.
 
-```java
+```java title="Controller.java" showLineNumbers
 public class Controller implements Initializable {
 
-    @FXML
-    private Label label;
+  @FXML
+  private Label label;
 
-    public void initialize(URL location, ResourceBundle resources) {
-        Random random = new Random();
-        int randomNumber = random.nextInt(100);
-        label.setText(String.valueOf(randomNumber));
-    }
+  public void initialize(URL location, ResourceBundle resources) {
+    Random random = new Random();
+    int randomNumber = random.nextInt(100);
+    label.setText(String.valueOf(randomNumber));
+  }
 
 }
 ```
@@ -129,7 +129,7 @@ Die Ereignisbehandlung in JavaFX kann nach dem [MVC-Entwurfsmuster](design/desig
 Eigenschaft `fx:controller` die verantwortliche Klasse für die Ereignisbehandlung festgelegt. Den zu behandelnden Ereignissen kann über die Eigenschaft `onAction` eine Behandlermethode der Ereignisbehandler-Klasse zugewiesen werden. Um in der 
 Ereignisbehandler-Klasse auf die jeweiligen Elemente des FXML-Dokuments zugreifen zu können, müssen diesen über die Eigenschaft `fx:id` entsprechende Ids zugewiesen werden.
 
-```xml
+```xml title="View.fxml" showLineNumbers
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
@@ -151,16 +151,16 @@ Ereignisbehandler-Klasse auf die jeweiligen Elemente des FXML-Dokuments zugreife
 In der Ereignisbehandler-Klasse werden die Behandlermethoden implementiert. Diese müssen zwingend den Parameter `ActionEvent` besitzen, mit dessen Hilfe auf das ausgelöste Ereignis zugegriffen werden kann. Das Verknüpfen von Attributen der 
 Ereignisbehandler-Klasse mit den Elementen des FXML-Dokuments erfolgt über die Annotation `@FXML` und der Namensgleichheit zwischen dem Attribut der Ereignisbehandler-Klasse und dem Wert der Eigenschaft `fx:id` des entsprechenden Elements des FXML-Dokuments.
 
-```java
+```java title="Controller.java" showLineNumbers
 public class Controller {
 
-    @FXML
-    private TextField inputTextField;
+  @FXML
+  private TextField inputTextField;
 
-    public void printInput(ActionEvent actionEvent) {
-        String input = inputTextField.getText();
-        System.out.println(input);
-    }
+  public void printInput(ActionEvent actionEvent) {
+    String input = inputTextField.getText();
+    System.out.println(input);
+  }
 
 }
 ```
@@ -169,17 +169,17 @@ public class Controller {
 Der Wechsel von Szenen erfolgt über die Methode `void setScene(Scene)` der Klasse `Stage`. Die Methode `Object getSource()` der Klasse `ActionEvent` gibt das Bildschirmelement zurück, welches das Ereignis ausgelöst hat; die Methode `Window getWindow()` der 
 Klasse `Scene` die Bühne, auf der die aktuelle Szene aufgeführt wird.
 
-```java
+```java title="Controller.java" showLineNumbers
 public class Controller {
 
-    public void goToOutput(ActionEvent actionEvent) throws IOException {  
-        Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
-        Scene scene = new Scene(root);
-        Node node = (Node) actionEvent.getSource();
-        Stage stage = (Stage) node.getScene().getWindow();
-        stage.setScene(scene);
-        stage.show();
-    }
+  public void goToOutput(ActionEvent actionEvent) throws IOException {
+    Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
+    Scene scene = new Scene(root);
+    Node node = (Node) actionEvent.getSource();
+    Stage stage = (Stage) node.getScene().getWindow();
+    stage.setScene(scene);
+    stage.show();
+  }
 
 }
 ```
@@ -190,28 +190,28 @@ Da die verschiedenen Ereignisbehandler-Klassen in einer JavaFX-Anwendung nur los
 
 Die Klasse `Model` umfasst neben der Einzelstück-Implementierung das Attribut `input` sowie die dazugehörige set- und get-Methode.
 
-```java
+```java title="Model.java" showLineNumbers
 public class Model {
 
-    private static Model instance;
-    private String input;
-  
-    private Model() { }
-  
-    public static Model getInstance() {
-        if (instance == null) {
-            instance = new Singleton();
-        }
-        return instance;
+  private static Model instance;
+  private String input;
+
+  private Model() {}
+
+  public static Model getInstance() {
+    if (instance == null) {
+      instance = new Model();
     }
-    
-    public void setInput(String input) {
-        this.input = input;
-    }
-    
-    public String getInput() {
-        return input;
-    }
+    return instance;
+  }
+
+  public void setInput(String input) {
+    this.input = input;
+  }
+
+  public String getInput() {
+    return input;
+  }
 
 }
 ```
@@ -219,48 +219,48 @@ public class Model {
 In der Methode `void initialize(URL, ResourceBundle)` der Klasse `InputController` wird das Attribut `model` initialisiert; in der Methode `void goToOutput(ActionEvent)` wird zunächst die Eingabe in der Model-Klasse gespeichert und anschließend zur View `Output`
 gewechselt.
 
-```java
+```java title="InputController.java" showLineNumbers
 public class InputController implements Initializable {
 
-    @FXML
-    private TextField inputTextField;
-  
-    private Model model;
+  @FXML
+  private TextField inputTextField;
 
-    public void initialize(URL location, ResourceBundle resources) {
-        model = Model.getInstance();    
-    }
+  private Model model;
 
-    public void goToOutput(ActionEvent actionEvent) { 
-        String input = inputTextField.getText();
-        model.setInput(input);
-            
-        Parent root = FXMLLoader.load(getClass().getResource("OutputView.fxml"));
-        Scene scene = new Scene(root);
-        Node node = (Node) actionEvent.getSource();
-        Stage stage = (Stage) node.getScene().getWindow();
-        stage.setScene(scene);
-        stage.show();
-    }
+  public void initialize(URL location, ResourceBundle resources) {
+    model = Model.getInstance();
+  }
+
+  public void goToOutput(ActionEvent actionEvent) throws IOException {
+    String input = inputTextField.getText();
+    model.setInput(input);
+
+    Parent root = FXMLLoader.load(getClass().getResource("OutputView.fxml"));
+    Scene scene = new Scene(root);
+    Node node = (Node) actionEvent.getSource();
+    Stage stage = (Stage) node.getScene().getWindow();
+    stage.setScene(scene);
+    stage.show();
+  }
 
 }
 ```
 
 In der Methode `void initialize(URL, ResourceBundle)` der Klasse `OuputController` wird zunächst das Attribut `model` initialisiert, anschließend die Eingabe aus dem Model ausgelesen und abschließend die Eingabe dem Ausgabefeld zugewiesen.
 
-```java
+```java title="OutputController.java" showLineNumbers
 public class OutputController implements Initializable {
 
-    @FXML
-    private Label inputLabel;
-  
-    private Model model;
+  @FXML
+  private Label inputLabel;
 
-    public void initialize(URL location, ResourceBundle resources) {
-        model = Model.getInstance();    
-        String input = model.getInput();
-        inputLabel.setText(input);
-    }
+  private Model model;
+
+  public void initialize(URL location, ResourceBundle resources) {
+    model = Model.getInstance();
+    String input = model.getInput();
+    inputLabel.setText(input);
+  }
 
 }
 ```
