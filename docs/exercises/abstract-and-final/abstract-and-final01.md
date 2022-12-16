@@ -10,6 +10,6 @@ Passe die Klassen `Vehicle`, `Car` und `Truck` aus Übungsaufgabe
 Klassendiagramms an.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208054495-bc672966-749b-41f8-8448-06f773f04a61.png)
+![image](https://user-images.githubusercontent.com/47243617/208057598-f68aba37-05f3-47b7-9260-b048fa109972.png)
 
 <Exercise pullRequest="45" branchSuffix="abstract-and-final/01" />
