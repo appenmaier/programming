@@ -1,5 +1,6 @@
 ---
-title: Inner Classes 03
+title: InnerClasses03
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
