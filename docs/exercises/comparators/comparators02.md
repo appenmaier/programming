@@ -12,7 +12,7 @@ import Exercise from '@site/src/components/Exercise';
   Hilfe der Klasse `CoordinateComparator` sortiert wird
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208053756-ba4ead78-8939-4476-b1cb-36b6f3b4cf2e.png)
+![image](https://user-images.githubusercontent.com/47243617/208053854-a8058ebb-6d2b-433e-a919-b54d5750a7b0.png)
 
 ## Hinweis zur Klasse CoordinateComparator
 Die Methode `int compare(o1: Coordinate, o2: Coordinate)` soll zwei eingehende
