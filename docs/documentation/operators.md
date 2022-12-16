@@ -5,8 +5,8 @@ sidebar_position: 60
 tags: [operators]
 ---
 
-Operatoren sind Zeichen, mit denen Daten manipuliert werden können. Mit Hilfe von Operanden und Operatoren können beliebig komplexe Ausdrücke abgebildet werden. Operatoren mit einem, zwei oder drei Operanden werden als **unäre Operatoren**, **binäre Operatoren**
-und **ternäre Operatoren** bezeichnet. Man unterscheidet zudem zwischen arithmetischen, bitweisen und logischen Operatoren sowie Vergleichsoperatoren.
+Operatoren sind Zeichen, mit denen Daten manipuliert werden können. Mit Hilfe von Operanden und Operatoren können beliebig komplexe Ausdrücke abgebildet werden. Operatoren mit einem, zwei oder drei Operanden werden als _unäre Operatoren_ _binäre Operatoren_
+und _ternäre Operatoren_ bezeichnet. Man unterscheidet zudem zwischen arithmetischen, bitweisen und logischen Operatoren sowie Vergleichsoperatoren.
 
 ## Arithmetische Operatoren
 Für die arithmetischen Grundrechenarten stehen verschiedene arithmetische Operatoren zur Verfügung.
@@ -55,7 +55,7 @@ Logische Bedingungen für zwei Werte eines elementaren Datentyps können durch V
 | x <= y                | x ist kleiner gleich y |
 
 :::danger Hinweis
-Da der Vergleichsoperator `==` auf referenzielle Gleichheit prüft, sollte zum Vergleich von zwei Objekten die Methode `int equals(Object)` verwendet werden.
+Da der Vergleichsoperator `==` auf referenzielle Gleichheit prüft, sollte zum Vergleich von zwei Objekten die Methode `boolean equals(object: Object)` verwendet werden.
 :::
 
 ## Priorität von Operatoren
