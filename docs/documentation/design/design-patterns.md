@@ -15,25 +15,25 @@ Adapterklassen (auch Hüllenklassen oder Wrapper-Klassen) ermöglichen die Kommu
 `Double`, `Character`, `Boolean`. Das Adapter-Entwurfsmuster gehört zu den Strukturmustern.
 
 ## Das MVC-Entwurfsmuster
-Das MVC (Model-View-Controller)-Entwurfmuster stellt einen gängigen Ansatz zur Entwicklung von grafischen Benutzeroberflächen dar, bei dem die grafische Benutzeroberfläche in drei Bereiche unterteilt wird:
-- Das **Model** ist für die Datenhaltung und -verwaltung zuständig
-- Die **View** ist für die Darstellung der Oberfläche zuständig, welche wiederum in Aufbau und Aussehen unterteilt ist
-- Der **Controller** übernimmt die Ereignisbehandlung und ermöglicht so die Benutzerinteraktion
+Das MVC (_Model-View-Controller_)-Entwurfmuster stellt einen gängigen Ansatz zur Entwicklung von grafischen Benutzeroberflächen dar, bei dem die grafische Benutzeroberfläche in drei Bereiche unterteilt wird:
+- Das _Model_ ist für die Datenhaltung und -verwaltung zuständig
+- Die _View_ ist für die Darstellung der Oberfläche zuständig, welche wiederum in Aufbau und Aussehen unterteilt ist
+- Der _Controller_ übernimmt die Ereignisbehandlung und ermöglicht so die Benutzerinteraktion
 
 ![image](https://user-images.githubusercontent.com/47243617/175276227-7ad23517-2a5b-42c4-9a2f-27338cf34644.png)
 
 :::note Hinweis
-Der Begriff MVC wird oft auch als Synonym für MVC-ähnliche Varianten wie z.B. MVP (Model-View-Presenter) oder MVVM (Model-View-ViewModel) verwendet.
+Der Begriff MVC wird oft auch als Synonym für MVC-ähnliche Varianten wie z.B. MVP (_Model-View-Presenter_) oder MVVM (_Model-View-ViewModel_) verwendet.
 :::
 
 ## Das Beobachter-Entwurfsmuster
-Das Beobachter-Entwurfsmuster ermöglicht, dass sich Objekte (Observer) bei einem anderen Objekt (Subject) registrieren und von diesem informiert werden, wenn es sich ändert. Die Ereignisbehandlung in grafischen Benutzeroberflächen ist eine konkrete Umsetzung 
+Das Beobachter-Entwurfsmuster ermöglicht, dass sich Objekte (_Observer_) bei einem anderen Objekt (_Subject_) registrieren und von diesem informiert werden, wenn es sich ändert. Die Ereignisbehandlung in grafischen Benutzeroberflächen ist eine konkrete Umsetzung 
 des Beobachter-Entwurfsmusters. Es gehört zu den Verhaltensmustern.
 
 ![image](https://user-images.githubusercontent.com/47243617/175276105-c2f3545e-2228-437d-abab-b0785a77bb23.png)
 
 ## Das Einzelstück-Entwufsmuster
-Das Einzelstück-Entwurfsmuster stellt sicher, dass zu einer Klasse genau ein Objekt (Singleton) zur Laufzeit existiert. Ein Anwendungsbeispiel für das Einzelstück-Entwurfsmuster ist das Model in einer grafischen Benutzeroberfläche. Es gehört zu den 
+Das Einzelstück-Entwurfsmuster stellt sicher, dass zu einer Klasse genau ein Objekt (_Singleton_) zur Laufzeit existiert. Ein Anwendungsbeispiel für das Einzelstück-Entwurfsmuster ist das Model in einer grafischen Benutzeroberfläche. Es gehört zu den 
 Erzeugungsmustern.
 
 ```java title="Singleton.java" showLineNumbers
