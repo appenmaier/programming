@@ -11,6 +11,6 @@ import Exercise from '@site/src/components/Exercise';
   an, dass sie fehlerfrei ausgeführt werden kann
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/179726509-3a91d29a-b0b9-46b4-a290-ec3fdc2425a2.png)
+![image](https://user-images.githubusercontent.com/47243617/208062296-3c2f9fea-f3b3-4554-9249-2a41924803e6.png)
 
 <Exercise pullRequest="53" branchSuffix="generics/02" />
