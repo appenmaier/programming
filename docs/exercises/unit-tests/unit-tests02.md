@@ -6,7 +6,7 @@ description: ''
 Erstelle die Klasse `RentalTest` und erweitere die Klasse `Rental` aus Übungsaufgabe [Exceptions01](../exceptions/exceptions01.md) anhand des abgebildeten Klassendiagramms.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/181769365-4f78bb11-d1d2-4a43-88c9-33e207ae2f49.png)
+![image](https://user-images.githubusercontent.com/47243617/208110942-d69a3a2a-cdde-4c5a-b9c1-5710e4688483.png)
 
 ## Hinweis zur Klasse Rental
 Die Methode `void accelerateAllVehicles(value: int)` soll alle Fahrzeuge der Fahrzeugvermietung um den eingehenden Wert beschleunigen.
