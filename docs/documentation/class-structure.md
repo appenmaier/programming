@@ -8,7 +8,7 @@ tags: [class-structure]
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Klassen stellen den grundlegenden Rahmen für Programme dar. Jede Klasse kann Daten (**Attribute**) und Routinen (**Methoden**) besitzen. Routinen bestehen dabei aus Folgen von verzweigten und sich wiederholenden Anweisungen, wobei Anweisungen wohldefinierte
+Klassen stellen den grundlegenden Rahmen für Programme dar. Jede Klasse kann Daten (_Attribute_) und Routinen (_Methoden_) besitzen. Routinen bestehen dabei aus Folgen von verzweigten und sich wiederholenden Anweisungen, wobei Anweisungen wohldefinierte
 Befehle darstellen, die der Interpreter zur Laufzeit ausführt. Anweisungen müssen in Java mit dem Semikolon abgeschlossen werden und können zu Anweisungsblöcken zusammengefasst werden, die durch geschweifte Klammern umschlossen werden. Innerhalb eines 
 Anweisungsblocks können sich weitere Anweisungsblöcke befinden.
 
@@ -83,12 +83,12 @@ public class MainClass {
 ```
 
 :::note Hinweis
-Die statischen Methoden einer Startklasse werden auch als **Unterprogramme** bezeichnet.
+Die statischen Methoden einer Startklasse werden auch als _Unterprogramme_ bezeichnet.
 :::
 
 ## Die main-Methode
-Die Methode `void main(String[])` ist eine spezielle Methode in Java und stellt Startpunkt sowie Endpunkt einer Anwendung bzw. eines Programms dar. Nur Klassen mit einer main-Methode können von der Laufzeitumgebung ausgeführt werden. Aus diesem Grund werden 
-Klassen mit einer main-Methode auch als **ausführbare Klassen** oder als **Startklassen** bezeichnet.
+Die Methode `void main(args: String[])` ist eine spezielle Methode in Java und stellt Startpunkt sowie Endpunkt einer Anwendung bzw. eines Programms dar. Nur Klassen mit einer main-Methode können von der Laufzeitumgebung ausgeführt werden. Aus diesem Grund werden 
+Klassen mit einer main-Methode auch als _ausführbare Klassen_ oder als _Startklassen_ bezeichnet.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
