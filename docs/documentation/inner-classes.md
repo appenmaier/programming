@@ -6,7 +6,7 @@ tags: [inner-classes]
 ---
 
 Java bietet die Möglichkeit, Klassen und Schnittstellen zu verschachteln. Das Ziel von inneren Klassen ist eine Definition von Hilfsklassen möglichst nahe an der Stelle, wo sie gebraucht werden. Beispiele für Hilfsklassen sind Ausnahmeklassen, Komparatoren und 
-Ereignisbehandler. Alle bisherigen Klassen werden auch als **äußerer Klassen** bzw. **Top-Level-Klassen** bezeichnet.
+Ereignisbehandler. Alle bisherigen Klassen werden auch als _äußerer Klassen_ bzw. _Top-Level-Klassen_ bezeichnet.
 
 ## Geschachtelte Klassen (Nested Classes)
 Geschachtelte Klassen sind Top-Level-Klassen, die zur Strukturierung des Namensraumes in anderen Top-Level-Klassen definiert sind. Ein Namensraum ist die vollständige Pfadangabe zur Klasse (z.B. `java.lang`). Geschachtelte Klassen müssen statisch definiert 
@@ -68,7 +68,7 @@ public class MainClass {
 Lokale Klassen werden innerhalb einer Methode definiert und können auch nur dort verwendet werden. Sie dürfen nicht als `public`, `protected`, `private` oder `static` definiert werden, dürfen keine statischen Elemente enthalten und können nur die mit `final` 
 markierten Variablen und Parameter der umgebenden Methode verwenden.
 
-Zunächst wird die Schnittstelle `Qux` samt der Methode `void quux(String)`definiert.
+Zunächst wird die Schnittstelle `Qux` samt der Methode `void quux(s: String)`definiert.
 
 ```java title="Qux.java" showLineNumbers
 public interface Qux {
@@ -90,7 +90,7 @@ public class Foo {
 }
 ```
 
-In der main-Methode der Startklasse soll die Methode `void bar(String, Qux)` der Klasse `Foo` aufgerufen werden, wofür eine konkrete Implementierung der Schnittstelle `Qux` benötigt wird. Die Implementierung erfolgt in Form der lokalen Klasse `LocalClass`.
+In der main-Methode der Startklasse soll die Methode `void bar(s: String, q: Qux)` der Klasse `Foo` aufgerufen werden, wofür eine konkrete Implementierung der Schnittstelle `Qux` benötigt wird. Die Implementierung erfolgt in Form der lokalen Klasse `LocalClass`.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
@@ -114,7 +114,7 @@ public class MainClass {
 Anonyme Klassen besitzen im Gegensatz zu lokalen Klassen keinen Namen und werden innerhalb eines Ausdrucks definiert und instanziiert; Klassendeklaration und Objekterzeugung sind also in einem Sprachkonstrukt vereint. Wird als Datentyp eine Schnittstelle 
 benötigt, implementiert die anonyme Klasse diese Schnittstelle, wird als Datentyp eine Klasse benötigt, so wird die anonyme Klasse daraus abgeleitet.
 
-Zunächst wird die Schnittstelle `Qux` samt der Methode `void quux(String)`definiert.
+Zunächst wird die Schnittstelle `Qux` samt der Methode `void quux(s: String)`definiert.
 
 ```java title="Qux.java" showLineNumbers
 public interface Qux {
@@ -136,7 +136,7 @@ public class Foo {
 }
 ```
 
-In der main-Methode der Startklasse soll die Methode `void bar(String, Qux)` der Klasse `Foo` aufgerufen werden, wofür eine konkrete Implementierung der Schnittstelle `Qux` benötigt wird. Die Implementierung erfolgt in Form einer anonymen Klasse.
+In der main-Methode der Startklasse soll die Methode `void bar(s: String, q: Qux)` der Klasse `Foo` aufgerufen werden, wofür eine konkrete Implementierung der Schnittstelle `Qux` benötigt wird. Die Implementierung erfolgt in Form einer anonymen Klasse.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
@@ -157,7 +157,7 @@ public class MainClass {
 Lambda-Ausdrücke sind anonyme Funktionen, die nur über ihre Referenz angesprochen werden können. Die Methodenparameter und der Methodenkörper werden getrennt vom Pfeiloperator `->` notiert. Voraussetzung für den Einsatz eines Lambda-Ausdrucks ist eine 
 funktionale Schnittstelle, also eine Schnittstelle, die über genau eine Methode verfügt.
 
-Zunächst wird die Schnittstelle `Qux` samt der Methode `quux(String)`definiert.
+Zunächst wird die Schnittstelle `Qux` samt der Methode `void quux(s: String)`definiert.
 
 ```java title="Qux.java" showLineNumbers
 public interface Qux {
@@ -179,7 +179,7 @@ public class Foo {
 }
 ```
 
-In der main-Methode der Startklasse soll die Methode `bar(String, Qux)` der Klasse `Foo` aufgerufen werden, wofür eine konkrete Implementierung der Schnittstelle `Qux` benötigt wird. Die Implementierung erfolgt in Form eines Lambda-Ausdrucks.
+In der main-Methode der Startklasse soll die Methode `void bar(s: String, q: Qux)` der Klasse `Foo` aufgerufen werden, wofür eine konkrete Implementierung der Schnittstelle `Qux` benötigt wird. Die Implementierung erfolgt in Form eines Lambda-Ausdrucks.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
