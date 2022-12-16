@@ -1,5 +1,6 @@
 ---
-title: Arrays 04
+title: Arrays04
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
