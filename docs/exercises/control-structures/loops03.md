@@ -1,5 +1,6 @@
 ---
-title: Loops 03
+title: Loops03
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -18,7 +19,7 @@ Prozentualer Anteil: 30,00%
 ```
 
 ## Hinweis
-Die Methode `char charAt(int)` der Klasse `String` gibt das Zeichen mit dem 
+Die Methode `char charAt(index: int)` der Klasse `String` gibt das Zeichen mit dem 
 Index der eingehenden Zahl zurück.
 
 <Exercise pullRequest="16" branchSuffix="loops/03" />
