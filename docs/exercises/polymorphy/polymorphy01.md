@@ -1,5 +1,6 @@
 ---
-title: Polymorphy 01
+title: Polymorphy01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -12,17 +13,14 @@ import Exercise from '@site/src/components/Exercise';
   Fahrzeuge, sondern Autos und Lastwagen erzeugt und ausgegeben werden
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170883749-a72e4bd8-4059-432e-a648-f5f6bdbfc6ef.png)
+![image](https://user-images.githubusercontent.com/47243617/208091860-779f5714-4a7c-4c4d-90e2-a35b356ef82d.png)
 
 ## Hinweise zur Klasse Car
-
 - Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `void doATurboBoost()` soll die Geschwindigkeit verdoppeln
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
 
 ## Hinweise zur Klasse Truck
-
 - Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `void transform()` soll das Attribut isTransformed invertieren
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
