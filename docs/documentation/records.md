@@ -8,28 +8,49 @@ tags: []
 Datenklassen sind Klassen die lediglich der Kapselung unveränderlicher Daten dienen. Daher bestehen Datenklassen häufig aus Boilerplate-Code. Unter Boilerplate-Code versteht man Anweisungblöcke, die an verschiedenen Stellen mehr oder weniger identisch verwendet 
 werden.
 
-```java
+```java title="Student.java" showLineNumbers
 public final class Student {
 
-    public int id;
-    public String name;
+  public final int id;
+  public final String name;
 
-    public Student (int id, String name) {
-        this.id = id;
-        this.name = name;
+  public Student(int id, String name) {
+    this.id = id;
+    this.name = name;
+  }
+
+  public int id() {
+    return id;
+  }
+
+  public String name() {
+    return name;
+  }
+
+  @Override
+  public final int hashCode() {
+    return Objects.hash(id, name);
+  }
+
+  @Override
+  public final boolean equals(Object obj) {
+    if (this == obj) {
+      return true;
     }
-  
-    public int getId() {
-        return id;
+    if (obj == null) {
+      return false;
     }
-  
-    public String getName() {
-        return name;
+    if (getClass() != obj.getClass()) {
+      return false;
     }
-  
-    public final boolean equals(Object o) { }
-    public final int hashCode() { }
-    public final String toString() { }
+    Student other = (Student) obj;
+    return id == other.id && Objects.equals(name, other.name);
+  }
+
+  @Override
+  public final String toString() {
+    return "Student [id=" + id + ", name=" + name + "]";
+  }
 
 }
 ```
@@ -37,8 +58,9 @@ public final class Student {
 Seit Java 16 bieten Records die Möglichkeiten, Datenklassen einfach umzusetzen. Records sind spezielle Klassen, die anhand der festgelegten Parameter entsprechende Konstruktoren, Getter sowie Implementierungen für die Methoden `boolean equals(Object)`, 
 `int hashCode()` und `String toString()` erzeugen. Das Schlüsselwort für Records lautet `record`.
 
-```java
-public record(int id, String name ) { }
+```java title="Student.java" showLineNumbers
+public record Student(int id, String name) {
+}
 ```
 
 :::danger Hinweis
