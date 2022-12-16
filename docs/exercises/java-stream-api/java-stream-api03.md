@@ -1,5 +1,6 @@
 ---
-title: Übungsaufgabe JavaStreamAPI03
+title: JavaStreamAPI03
+description: ''
 ---
 
 Erstelle eine ausführbare Klasse, die 10 zufällig ausgewählte Konsolen aufsteigend sortiert nach dem Titel auf der Konsole ausgibt.
