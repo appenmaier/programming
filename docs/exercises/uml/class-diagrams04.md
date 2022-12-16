@@ -1,5 +1,6 @@
 ---
-title: Class Diagrams 04
+title: ClassDiagrams04
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -10,23 +11,19 @@ import Exercise from '@site/src/components/Exercise';
   Mitarbeitern erzeugt und auf der Konsole ausgibt
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170922615-9bdc8766-e496-45ef-9134-319291585d65.png)
+![image](https://user-images.githubusercontent.com/47243617/208106814-adc80a71-93fe-4e43-8cab-2ef0826dcdcc.png)
 
 ## Hinweis zur Klasse Person
-
 Der Konstruktor soll den Namen initialisieren.
 
 ## Hinweise zur Klasse Employee
-
 - Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `String getName()` soll den Namen des Mitarbeiters zurückgeben
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
 
 ## Hinweise zur Klasse Company
-
 - Der Konstruktor soll den Namen sowie die Mitarbeiterliste initialisieren
-- Die Methode `void addEmployee()` soll der Mitarbeiterliste einen Mitarbeiter
+- Die Methode `void addEmployee(employee: Employee)` soll der Mitarbeiterliste einen Mitarbeiter
   hinzufügen
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
 
