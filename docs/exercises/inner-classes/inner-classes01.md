@@ -1,5 +1,5 @@
 ---
-title: Inner Classes 01
+title: InnerClasses01
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -10,8 +10,7 @@ import Exercise from '@site/src/components/Exercise';
   erzeugt und auf der Konsole ausgibt
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170884814-fd633b0e-1d69-4b77-a581-298fcb84e3e5.png)
+![image](https://user-images.githubusercontent.com/47243617/208085559-28ddaa01-8914-45d2-b38b-adcaa9106461.png)
 
 ## Konsolenausgabe
 
