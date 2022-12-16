@@ -1,5 +1,6 @@
 ---
-title: Exceptions 01
+title: Exceptions01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -12,14 +13,13 @@ import Exercise from '@site/src/components/Exercise';
   ausgeführt werden kann
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/176827972-1ad44ba0-46ec-4f21-933b-1a6b1f042e87.png)
+![image](https://user-images.githubusercontent.com/47243617/208109553-570d92b7-6d00-419d-bbe7-ce448541fd15.png)
 
 ## Hinweise zur Klasse Vehicle
 
-- In der Methode `void accelerate(int)` soll bei einem eingehenden Wert kleiner
+- In der Methode `void accelerate(value: int)` soll bei einem eingehenden Wert kleiner
   gleich Null die Ausnahme `InvalidValueException` ausgelöst werden
-- In der Methode `void brake(int)` soll bei einem eingehenden Wert kleiner
+- In der Methode `void brake(value: int)` soll bei einem eingehenden Wert kleiner
   gleich Null die Ausnahme `InvalidValueException` ausgelöst werden
 
 <Exercise pullRequest="49" branchSuffix="exceptions/01" />
