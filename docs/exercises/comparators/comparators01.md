@@ -10,7 +10,7 @@ import Exercise from '@site/src/components/Exercise';
   Koordinaten erzeugt, diese sortiert und anschließend auf der Konsole ausgibt
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208048446-7d4768fc-f9d9-45b5-bf1e-ec3cc90b6054.png)
+![image](https://user-images.githubusercontent.com/47243617/208048613-5e7964d2-b830-47d6-bc88-5d525fd31325.png)
 
 ## Hinweise zur Klasse Coordinate
 - Die Methode `double getDistanceToOriginPoint()` soll die Distanz der
