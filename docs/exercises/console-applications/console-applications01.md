@@ -1,5 +1,6 @@
 ---
-title: Console Applications 01
+title: ConsoleApplications01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
