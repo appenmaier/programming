@@ -1,5 +1,6 @@
 ---
-title: Polymorphy 04
+title: Polymorphy04
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -17,16 +18,13 @@ import Exercise from '@site/src/components/Exercise';
   mit 4-5-6-Würfeln oder 1-2-3-Würfeln zu würfeln
 
 ## Klassendiagramm
-
 ![image](https://user-images.githubusercontent.com/47243617/170884123-4f6ae3ad-612d-490c-94f3-1f9882b38002.png)
 
 ## Hinweis zur Klasse HighValueDice
-
-Die rollTheDice-Methode soll nur 4er, 5er und 6er zurückgeben.
+Die Methode `void rollTheDice()` soll nur 4er, 5er und 6er "würfeln".
 
 ## Hinweis zur Klasse LowValueDice
-
-Die rollTheDice-Methode soll nur 1er, 2er und 3er zurückgeben.
+Die Methode `void rollTheDice()` soll nur 1er, 2er und 3er "würfeln".
 
 ## Konsolenausgabe
 
