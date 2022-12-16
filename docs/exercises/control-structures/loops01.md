@@ -1,5 +1,6 @@
 ---
-title: Loops 01
+title: Loops01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
