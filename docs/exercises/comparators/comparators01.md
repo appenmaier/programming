@@ -1,5 +1,6 @@
 ---
-title: Comparators 01
+title: Comparators01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -9,22 +10,19 @@ import Exercise from '@site/src/components/Exercise';
   Koordinaten erzeugt, diese sortiert und anschließend auf der Konsole ausgibt
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170883361-ce10024b-9dfe-4d83-8b73-3bd470208a13.png)
+![image](https://user-images.githubusercontent.com/47243617/208048446-7d4768fc-f9d9-45b5-bf1e-ec3cc90b6054.png)
 
 ## Hinweise zur Klasse Coordinate
-
 - Die Methode `double getDistanceToOriginPoint()` soll die Distanz der
   Koordinate zum Nullpunkt zurückgeben
-- Die Methode `int compareTo(Coordinate)` soll die Koordinate mit der
+- Die Methode `int compareTo(o: Coordinate)` soll die Koordinate mit der
   eingehenden Koordinate anhand ihrer jeweiligen Distanz zum Nullpunkt
   vergleichen. Ist die Distanz der Koordinate zum Nullpunkt kleiner als bzw.
   größer als bzw. gleich die der eingehenden
   Koordinate, soll der Wert 1 bzw. -1 bzw. 0 zurückgegeben werden
 
 ## Hinweis
-
-Die statische Methode `double hypot(double, double)` der Klasse `Math`
+Die statische Methode `double hypot(x: double, y: double)` der Klasse `Math`
 berechnet die Hypotenuse zum eingehenden X- und Y-Wert.
 
 <Exercise pullRequest="47" branchSuffix="comparators/01" />
