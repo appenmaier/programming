@@ -1,5 +1,6 @@
 ---
-title: Class Diagrams 02
+title: ClassDiagrams02
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -13,20 +14,17 @@ import Exercise from '@site/src/components/Exercise';
   50 Punkte heranzukommen, ohne allerdings die 50 Punkte zu überschreiten
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170923102-0f58b56b-b053-4571-a239-942529110912.png)
+![image](https://user-images.githubusercontent.com/47243617/208096142-5e9a98bf-56d1-4d1d-a86c-b8a048f84635.png)
 
 ## Hinweis zur Klasse Player
-
 Passe den Konstruktor so an, dass auch weiterhin alle Attribute initialisiert
 werden.
 
 ## Hinweise zur Klasse DiceGame
-
 - Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `void start()` soll die Spieler abwechselnd einen Spielzug
   machen lassen und am Ende den Sieger des Spiels auf der Konsole ausgeben
-- Die Methode `void move(Player)` soll es dem Spieler ermöglichen zu würfeln,
+- Die Methode `void move(player: Player)` soll es dem Spieler ermöglichen zu würfeln,
   bzw. seinen Spielzug zu beenden
 
 ## Konsolenausgabe
