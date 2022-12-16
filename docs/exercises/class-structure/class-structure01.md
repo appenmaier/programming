@@ -1,5 +1,6 @@
 ---
-title: Class Structure 01
+title: ClassStructure01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
