@@ -1,5 +1,6 @@
 ---
-title: Inner Classes 02
+title: InnerClasses02
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -12,7 +13,6 @@ import Exercise from '@site/src/components/Exercise';
   ausgeführt werden kann
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170884887-5e85afd0-f53f-43ea-9c1d-144b6beffe09.png)
+![image](https://user-images.githubusercontent.com/47243617/208085768-eebd4e6d-398a-4064-aacb-a513bd5fdc13.png)
 
 <Exercise pullRequest="55" branchSuffix="inner-classes/02" />
