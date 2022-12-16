@@ -7,9 +7,9 @@ tags: [oo]
 
 Die reale Welt besteht aus Objekten mit individuellen Eigenschaften und individuellem Verhalten. Für ein einfacheres Verständnis werden Objekte kategorisiert, also zu sinnhaften Einheiten verbunden. In der objektorientierten Programmierung werden Beobachtungen 
 aus der realen Welt zum Konzept der Objektorientierung zusammengefasst:
-- Eine Kategorie von ähnlichen Objekten bezeichnet man als **Klasse**
-- Konkrete Ausprägungen bzw. Instanzen einer Klasse werden wiederum als **Objekte** bezeichnet
-- Die Eigenschaften von Objekten werden als **Attribute**, das Verhalten als **Methoden** bezeichnet
+- Eine Kategorie von ähnlichen Objekten bezeichnet man als _Klasse_
+- Konkrete Ausprägungen bzw. Instanzen einer Klasse werden wiederum als _Objekte_ bezeichnet
+- Die Eigenschaften von Objekten werden als _Attribute_ das Verhalten als _Methoden_ bezeichnet
 
 ![image](https://user-images.githubusercontent.com/47243617/170762507-dc3f4d1f-0730-44c1-acbf-3b9090832c9b.png)
 
@@ -82,7 +82,7 @@ Die Signatur einer Methode setzt sich aus Methodenname und den Datentypen der Pa
 :::
 
 ## Deklaration von Referenzvariablen
-Technisch gesehen handelt es sich bei einer Klasse um einen komplexen Datentyp. Analog zu den primitiven Datentypen können auch für Klassen Variablen – sogenannte Referenzvariablen – definiert werden. 
+Technisch gesehen handelt es sich bei einer Klasse um einen komplexen Datentyp. Analog zu den primitiven Datentypen können auch für Klassen Variablen – sogenannte _Referenzvariablen_ – definiert werden. 
 
 Im Gegensatz zu "normalen" Variablen werden bei Referenzvariablen nicht die eigentlichen Werte in den Variablen gespeichert, sondern die Speicheradressen der erzeugten Objekte. Die Selbstreferenz `this` verweist innerhalb einer Klasse auf das eigene Objekt.
 
@@ -157,7 +157,7 @@ public class MainClass {
 ```
 
 :::danger Hinweis
-Beim Aufruf einer Methode müssen alle Parameter in der richtigen Reihenfolge versorgt werden. Parameter, die diesem Prinzip folgen, bezeichnet man als **Positionsparameter**.
+Beim Aufruf einer Methode müssen alle Parameter in der richtigen Reihenfolge versorgt werden. Parameter, die diesem Prinzip folgen, bezeichnet man als _Positionsparameter_
 :::
 
 ## Überladene Methoden

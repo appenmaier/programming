@@ -19,14 +19,17 @@ JUnit-Testklassen werden mit Hilfe entsprechender Annotationen implementiert:
 ## Zusicherungen (Assertions)
 Die Klasse `Assertions` stellt verschiedene Methoden bereit, die immer dann eine Ausnahme vom Typ `AssertionError` auslösen, wenn das Ergebnis eines Methodenaufrufs nicht wie erwartet ausgefallen ist. Eine Ausnahme vom Typ `AssertionError` führt dazu, dass der Test als nicht erfolgreich gewertet wird.
 
-| Assert-Methode                | Bedeutung                                                                       |
-| ----------------------------- | ------------------------------------------------------------------------------- |
-| assertTrue, assertFalse       | Prüft, ob etwas wahr ist bzw. falsch ist                                        |
-| assertNull, assertNotNull     | Prüft, ob etwas null ist bzw. nicht null ist                                    |
-| assertSame, assertNotSame     | Prüft, ob zwei Objekte identisch sind bzw. ob zwei Objekte nicht identisch sind |
-| assertEquals, assertNotEquals | Prüft, ob zwei Elemente gleich sind bzw. ob zwei Element ungleich sind          |
-| assertThrows                  | Prüft, ob eine Ausnahme ausgelöst wird                                          |
-| assertTimeout                 | Prüft, ob eine Laufzeit eingehalten wird                                        |
+| Assert-Methode                                                   | Bedeutung                                   |
+| ---------------------------------------------------------------- | ------------------------------------------- |
+| `void assertTrue(condition: boolean)`                            | Prüft, ob eine Bedingung erfüllt ist        |
+| `void assertFalse(condition: boolean)`                           | Prüft, ob eine Bedingung nicht erfüllt ist  |
+| `void assertNull(actual: Object)`                                | Prüft, ob etwas `null` ist                  |
+| `void assertNotNull(actual: Object)`                             | Prüft, ob etwas nicht `null` ist            |
+| `void assertSame(expected: Object, actual: Object)`              | Prüft, ob zwei Objekte identisch sind       |
+| `void assertNotSame(expected: Object, actual: Object)`           | Prüft, ob zwei Objekte nicht identisch sind |
+| `void assertEquals(expected: Object, actual: Object)`            | Prüft, ob zwei Objekte gleich sind          |
+| `void assertNotEquals(expected: Object, actual: Object)`         | Prüft, ob zwei Objekte nicht gleich sind    |
+| `T assertThrows(expectedType: Class<T>, executable: Executable)` | Prüft, ob eine Ausnahme ausgelöst wird      |
 
 ## Beispiel
 Die Klasse `Calculator` stellt mehrere Methoden bereit, die getestet werden sollen.

@@ -55,34 +55,34 @@ public class MainClass {
 ## Intermediäre Operationen
 Intermediäre Operationen ermöglichen unter anderem das Filtern, Abbilden sowie das Sortieren von Strömen und liefern als Ergebnis wiederum einen Strom.
 
-| Operation     | Methode                                            | Schnittstellen-Methode    |
-| ------------- | -------------------------------------------------- | ------------------------- |
-| Filtern       | `Stream<T> filter(Predicate<T>)`                   | `boolean test(T)`         |
-| Abbilden      | `Stream<T> map(Function<T, R>)`                    | `R apply(T)`              |
-| Abbilden      | `DoubleStream mapToDouble(ToDoubleFunction<T, R>)` | `double applyAsDouble(T)` |
-| Abbilden      | `IntStream mapToInt(ToIntFunction<T, R>)`          | `int applyAsInt(T)`       |
-| Abbilden      | `LongStream mapToLong(ToLongFunction<T, R>)`       | `long applyAsLong(T)`     |
-| Spähen        | `Stream<T> peek(Consumer<T>)`                      | `void accept(T)`          |
-| Sortieren     | `Stream<T> sorted(Comparator<T>)`                  | `int compare(T, T)`       |
-| Unterscheiden | `Stream<T> distinct()`                             | -                         |
-| Begrenzen     | `Stream<T> limit()`                                | -                         |
-| Überspringen  | `Stream<T> skip()`                                 | -                         |
+| Operation     | Methode                                                   | Schnittstellen-Methode            |
+| ------------- | ---------------------------------------------------------- | -------------------------------- |
+| Filtern       | `Stream<T> filter(predicate: Predicate<T>)`                | `boolean test(t: T)`             |
+| Abbilden      | `Stream<T> map(mapper: Function<T, R>)`                    | `R apply(t: T)`                  |
+| Abbilden      | `DoubleStream mapToDouble(mapper: ToDoubleFunction<T, R>)` | `double applyAsDouble(value: T)` |
+| Abbilden      | `IntStream mapToInt(mapper: ToIntFunction<T, R>)`          | `int applyAsInt(vaue: T)`        |
+| Abbilden      | `LongStream mapToLong(mapper: ToLongFunction<T, R>)`       | `long applyAsLong(value: T)`     |
+| Spähen        | `Stream<T> peek(consumer: Consumer<T>)`                    | `void accept(t: T)`              |
+| Sortieren     | `Stream<T> sorted(comparator: Comparator<T>)`              | `int compare(o1: T, o2: T)`      |
+| Unterscheiden | `Stream<T> distinct()`                                     | -                                |
+| Begrenzen     | `Stream<T> limit(maxSize: long)`                           | -                                |
+| Überspringen  | `Stream<T> skip(n: long)`                                  | -                                |
 
 ## Terminale Operationen
 Terminale Operationen werden z.B. zum Prüfen, zum Aggregieren oder zum Sammeln verwendet. Da terminale Operationen den Strom schließen, können auf ihnen keine weiteren Operationen mehr ausgeführt werden.
 
-| Operation   | Methode                            | Schnittstellen-Methode |
-| ----------- | ---------------------------------- | ---------------------- |
-| Finden      | `findAny(): Optional<T>`           | -                      |
-| Finden      | `findFirst(): Optional<T>`         | -                      |
-| Prüfen      | `allMatch(Predicate<T>): boolean`  | `test(T): boolean`     |
-| Prüfen      | `anyMatch(Predicate<T>): boolean`  | `test(T): boolean`     |
-| Prüfen      | `noneMatch(Predicate<T>): boolean` | `test(T): boolean`     |
-| Aggregieren | `min(Comparator<T>: Optional<T>)`  | `compare(T, T): int`   |
-| Aggregieren | `max(Comparator<T>): Optional<T>`  | `compare(T, T): int`   |
-| Aggregieren | `count(): long`                    | -                      |
-| Sammeln     | `collect(Collector<T, A, R>): R`   | -                      |
-| Ausführen   | `forEach(Consumer<T>): void`       | `accept(T): void`      |
+| Operation   | Methode                                      | Schnittstellen-Methode        |
+| ----------- | -------------------------------------------- | ----------------------------- |
+| Finden      | `Optional<T> findAny()`                      | -                             |
+| Finden      | `Optional<T> findFirst()`                    | -                             |
+| Prüfen      | `boolean allMatch(predicate: Predicate<T>)`  | `boolean test(t: T)`          |
+| Prüfen      | `boolean anyMatch(predicate: Predicate<T>)`  | `boolean test(t: T)`          |
+| Prüfen      | `boolean noneMatch(predicate: Predicate<T>)` | `boolean test(t: T)`          |
+| Aggregieren | `Optional<T> min(comparator: Comparator<T>)` | `int compare(o1: T, o2: T)`   |
+| Aggregieren | `Optional<T> max(comparator: Comparator<T>)` | `int compare(o1: T, o2: T)`   |
+| Aggregieren | `long count()`                               | -                             |
+| Sammeln     | `R collect(collector: Collector<T, A, R>)`   | -                             |
+| Ausführen   | `void forEach(action: Consumer<T>)`          | `void accept(t: T)`           |
 
 Zahlenströme (`IntStream`, `DoubleStream`, `LongStream`) besitzen die zusätzlichen terminale Operationen `int|double|long sum()` und `OptionalDouble average()`.
 
@@ -145,9 +145,9 @@ Aufgrund der Bedarfsauswertung werden die verschiedenen Operationen aber für je
 
 ## Unendliche Ströme
 Die Java Stream API stellt drei Methoden zur Verfügung, mit deren Hilfe (un)endliche Ströme erzeugt werden können:
-- Die Methode `Stream<T> iterate(T, UnaryOperator<T>)` generiert einen unendlichen Strom aus einem Startwert und einer Funktion, welche das nächste Element erstellt
-- Die Methode `Stream<T> iterate(T, Predicat <? Super T>, UnaryOperator<T>)` erweitert die "normale" iterate-Methode um eine Prädikatsfunktion zum Beenden des Stroms
-- Die Methode `Stream<T> generate(Supplier<? Super T>)` kann zum Beispiel zum Erzeugen unendlich vieler zufälliger Elemente genutzt werden
+- Die Methode `Stream<T> iterate(seed: T, f: UnaryOperator<T>)` generiert einen unendlichen Strom aus einem Startwert und einer Funktion, welche das nächste Element erstellt
+- Die Methode `Stream<T> iterate(seed: T, hasNext: Predicat <T>, next: UnaryOperator<T>)` erweitert die "normale" iterate-Methode um eine Prädikatsfunktion zum Beenden des Stroms
+- Die Methode `Stream<T> generate(s: Supplier<T>)` kann zum Beispiel zum Erzeugen unendlich vieler zufälliger Elemente genutzt werden
 
 In der main-Methode der Startklasse werden drei (un)endliche Zahlenströme erzeugt.
 
@@ -164,4 +164,4 @@ public class MainClass {
 ```
 
 Die ersten beiden Zahlenströme geben die Zahlen von 0 bis 99 aus, der dritte Zahlenstrom 100 Pseudozufallszahlen von 0 bis 99. Der erste und dritte Zahlenstrom würden eigentlich unendliche viele (Pseudozufalls-)Zahlen erzeugen, werden aber durch die Methode 
-`limit(long)` auf 100 (Pseudozufalls-)Zahlen begrenzt.
+`Stream<T> limit(maxSize: long)` auf 100 (Pseudozufalls-)Zahlen begrenzt.

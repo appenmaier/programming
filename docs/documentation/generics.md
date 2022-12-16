@@ -88,7 +88,7 @@ Die Typisierung kann entweder explizit oder implizit über den Diamantenoperator
 :::
 
 ## Generische Methoden mit Java Generics
-Die generische Methode `<T> getIndex(T, T[])` gibt den Index eines beliebig typisierten gesuchten Wertes innerhalb eines gleichtypisierten Feldes zurück.
+Die generische Methode `<T> int getIndex(value: T, values: T[])` gibt den Index eines beliebig typisierten gesuchten Wertes innerhalb eines gleichtypisierten Feldes zurück.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {

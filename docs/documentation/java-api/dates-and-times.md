@@ -21,7 +21,7 @@ public class MainClass {
 }
 ```
 
-Neben den print-Methoden des Standard-Ausgabestroms `System.out` besitzt die Klasse `System` auch die Methode `currentTimeMillis()`, die die Differenz in Millisekunden zwischen der aktuellen Systemzeit und dem Nullpunkt zurückgibt.
+Neben den print-Methoden des Standard-Ausgabestroms `System.out` besitzt die Klasse `System` auch die Methode `long currentTimeMillis()`, die die Differenz in Millisekunden zwischen der aktuellen Systemzeit und dem Nullpunkt zurückgibt.
 
 
 ```java title="MainClass.java" showLineNumbers

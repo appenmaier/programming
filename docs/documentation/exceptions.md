@@ -12,8 +12,8 @@ ermöglicht es, Programme zur Laufzeit zu analysieren und zu steuern. Durch das 
 Zudem bietet der Debugger die Möglichkeit, die weitere Ausführung des Programms in der gewünschten Schrittweite forzuführen.
 - Laufzeitfehler treten erst beim Ausführen des Programms auf. Sie entstehen meist dann, wenn das Programm versucht, eine Operation auszuführen, die nicht ausgeführt werden kann (z.B. die Division durch Null). Diese Situationen werden auch als Ausnahmen 
 (Exceptions) bezeichnet. Ausnahmen gewährleisten eine klare Trennung zwischen funktionalem Code und Code zur Fehlerbehandlung. Die Fehlerbehandlung erfolgt dabei gemäß dem Ausnahmenbehandlungsprozess: nachdem eine Ausnahme ausgelöst wurde, kann bzw. muss diese 
-je nach Ausnahmenart vom Empfänger der Ausnahme entweder behandelt oder weitergeleitet werden (**Catch-or-Throw-Regel**). Man unterscheidet zwischen **geprüften** (checked) und **ungeprüften** (unchecked) Ausnahmen. Geprüfte Ausnahmen **müssen**, ungeprüfte 
-Ausnahmen **können** behandelt bzw. weitergeleitet werden.
+je nach Ausnahmenart vom Empfänger der Ausnahme entweder behandelt oder weitergeleitet werden _Catch-or-Throw-Regel_ Man unterscheidet zwischen _geprüften_ (checked) und _ungeprüften_ (unchecked) Ausnahmen. Geprüfte Ausnahmen müssen, ungeprüfte 
+Ausnahmen können behandelt bzw. weitergeleitet werden.
 
 ## Die Klassenhierarchie der Laufzeitfehler
 Die Klasse `Throwable` stellt die Oberklasse aller Laufzeitfehler dar. Schwerwiegende Fehler (hauptsächlich Probleme in der JVM (Java Virtual Machine)) werden durch Unterklassen der Klasse `Error` abgebildet, geprüfte Ausnahmen durch Unterklassen der Klasse 

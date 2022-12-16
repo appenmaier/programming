@@ -5,7 +5,7 @@ sidebar_position: 110
 tags: [arrays]
 ---
 
-Wenn eine große Menge an Daten verarbeitet werden soll, kann man auf spezielle Datenstruktur-Variablen, sogenannte **Felder** (Arrays), zurückgreifen. Die einzelnen Speicherplätze in einem Feld werden als Elemente bezeichnet, die über einen Index angesprochen 
+Wenn eine große Menge an Daten verarbeitet werden soll, kann man auf spezielle Datenstruktur-Variablen, sogenannte _Felder_ (Arrays), zurückgreifen. Die einzelnen Speicherplätze in einem Feld werden als Elemente bezeichnet, die über einen Index angesprochen 
 werden können.
 
 ![image](https://user-images.githubusercontent.com/47243617/170441228-4e457885-288d-40be-9bcd-a81d702a24ce.png)

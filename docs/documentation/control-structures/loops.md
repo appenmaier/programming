@@ -8,7 +8,7 @@ tags: [control-structures, loops]
 Schleifen sind eine von zwei Möglichkeiten, Anweisungsblöcke wiederholt auszuführen. Die zweite Möglichkeit sind Selbstaufrufe in Form rekursiver Methoden.
 
 ## while-Schleifen
-Bei der while-Schleife wird eine bestimmte Anweisungsfolge (Schleifenrumpf) wiederholt, solange eine bestimmte Bedingung (Schleifenbedingung) wahr ist. Da zu Beginn der Schleife die Bedingung geprüft wird, spricht man auch von einer **kopfgesteuerten Schleife**.
+Bei der while-Schleife wird eine bestimmte Anweisungsfolge (_Schleifenrumpf_) wiederholt, solange eine bestimmte Bedingung (_Schleifenbedingung_) wahr ist. Da zu Beginn der Schleife die Bedingung geprüft wird, spricht man auch von einer _kopfgesteuerten Schleife_.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
@@ -25,7 +25,7 @@ public class MainClass {
 ```
 
 ## do/while-Schleifen
-Im Gegensatz zur while-Schleife wird bei der do/while-Schleife der Schleifenrumpf immer mindestens einmal durchlaufen. Da die Bedingung hier am Ende der Schleife geprüft wird, spricht man hier von einer **fußgesteuerten Schleife**.
+Im Gegensatz zur while-Schleife wird bei der do/while-Schleife der Schleifenrumpf immer mindestens einmal durchlaufen. Da die Bedingung hier am Ende der Schleife geprüft wird, spricht man hier von einer _fußgesteuerten Schleife_.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
@@ -42,7 +42,7 @@ public class MainClass {
 ```
 
 ## for-Schleifen
-Bei der for-Schleife handelt es sich um eine indexgesteuerte Schleife, auch **Zählschleife** genannt. Durch den Index wird bereits zu Schleifenbeginn festgelegt, wie oft die Schleife durchlaufen wird.
+Bei der for-Schleife handelt es sich um eine indexgesteuerte Schleife, auch _Zählschleife_ genannt. Durch den Index wird bereits zu Schleifenbeginn festgelegt, wie oft die Schleife durchlaufen wird.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {

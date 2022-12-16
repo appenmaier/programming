@@ -157,7 +157,7 @@ public class MainClass {
 
 ## Schreiben und Lesen serialisierter Objekte
 Um ein Objekt persistent zu machen (also zu sichern) und um ein Objekt durch das Netzwerk zu schicken (also für entfernte Methodenaufrufe) ist es notwendig, das Objekt in einen Byte-Strom umzuwandeln. Die Umwandlung eines Objektes in einen Byte-Strom bezeichnet 
-man als **Serialisierung**, die Rückumwandlung als **Deserialisierung**. Die Serialisierung erfolgt über die writeObject-Methode der Klasse `ObjectOutputStream`, die Deserialisierung über die readObject-Methode der Klasse `ObjectInputStream`.
+man als _Serialisierung_ die Rückumwandlung als _Deserialisierung_ Die Serialisierung erfolgt über die writeObject-Methode der Klasse `ObjectOutputStream`, die Deserialisierung über die readObject-Methode der Klasse `ObjectInputStream`.
 
 Damit Objekte einer Klasse serialisiert werden können, muss die entsprechende Klasse die Schnittstelle `Serializable` implementieren. Die Schnittstelle `Serializable` ist eine sogenannte Marker-Schnittstelle, d.h. sie besitzt keine zu implementierenden Methoden.
 

@@ -5,7 +5,7 @@ sidebar_position: 330
 tags: []
 ---
 
-JavaFX stellt ein Framework zur Entwicklung plattformübergreifender grafischer Benutzeroberflächen dar. Eine grafische Benutzeroberfläche oder auch GUI (Graphical User Interface) hat die Aufgabe, Programme mittels grafischer Bildschirmelemente bedienbar zu 
+JavaFX stellt ein Framework zur Entwicklung plattformübergreifender grafischer Benutzeroberflächen dar. Eine grafische Benutzeroberfläche oder auch _GUI_ (Graphical User Interface) hat die Aufgabe, Programme mittels grafischer Bildschirmelemente bedienbar zu 
 machen:
 - Controls wie Eingabefelder, Drucktasten und Ausgabefelder ermöglichen die Interaktion mit der Anwendung
 - Container wie Horizontalboxen und Bereichscontainer ermöglichen die strukturierte Darstellung und Verwaltung anderer Bildschirmelemente:
@@ -16,8 +16,8 @@ machen:
 ## Aufbau einer JavaFX-Anwendung
 Eine JavaFX-Anwendung besteht aus einer oder mehreren Bühnen (Stages), die beliebig vielen Szenen (Scenes) enthalten können, wobei jede Szene wiederum beliebig viele Bildschirmelemente (Nodes) enthalten kann:
 - Die Bühne stellt den Rahmen für den tatsächlichen Inhalt bereit
-- Eine Szene verwaltet den sogenannten **Szenegraphen**, der den sichtbaren Teil einer grafischen Benutzeroberfläche repräsentiert
-- Ein Bildschirmelement ist Teil des Szenegraphen und kann entweder zur Strukturierung (Container) oder zur Interaktion (Control) genutzt werden
+- Eine Szene verwaltet den sogenannten _Szenegraphen_ der den sichtbaren Teil einer grafischen Benutzeroberfläche repräsentiert
+- Ein Bildschirmelement ist Teil des Szenegraphen und kann entweder zur Strukturierung (_Container_) oder zur Interaktion (_Control_) genutzt werden
 
 ![image](https://user-images.githubusercontent.com/47243617/170097082-91fb3635-d5a6-46c4-aaa5-a082abe42bad.png)
 
@@ -33,9 +33,9 @@ Beim Szenegraphen ist der Wurzel-Knoten vom Typ `Parent`.
 
 ## Lebenszyklus einer JavaFX-Anwendung
 JavaFX-Anwendungen sind Unterklassen der Klasse `Application`, die die verschiedenen Lebenszyklus-Methoden bereitstellt:
-- Die Methode `void launch(String[])` speichert die Parameter, erzeugt ein Objekt der eigenen Klasse und ruft die weiteren Lebenszyklus-Methoden auf
+- Die Methode `void launch(args: String[])` speichert die Parameter, erzeugt ein Objekt der eigenen Klasse und ruft die weiteren Lebenszyklus-Methoden auf
 - Die Methode `void init()` kann genutzt werden, um z.B. die Aufrufparameter auszulesen
-- Die Methode `void start(Stage)` bekommt eine Bühne übergeben und wird dazu verwendet, die Bühne zu gestalten und die erste Szene aufzurufen
+- Die Methode `void start(primaryStage: Stage)` bekommt eine Bühne übergeben und wird dazu verwendet, die Bühne zu gestalten und die erste Szene aufzurufen
 - Die Methode `void stop()` wird aufgerufen, bevor der Prozess gestoppt wird und kann genutzt werden, um Aufräumarbeiten durchzuführen
 
 ## Aufbau einer Szene
@@ -47,7 +47,7 @@ Der Aufbau einer Szene erfolgt deklarativ mit Hilfe von FXML-Dokumenten. FXML st
 ![image](https://user-images.githubusercontent.com/47243617/170098136-eb627556-61e9-4b79-a942-26a9f1ee54e4.png)
 
 :::note Hinweis
-XML (Extensible Markup Language) stellt eine Auszeichnungssprache zur Beschreibung strukturierter Daten dar.
+_XML_ (Extensible Markup Language) stellt eine Auszeichnungssprache zur Beschreibung strukturierter Daten dar.
 :::
 
 ## Definition von FXML-Dokumenten
@@ -75,7 +75,7 @@ Die einzelnen Bildschirmelemente der Szene werden in einem FXML-Dokument als ges
 ```
 
 ## Verwenden von FXML-Dokumenten
-Die statische Methode `Parent load(URL)` der Klasse `FXMLLoader` überführt das angegebene FXML-Dokument in einen Szenegraphen und gibt den dazugehörigen Wurzelknoten vom Typ `Parent` zurück, mit dessen Hilfe anschließend die Szene erstellt werden kann.
+Die statische Methode `Parent load(location: URL)` der Klasse `FXMLLoader` überführt das angegebene FXML-Dokument in einen Szenegraphen und gibt den dazugehörigen Wurzelknoten vom Typ `Parent` zurück, mit dessen Hilfe anschließend die Szene erstellt werden kann.
 
 ```java title="MainClass.java" showLineNumbers
 public class MainClass extends Application {
@@ -92,7 +92,7 @@ public class MainClass extends Application {
 ```
 
 ## Initialisieren einer Szene
-Die Methode `void initialize(URL, ResourceBundle)` der Schnittstelle `Initializable` wird vom FXML-Loader vor Anzeige der dazugehörigen Szene aufgerufen und ermöglicht es, die Szene dynamisch anzupassen.
+Die Methode `void initialize(location: URL, resources: ResourceBundle)` der Schnittstelle `Initializable` wird vom FXML-Loader vor Anzeige der dazugehörigen Szene aufgerufen und ermöglicht es, die Szene dynamisch anzupassen.
 
 ```java title="Controller.java" showLineNumbers
 public class Controller implements Initializable {
@@ -166,7 +166,7 @@ public class Controller {
 ```
 
 ## Wechsel zwischen Szenen
-Der Wechsel von Szenen erfolgt über die Methode `void setScene(Scene)` der Klasse `Stage`. Die Methode `Object getSource()` der Klasse `ActionEvent` gibt das Bildschirmelement zurück, welches das Ereignis ausgelöst hat; die Methode `Window getWindow()` der 
+Der Wechsel von Szenen erfolgt über die Methode `void setScene(value: Scene)` der Klasse `Window`. Die Methode `Object getSource()` der Klasse `ActionEvent` gibt das Bildschirmelement zurück, welches das Ereignis ausgelöst hat; die Methode `Window getWindow()` der 
 Klasse `Scene` die Bühne, auf der die aktuelle Szene aufgeführt wird.
 
 ```java title="Controller.java" showLineNumbers
@@ -216,7 +216,7 @@ public class Model {
 }
 ```
 
-In der Methode `void initialize(URL, ResourceBundle)` der Klasse `InputController` wird das Attribut `model` initialisiert; in der Methode `void goToOutput(ActionEvent)` wird zunächst die Eingabe in der Model-Klasse gespeichert und anschließend zur View `Output`
+In der Methode `void initialize(location: URL, resources: ResourceBundle)` der Klasse `InputController` wird das Attribut `model` initialisiert; in der Methode `void goToOutput(actionEvent: ActionEvent)` wird zunächst die Eingabe in der Model-Klasse gespeichert und anschließend zur View `Output`
 gewechselt.
 
 ```java title="InputController.java" showLineNumbers
@@ -246,7 +246,7 @@ public class InputController implements Initializable {
 }
 ```
 
-In der Methode `void initialize(URL, ResourceBundle)` der Klasse `OuputController` wird zunächst das Attribut `model` initialisiert, anschließend die Eingabe aus dem Model ausgelesen und abschließend die Eingabe dem Ausgabefeld zugewiesen.
+In der Methode `void initialize(location: URL, resources: ResourceBundle)` der Klasse `OuputController` wird zunächst das Attribut `model` initialisiert, anschließend die Eingabe aus dem Model ausgelesen und abschließend die Eingabe dem Ausgabefeld zugewiesen.
 
 ```java title="OutputController.java" showLineNumbers
 public class OutputController implements Initializable {
