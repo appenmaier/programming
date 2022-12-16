@@ -14,28 +14,27 @@ Schreiben und Lesen byteorientierter Daten und zum Schreiben und Lesen serialisi
 ## Standard-Datenströme zur Ein- und Ausgabe
 Java stellt Standard-Datenströme für die Eingabe (`System.in`), die Ausgabe (`System.out`), sowie die Fehlerausgabe (`System.err`) zur Verfügung.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        byte input[] = new byte[256];
-        int noBytes = 0;
-        String output = "";
+  public static void main(String[] args) {
+    byte input[] = new byte[256];
+    int noBytes = 0;
+    String output = "";
 
-        try {
-            noBytes = System.in.read(input);
-        } catch (IOException e) {
-            System.err.println(e.getMessage());
-        }
-
-        if (noBytes > 0) {
-            output = new String(input, 0, noBytes);
-        System.out.println(output);
-        }
+    try {
+      noBytes = System.in.read(input);
+    } catch (IOException e) {
+      System.err.println(e.getMessage());
     }
 
-}
+    if (noBytes > 0) {
+      output = new String(input, 0, noBytes);
+      System.out.println(output);
+    }
+  }
 
+}
 ```
 
 :::note Hinweis
@@ -57,19 +56,19 @@ Für die Verarbeitung von byteorientierten Daten (z.B. Bild- und Video-Dateien) 
 3. BufferedOutputStream-Objekt erzeugen
 4. Daten schreiben
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("stark.bin");
+  public static void main(String[] args) {
+    File file = new File("stark.bin");
 
-        try (FileOutputStream fileOutputStream = new FileOutputStream(file);
-             		BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream)) {
-            bufferedOutputStream.write("Winter is Coming".toBytes());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    try (FileOutputStream fileOutputStream = new FileOutputStream(file);
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream)) {
+      bufferedOutputStream.write("Winter is Coming".getBytes());
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```
@@ -80,20 +79,20 @@ public class MainClass {
 3. BufferedInputStream-Objekt erzeugen
 4. Werte auslesen
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("stark.bin");
+  public static void main(String[] args) {
+    File file = new File("stark.bin");
 
-        try (FileInputStream fileInputStream = new FileInputStream(file);
-             		BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream)) {
-             	byte[] input = bufferedInputStream.readAllBytes();
-             	System.out.println(new String(input));
-        } catch (IOException e) {
-            e.printStackTrace();
-        } 
+    try (FileInputStream fileInputStream = new FileInputStream(file);
+        BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream)) {
+      byte[] input = bufferedInputStream.readAllBytes();
+      System.out.println(new String(input));
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```
@@ -113,19 +112,19 @@ Für die Verarbeitung von zeichenorientierten Daten (z.B. Textdokumente) stehen 
 3. BufferedWriter-Objekt erzeugen
 4. Daten schreiben
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("stark.txt");
+  public static void main(String[] args) {
+    File file = new File("stark.txt");
 
-        try (FileWriter fileWriter = new FileWriter(file);
-             		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
-            bufferedWriter.write("Winter is Coming");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    try (FileWriter fileWriter = new FileWriter(file);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+      bufferedWriter.write("Winter is Coming");
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```
@@ -136,22 +135,22 @@ public class MainClass {
 3. BufferedReader-Objekt erzeugen
 4. Werte auslesen
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("stark.txt");
+  public static void main(String[] args) {
+    File file = new File("stark.txt");
 
-        try (FileReader fileReader = new FileReader(file);
-             		BufferedReader bufferedReader = new BufferedReader(fileReader)) {
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } 
+    try (FileReader fileReader = new FileReader(file);
+        BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+      String line;
+      while ((line = bufferedReader.readLine()) != null) {
+        System.out.println(line);
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```
@@ -162,29 +161,37 @@ man als **Serialisierung**, die Rückumwandlung als **Deserialisierung**. Die Se
 
 Damit Objekte einer Klasse serialisiert werden können, muss die entsprechende Klasse die Schnittstelle `Serializable` implementieren. Die Schnittstelle `Serializable` ist eine sogenannte Marker-Schnittstelle, d.h. sie besitzt keine zu implementierenden Methoden.
 
+```java title="Foo.java" showLineNumbers
+public class Foo implements Serializable {
+
+}
+```
+
 ### Schreiben serialisierter Objekte
 1. Datei-Objekt erzeugen
 2. FileOutputStream-Objekt erzeugen
 3. ObjectOutputStream-Objekt erzeugen
 4. Objekte schreiben
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        ArrayList<Foo> foos = new ArrayList();
-        …
-        File file = new File("foos.bin");
+  public static void main(String[] args) {
+    ArrayList<Foo> foos = new ArrayList<>();
+    foos.add(new Foo());
+    foos.add(new Foo());
 
-        try (FileOutputStream fileOutputStream = new FileOutputStream(file);
-             		ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)) {
-            for (Foo f : foos) {
-                objectOutputStream.writeObject(f);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    File file = new File("foos.bin");
+
+    try (FileOutputStream fileOutputStream = new FileOutputStream(file);
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)) {
+      for (Foo f : foos) {
+        objectOutputStream.writeObject(f);
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```
@@ -195,24 +202,24 @@ public class MainClass {
 3. ObjectInputStream-Objekt erzeugen
 4. Objekte auslesen
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("foos.bin");
+  public static void main(String[] args) {
+    File file = new File("foos.bin");
 
-        try (FileInputStream fileInputStream = new FileInputStream(file);
-             		ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)) {
-            while (true) {
-                Foo foo = (Foo) objectInputStream.readObject();
-                System.out.println(foo);
-            }
-        } catch (EOFException e) {
-            /* End of File */
-        } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+    try (FileInputStream fileInputStream = new FileInputStream(file);
+        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)) {
+      while (true) {
+        Foo foo = (Foo) objectInputStream.readObject();
+        System.out.println(foo);
+      }
+    } catch (EOFException e) {
+      /* End of File */
+    } catch (IOException | ClassNotFoundException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```
@@ -221,10 +228,10 @@ public class MainClass {
 Die Konstante `serialVersionUID` vom Datentyp `long` dient zur eindeutigen Identifikation der Version einer serialisierbaren Klasse. Durch die Konstante kann sichergestellt werden, dass Empfänger von serialisierten Objekten typkompatibel zum Sender sind, d.h. 
 eine passende Klassenstruktur aufweisen.
 
-```java
+```java title="Foo.java" showLineNumbers
 public class Foo implements Serializable {
 
-    public static final long serialVersionUID = 1L;
+  public static final long serialVersionUID = 1L;
 
 }
 ```
@@ -236,30 +243,30 @@ Obwohl jede serialisierbare Klasse automatisch eine ID erhält, wird die manuell
 ## Die try-with-resources-Anweisung
 Bei einer "normalen" try-catch-Anweisung müssen die Datenstrom-Klassen manuell geschlossen werden, was sich als sehr aufwändig darstellt.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("stark.txt");
-        FileWriter fileWriter = null;
-        BufferedWriter bufferedWriter = null;
+  public static void main(String[] args) {
+    File file = new File("stark.txt");
+    FileWriter fileWriter = null;
+    BufferedWriter bufferedWriter = null;
 
+    try {
+      fileWriter = new FileWriter(file);
+      bufferedWriter = new BufferedWriter(fileWriter);
+      bufferedWriter.write("Winter is Coming");
+    } catch (IOException e) {
+      e.printStackTrace();
+    } finally {
+      if (bufferedWriter != null) {
         try {
-            fileWriter = new FileWriter(file);
-            bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write("Winter is Coming");
+          bufferedWriter.close();
         } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (bufferedWriter != null) {
-                try {
-                    bufferedWriter.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+          e.printStackTrace();
         }
+      }
     }
+  }
 
 }
 ```
@@ -270,18 +277,19 @@ Der finally-Block einer try-Anweisung wird in jedem Fall durchlaufen.
 
 Die try-with-resources-Anweisung ermöglicht die Deklaration von Ressourcen, die am Ende des try-Blockes automatisch geschlossen werden.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        File file = new File("stark.txt");
+  public static void main(String[] args) {
+    File file = new File("stark.txt");
 
-        try (FileWriter fileWriter = new FileWriter(file); BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
-            bufferedWriter.write("Winter is Coming");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    try (FileWriter fileWriter = new FileWriter(file);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+      bufferedWriter.write("Winter is Coming");
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
 }
 ```

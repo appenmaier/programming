@@ -10,16 +10,16 @@ Schleifen sind eine von zwei Möglichkeiten, Anweisungsblöcke wiederholt auszuf
 ## while-Schleifen
 Bei der while-Schleife wird eine bestimmte Anweisungsfolge (Schleifenrumpf) wiederholt, solange eine bestimmte Bedingung (Schleifenbedingung) wahr ist. Da zu Beginn der Schleife die Bedingung geprüft wird, spricht man auch von einer **kopfgesteuerten Schleife**.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int i = 0;
-        while (i < 10) {
-            System.out.println(i);
-            i++;
-        } 
+  public static void main(String[] args) {
+    int i = 0;
+    while (i < 10) {
+      System.out.println(i);
+      i++;
     }
+  }
 
 }
 ```
@@ -27,16 +27,16 @@ public class MainClass {
 ## do/while-Schleifen
 Im Gegensatz zur while-Schleife wird bei der do/while-Schleife der Schleifenrumpf immer mindestens einmal durchlaufen. Da die Bedingung hier am Ende der Schleife geprüft wird, spricht man hier von einer **fußgesteuerten Schleife**.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int i = 0;
-        do {
-            System.out.println(i);
-            i++;
-        } while (i < 10);
-    }
+  public static void main(String[] args) {
+    int i = 0;
+    do {
+      System.out.println(i);
+      i++;
+    } while (i < 10);
+  }
 
 }
 ```
@@ -44,14 +44,14 @@ public class MainClass {
 ## for-Schleifen
 Bei der for-Schleife handelt es sich um eine indexgesteuerte Schleife, auch **Zählschleife** genannt. Durch den Index wird bereits zu Schleifenbeginn festgelegt, wie oft die Schleife durchlaufen wird.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-        }
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      System.out.println(i);
     }
+  }
 
 }
 ```
@@ -60,15 +60,15 @@ public class MainClass {
 Mit Hilfe der for-each-Schleife können Datensammlungen wie z.B. [Felder](../arrays.md) und [Listen](../lists.md) elementweise durchlaufen werden. Allerdings können die Elemente einer Datensammlung nur geändert werden, nicht jedoch die 
 Datensammlung selbst.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int[] ids = { 4, 8, 15, 16, 23, 42 };
-        for (int i : ids) {
-            System.out.println(i);
-        }
+  public static void main(String[] args) {
+    int[] ids = {4, 8, 15, 16, 23, 42};
+    for (int i : ids) {
+      System.out.println(i);
     }
+  }
 
 }
 ```
@@ -76,20 +76,20 @@ public class MainClass {
 ## Schleifensteuerung
 Die Anweisung `break` sorgt dafür, dass eine Schleife ungeachtet der Bedingung komplett verlassen wird. Mit der Anweisung `continue` wird der aktuelle Schleifendurchgang abgebrochen und die Schleife wird mit dem nächsten Durchlauf fortgeführt.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            if (i == 6) {
-                break;
-            }
-            if (i % 2 == 0) {
-                continue;
-            }
-            System.out.println(i);
-        }
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 6) {
+        break;
+      }
+      if (i % 2 == 0) {
+        continue;
+      }
+      System.out.println(i);
     }
+  }
 
 }
 ```

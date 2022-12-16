@@ -11,32 +11,28 @@ Aufzählungskonstanten um öffentliche, statische Konstanten vom Typ der Aufzäh
 ## Implementieren von Aufzählungen
 Die Definition einer Aufzählung erfolgt analog zur Definition von Klassen, das Schlüsselwort hierfür lautet `enum`.
 
-```java
-public enum WeekDay {  
+```java title="WeekDay.java" showLineNumbers
+public enum WeekDay {
 
-    MONDAY("Montag", true),
-    TUESDAY("Dienstag", true),
-    WEDNESDAY("Mittwoch", true),
-    THURSDAY("Donnerstag", true),
-    FRIDAY("Freitag", true),
-    SATURDAY("Samstag", true),
-    SUNDAY("Sonntag", false);
-  
-    private String description;
-    private boolean isWorkingDay;
-  
-    WeekDay(String description, boolean isWorkingDay) {
-        this.description = description;
-        this.isWorkingday = isWorkingDay;
-    }
-  
-    public String getDescription() {
-        return description;
-    }
-  
-    public boolean getWorkingDay() {
-        return isWorkingday;
-    }
+  MONDAY("Montag", true), TUESDAY("Dienstag", true), WEDNESDAY("Mittwoch", true), THURSDAY(
+      "Donnerstag",
+      true), FRIDAY("Freitag", true), SATURDAY("Samstag", true), SUNDAY("Sonntag", false);
+
+  private String description;
+  private boolean isWorkingDay;
+
+  WeekDay(String description, boolean isWorkingDay) {
+    this.description = description;
+    this.isWorkingDay = isWorkingDay;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public boolean getWorkingDay() {
+    return isWorkingDay;
+  }
 
 }
 ```
@@ -47,14 +43,14 @@ Aufzählungen besitzen eine Reihe hilfreicher Methoden:
 - Die statische Methode `T valueOf()` gibt zu einer eingehenden Zeichenkette die dazugehörige Aufzählungskonstante zurück
 - Die Methode `int ordinal()` gibt die Ordnungszahl der Aufzählungskonstanten zurück
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        for (WeekDay w : WeekDay.values()) {
-            System.out.println(w.ordinal());
-        }
+  public static void main(String[] args) {
+    for (WeekDay w : WeekDay.values()) {
+      System.out.println(w.ordinal());
     }
+  }
 
 }
 ```

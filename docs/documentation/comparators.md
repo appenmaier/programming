@@ -13,30 +13,45 @@ vergleichenden Objekte an:
 
 Objekte der Klasse `Foo` können durch die Implementierung der Methode `int compareTo(T)` der Schnittstelle `Comparable<T>` miteinander verglichen werden.
 
-```java
-public class Foo implements Comparable<Foo> {
-    
-    public String bar;
-    
-    @Override
-    public int compareTo(Foo foo) {
-        return bar.compareTo(foo.bar);
-    }
-    
+```java title="Container.java" showLineNumbers
+public class Container implements Comparable<Container> {
+
+  private String value;
+
+  public Container(String value) {
+    this.value = value;
+  }
+
+  public void setValue(String value) {
+    this.value = value;
+  }
+
+  public String getValue() {
+    return value;
+  }
+
+  @Override
+  public int compareTo(Container other) {
+    return value.compareTo(other.value);
+  }
+
 }
 ```
 
 In der main-Methode der Startklasse wird mit Hilfe der statischen Methode `void sort(List<T>)` der Klasse `Collections` eine Liste mit Objekten der Klasse `Foo` sortiert. Aufgrund der Implementierung der compareTo-Methode wird die Liste aufsteigend nach dem 
 Attribut `bar` sortiert.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        ArrayList<Foo> foos = new Arraylist<>();
-        ...
-        Collections.sort(foos);
-    }
-    
+  public static void main(String[] args) {
+    ArrayList<Container> containers = new ArrayList<>();
+    containers.add(new Container("Winter"));
+    containers.add(new Container("is"));
+    containers.add(new Container("Coming"));
+
+    Collections.sort(containers);
+  }
+
 }
 ```

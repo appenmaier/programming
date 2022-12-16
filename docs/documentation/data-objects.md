@@ -14,15 +14,15 @@ mit dem Schlüsselwort `final` deklariert. Literale sind sogenannte wörtliche K
 ## Deklaration von Datenobjekten
 Durch Angabe von Datentyp und Bezeichner wird ein Datenobjekt deklariert, d.h. dem Compiler bekannt gegeben. Deklarationen werden wie jede Anweisung mit einem Semikolon abgeschlossen. Datenobjekte gleichen Datentyps können mit Komma getrennt aufgeführt werden.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int a, b;
-        boolean error;
-        char char1;
-        String text;
-    }
+  public static void main(String[] args) {
+    int a, b;
+    boolean error;
+    char char1;
+    String text;
+  }
 
 }
 ```
@@ -34,18 +34,18 @@ Java ist case-sensitiv, unterscheidet also zwischen Groß- und Kleinschreibung. 
 ## Initialisierung von Datenobjekten
 In Java müssen Datenobjekte vor der ersten Verwendung explizit initialisiert werden, d.h. mit einem Wert belegt werden. Der Zuweisungsoperator `=` weist dem Datenobjekt auf der linken Seite den Wert des Ausdrucks auf der rechten Seite zu.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int a = 42, b = a;
-        boolean error = true;
-        char char1;
-        String text;
-        
-        char1 = 'M';
-        text = "Winter is Coming";
-    }
+  public static void main(String[] args) {
+    int a = 42, b = a;
+    boolean error = true;
+    char char1;
+    String text;
+
+    char1 = 'M';
+    text = "Winter is Coming";
+  }
 
 }
 ```
@@ -54,16 +54,16 @@ public class MainClass {
 Unter Typinferenz versteht man, dass bei der Deklaration eines Datenobjekts auf die Angabe eine Datentyps verzichtet werden kann, wenn der Compiler aufgrund der restlichen Angaben den Typ selbstständig ermitteln kann. Für die Typinferenz wird das Schlüsselwort 
 `var` verwendet. 
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int i = 5;
-        i = "Text"; // Kompilierungsfehler
+  public static void main(String[] args) {
+    int i = 5;
+    i = "Text"; // Kompilierungsfehler
 
-        var j = 5;
-        j = "Text"; // Kompilierungsfehler
-    }
+    var j = 5;
+    j = "Text"; // Kompilierungsfehler
+  }
 
 }
 ```
@@ -75,20 +75,20 @@ Mit `var` deklarierte Datenobjekte sind weiterhin statisch typisiert.
 ## Gültigkeitsbereiche von Datenobjekten
 Datenobjekte sind nur innerhalb eines Anweisungsblocks gültig, d.h. man kann nur innerhalb dieses Programmabschnitts auf das Datenobjekt zugreifen.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int a = 1, b;
-        b = foo(a);
-    }
+  public static void main(String[] args) {
+    int a = 1, b;
+    b = foo(a);
+  }
 
-    public static int foo(int c) {
-        int d;
-        d = a++; // Kompilierungsfehler
-        d = c++;
-        return d;
-    }
+  public static int foo(int c) {
+    int d;
+    d = a++; // Kompilierungsfehler
+    d = c++;
+    return d;
+  }
 
 }
 ```
@@ -97,22 +97,22 @@ public class MainClass {
 Der Cast-Operator `()` erlaubt die explizite Umwandlung eines Datentyps in einen anderen. Bei Wertzuweisungen findet eine implizite Typumwandlung vom niederwertigen zum höherwertigen Datentyp statt. Zu beachten ist, dass bei einer Typumwandlung ein 
 Genauigkeitsverlust stattfinden kann.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        int a = 14;
-        int b = 3;
-        double result;
- 
-        // implizite Typumwandlung
-        result = a / b;
-        System.out.println(result); 
+  public static void main(String[] args) {
+    int a = 14;
+    int b = 3;
+    double result;
 
-        // explizite Typumwandlung
-        result = (double) a / b;
-        System.out.println(result); 
-    }
+    // implizite Typumwandlung
+    result = a / b;
+    System.out.println(result);
+
+    // explizite Typumwandlung
+    result = (double) a / b;
+    System.out.println(result);
+  }
 
 }
 ```

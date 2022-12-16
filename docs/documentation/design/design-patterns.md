@@ -36,19 +36,19 @@ des Beobachter-Entwurfsmusters. Es gehört zu den Verhaltensmustern.
 Das Einzelstück-Entwurfsmuster stellt sicher, dass zu einer Klasse genau ein Objekt (Singleton) zur Laufzeit existiert. Ein Anwendungsbeispiel für das Einzelstück-Entwurfsmuster ist das Model in einer grafischen Benutzeroberfläche. Es gehört zu den 
 Erzeugungsmustern.
 
-```java
+```java title="Singleton.java" showLineNumbers
 public class Singleton {
 
-    private static Singleton instance;
-  
-    private Singleton() { }
-  
-    public static Singleton getInstance() {
-        if (instance == null) {
-            instance = new Singleton();
-        }
-        return instance;
+  private static Singleton instance;
+
+  private Singleton() {}
+
+  public static Singleton getInstance() {
+    if (instance == null) {
+      instance = new Singleton();
     }
+    return instance;
+  }
 
 }
 ```

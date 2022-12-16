@@ -14,26 +14,33 @@ können und der dadurch notwendige Downcast zu Laufzeitfehlern führen kann.
 
 Die Klasse `Box` ermöglicht das Speichern einer beliebig typisierten Information.
 
-```java
+```java title="Box.java" showLineNumbers
 public class Box {
 
-    private Object content;
-    public void set(Object content) { this.content = content; }
-    public Object get() { return content; }
+  private Object content;
+
+  public void set(Object content) {
+    this.content = content;
+  }
+
+  public Object get() {
+    return content;
+  }
 
 }
 ```
 
 In der main-Methode der Startklasse wird zunächst eine ganze Zahl in einer Box gespeichert und anschließend wieder ausgelesen. Die Umwandlung der ganzen Zahl in eine Zeichenkette führt erst zur Laufzeit zu einem Fehler.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        Box box = new Box();
-        box.set(5);
-        String i = (String) box.get(); // Laufzeitfehler
-    }
+  public static void main(String[] args) {
+    Box box = new Box();
+    box.set(5);
+    String i = (String) box.get(); // Laufzeitfehler
+    System.out.println(i);
+  }
 
 }
 ```
@@ -44,12 +51,18 @@ durch die konkreten Datentypen ersetzt. Durch die dadurch vorhandene statische T
 
 Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information mit Hilfe des Typparameters `T`.
 
-```java
+```java title="GenericBox.java" showLineNumbers
 public class GenericBox<T> {
 
-    private T content;
-    public void set(T content) { this.content = content; }
-    public T get() { return content; }
+  private T content;
+
+  public void set(T content) {
+    this.content = content;
+  }
+
+  public T get() {
+    return content;
+  }
 
 }
 ```
@@ -57,14 +70,15 @@ public class GenericBox<T> {
 In der main-Methode der Startklasse wird zunächst eine ganze Zahl in einer generischen Box gespeichert und anschließend wieder ausgelesen. Die Umwandlung der ganzen Zahl in eine Zeichenkette führt aufgrund der statischen Typsicherheit zu einem 
 Kompilierungsfehler.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        GenericBox<Integer> genericBox = new GenericBox<>();
-        genericBox.set(5);
-        String i = genericBox.get(); // Kompilierungsfehler
-    }
+  public static void main(String[] args) {
+    GenericBox<Integer> genericBox = new GenericBox<>();
+    genericBox.set(5);
+    String i = genericBox.get(); // Kompilierungsfehler
+    System.out.println(i);
+  }
 
 }
 ```
@@ -76,21 +90,21 @@ Die Typisierung kann entweder explizit oder implizit über den Diamantenoperator
 ## Generische Methoden mit Java Generics
 Die generische Methode `<T> getIndex(T, T[])` gibt den Index eines beliebig typisierten gesuchten Wertes innerhalb eines gleichtypisierten Feldes zurück.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        System.out.println(getIndex(5, new Integer[] { 3, 5, 2, 4, 1 }));
-    }
+  public static void main(String[] args) {
+    System.out.println(getIndex(5, new Integer[] {3, 5, 2, 4, 1}));
+  }
 
-    public static <T> int getIndex(T value, T[] values) {
-        for (int i = 0; i < values.length; i++) {
-            if (values[i].equals(value)) {
-                return i;
-            }
-        }
-        return -1;
+  public static <T> int getIndex(T value, T[] values) {
+    for (int i = 0; i < values.length; i++) {
+      if (values[i].equals(value)) {
+        return i;
+      }
     }
+    return -1;
+  }
 
 }
 ```
@@ -111,49 +125,60 @@ Angabe eines unbestimmten Typs.
 
 Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information.
 
-```java
+```java title="GenericBox.java" showLineNumbers
 public class GenericBox<T> {
 
-    private T content;
-    public void set(T content) { this.content = content; }
-    public T get() { return content; }
+  private T content;
+
+  public void set(T content) {
+    this.content = content;
+  }
+
+  public T get() {
+    return content;
+  }
 
 }
 ```
 
 Die Drei Klassen `Above`, `Center` und `Below` bilden eine Generalisierungshierarchie ab, wobei die Klasse `Below` eine Unterklasse der Klasse `Center` und diese wiederum eine Unterklasse der Klasse `Above` darstellt.
 
-```java
+```java title="Above.java" showLineNumbers
 public class Above {}
+```
+```java title="Center.java" showLineNumbers
 public class Center extends Above {}
+```
+```java title="Below.java" showLineNumbers
 public class Below extends Center {}
 ```
 
 In der main-methode der Startklasse werden verschiedene generische Boxen unterschiedlich deklariert und anschließend initialisiert.
 
-```java
+```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
-    public static void main(String[] args) {
-        GenericBox<?> bivariant;
-        bivariant = new GenericBox<Above>();
-        bivariant = new GenericBox<Center>();
-        bivariant = new GenericBox<Below>();
+  public static void main(String[] args) {
+    GenericBox<?> bivariant;
+    bivariant = new GenericBox<Above>();
+    bivariant = new GenericBox<Center>();
+    bivariant = new GenericBox<Below>();
 
-        GenericBox<? extends Center> covariant;
-        covariant = new GenericBox<Above>(); // Kompilierungsfehler
-        covariant = new GenericBox<Center>();
-        covariant = new GenericBox<Below>();
+    GenericBox<? extends Center> covariant;
+    covariant = new GenericBox<Above>(); // Kompilierungsfehler
+    covariant = new GenericBox<Center>();
+    covariant = new GenericBox<Below>();
 
-        GenericBox<? super Center> contravariant;
-        contravariant = new GenericBox<Above>();
-        contravariant = new GenericBox<Center>();
-        contravariant = new GenericBox<Below>(); // Kompilierungsfehler
+    GenericBox<? super Center> contravariant;
+    contravariant = new GenericBox<Above>();
+    contravariant = new GenericBox<Center>();
+    contravariant = new GenericBox<Below>(); // Kompilierungsfehler
 
-        GenericBox<Center> invariant;
-        invariant = new GenericBox<Above>(); // Kompilierungsfehler
-        invariant = new GenericBox<Center>();
-        invariant = new GenericBox<Below>(); // Kompilierungsfehler
-    }
+    GenericBox<Center> invariant;
+    invariant = new GenericBox<Above>(); // Kompilierungsfehler
+    invariant = new GenericBox<Center>();
+    invariant = new GenericBox<Below>(); // Kompilierungsfehler
+  }
 
 }
+```
