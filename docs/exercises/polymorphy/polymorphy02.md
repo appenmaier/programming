@@ -12,7 +12,7 @@ import Exercise from '@site/src/components/Exercise';
   Fahrzeugvermietung ausgegeben werden
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208092094-5f674473-a095-452b-9f41-3a222ff87c6f.png)
+![image](https://user-images.githubusercontent.com/47243617/208092161-2289e505-1737-42d7-8710-3642af1569ae.png)
 
 ## Hinweise zur Klasse Rental
 - Der Konstruktor soll alle Attribute initialisieren
