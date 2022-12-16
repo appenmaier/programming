@@ -1,5 +1,6 @@
 ---
-title: Polymorphy 03
+title: Polymorphy03
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -11,11 +12,9 @@ import Exercise from '@site/src/components/Exercise';
   Fahrzeugvermietung in Autobots verwandeln
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170883917-583e11eb-83e6-47c7-9baa-1b5b19b5a40e.png)
+![image](https://user-images.githubusercontent.com/47243617/208092433-ae6d3e89-7c44-4427-a09c-29674500e080.png)
 
 ## Hinweis zur Klasse Rental
-
 Die Methode `void transformAllTrucks()` soll alle Lastwagen in Autobots
 verwandeln.
 
