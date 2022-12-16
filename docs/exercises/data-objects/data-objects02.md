@@ -1,5 +1,6 @@
 ---
-title: Data Objects 02
+title: DataObjects02
+description: ''
 ---
 
 import Tabs from '@theme/Tabs';
