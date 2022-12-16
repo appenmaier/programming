@@ -1,5 +1,6 @@
 ---
-title: Enumerations 01
+title: Enumerations01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
