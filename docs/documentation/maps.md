@@ -40,7 +40,7 @@ public class MainClass {
 }
 ```
 
-Die Klasse `HashMap<K, V>` implementiert den Assoziativspeicher in Form einer Hashtabelle. Für den Einsatz einer Hashtabelle ist es zwingend erforderlich, dass die Klasse, die den Schlüssel bildet, die Methoden `int hashCode()` und `boolean equals(Object)` 
+Die Klasse `HashMap<K, V>` implementiert den Assoziativspeicher in Form einer Hashtabelle. Für den Einsatz einer Hashtabelle ist es zwingend erforderlich, dass die Klasse, die den Schlüssel bildet, die Methoden `int hashCode()` und `boolean equals(object: Object)` 
 gemäß den entsprechenden Dokumentationskommentaren überschrieben hat. Im Gegensatz zu einem Binärbaum liegen die Paare in einer Hashtabelle unsortiert vor.
 
 | Index | Schlüssel | Wert |
