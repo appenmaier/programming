@@ -1,5 +1,6 @@
 ---
-title: Polymorphy 04
+title: Polymorphy04
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -11,22 +12,19 @@ import Exercise from '@site/src/components/Exercise';
 - Passe die Klasse `Player` aus Übungsaufgabe
   [ClassDiagrams02](../uml/class-diagrams02.md) anhand des abgebildeten
   Klassendiagramms an
-- Passe die Methode `boolean move(Player)` der Klasse `DiceGame` aus
+- Passe die Methode `boolean move(player: Player)` der Klasse `DiceGame` aus
   Übungsaufgabe [ClassDiagrams02](../uml/class-diagrams02.md) so an, dass
   jeder Spieler während des Spiels einmal die Möglichkeit hat, entweder nur
   mit 4-5-6-Würfeln oder 1-2-3-Würfeln zu würfeln
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170884123-4f6ae3ad-612d-490c-94f3-1f9882b38002.png)
+![image](https://user-images.githubusercontent.com/47243617/208109131-c6f1b46b-61bd-46ba-9c85-fb320d1a1563.png)
 
 ## Hinweis zur Klasse HighValueDice
-
-Die rollTheDice-Methode soll nur 4er, 5er und 6er zurückgeben.
+Die Methode `void rollTheDice()` soll nur 4er, 5er und 6er "würfeln".
 
 ## Hinweis zur Klasse LowValueDice
-
-Die rollTheDice-Methode soll nur 1er, 2er und 3er zurückgeben.
+Die Methode `void rollTheDice()` soll nur 1er, 2er und 3er "würfeln".
 
 ## Konsolenausgabe
 

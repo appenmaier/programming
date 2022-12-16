@@ -1,5 +1,6 @@
 ---
-title: Abstract and Final 01
+title: AbstractAndFinal01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -9,7 +10,6 @@ Passe die Klassen `Vehicle`, `Car` und `Truck` aus Übungsaufgabe
 Klassendiagramms an.
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170884302-5569e488-03f3-4b59-a886-2a81dd97eeff.png)
+![image](https://user-images.githubusercontent.com/47243617/208110169-efdbe28c-91c2-45ac-8974-748c09eb8665.png)
 
 <Exercise pullRequest="45" branchSuffix="abstract-and-final/01" />

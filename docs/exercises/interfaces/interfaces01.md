@@ -1,5 +1,6 @@
 ---
-title: Interfaces 01
+title: Interfaces01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -14,13 +15,11 @@ import Exercise from '@site/src/components/Exercise';
   Attribute des Reisebüros ausgegeben werden
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170883385-dbd51dae-eeba-49f9-a6ca-a8714f1b994d.png)
+![image](https://user-images.githubusercontent.com/47243617/208110320-9dd546e2-1a85-4e59-8bcc-27312d34bb0f.png)
 
 ## Hinweise zur Klasse TravelAgency
-
 - Der Konstruktor soll alle Attribute initialisieren
-- Die Methode `void addPartner(Partner)` soll dem Reisebüro einen Partner
+- Die Methode `void addPartner(partner: Partner)` soll dem Reisebüro einen Partner
   hinzufügen
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
 

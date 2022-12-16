@@ -1,5 +1,6 @@
 ---
-title: Loops 04
+title: Loops04
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -16,8 +17,7 @@ Ergebnis: Die eingegebenen Zeichenketten sind identisch
 ```
 
 ## Hinweis
-
-Die statische Methode `char toUpperCase(char)` der Klasse `String` gibt den
+Die statische Methode `char toUpperCase(ch: char)` der Klasse `Character` gibt den
 Großbuchstaben des eingehenden Zeichens zurück.
 
 <Exercise pullRequest="17" branchSuffix="loops/04" />

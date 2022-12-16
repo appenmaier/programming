@@ -1,5 +1,6 @@
 ---
-title: Übungsaufgabe JavaStreamAPI02
+title: JavaStreamAPI02
+description: ''
 ---
 
 Erstelle eine ausführbare Klasse, die eine Konsole von Nintendo auf der Konsole ausgibt, die sich mehr als 100 Million Mal verkauft hat. Für den Fall, dass keine 

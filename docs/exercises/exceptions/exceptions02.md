@@ -1,5 +1,6 @@
 ---
-title: Exceptions 02
+title: Exceptions02
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -10,13 +11,11 @@ import Exercise from '@site/src/components/Exercise';
   zu erzeugen und zu befüllen
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170884584-99f8cb2b-b87e-43ff-995b-de313be343c1.png)
+![image](https://user-images.githubusercontent.com/47243617/208056895-b832bd48-dc53-45d9-b8d3-9f7a97c46677.png)
 
 ## Hinweise zur Klasse Barrel
-
 - Der Konstruktor soll das Attribut `capacity` initialisieren
-- Die Methode `void addFluid(int)` soll den Füllstand um den eingehenden Betrag
+- Die Methode `void addFluid(value: int)` soll den Füllstand um den eingehenden Betrag
   erhöhen. Bei Überschreiten der Kapazität soll die Ausnahme
   `BarrelOverflowException` ausgelöst werden
 - Die Methode `void printFluidLevel()` soll den Füllstand auf der Konsole

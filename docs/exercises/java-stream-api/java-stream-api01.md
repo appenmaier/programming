@@ -1,5 +1,6 @@
 ---
-title: Übungsaufgabe JavaStreamAPI01
+title: JavaStreamAPI01
+description: ''
 ---
 
 - Erstelle die Klasse `VideoGameConsoles` anhand des abgebildeten Quellcodes
@@ -15,7 +16,7 @@ title: Übungsaufgabe JavaStreamAPI01
     - die Anzahl verkaufter Einheiten pro Hersteller in Millionen (_NINTENDO: 752.05_)
 
 ## Quellcode
-```java
+```java title="VideoGameConsoles.java" showLineNumbers
 public class VideoGameConsoles {
 
   private final static VideoGameConsole PS2 =

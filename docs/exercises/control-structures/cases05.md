@@ -1,5 +1,6 @@
 ---
-title: Cases 05
+title: Cases05
+description: ''
 ---
 
 import Tabs from '@theme/Tabs';

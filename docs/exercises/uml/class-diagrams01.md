@@ -1,5 +1,6 @@
 ---
-title: Class Diagrams 01
+title: ClassDiagrams01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -12,11 +13,9 @@ import Exercise from '@site/src/components/Exercise';
   - Würfelwert von Spieler 1 = Würfelwert von Spieler 2: Unentschieden
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170923374-95bd6412-67d4-40cf-bf39-ea7739fcbca1.png)
+![image](https://user-images.githubusercontent.com/47243617/208095317-c139c4ad-a31d-460c-9efa-925021733896.png)
 
 ## Hinweis zur Klasse Player
-
 Der Konstruktor soll den Namen initialisieren.
 
 ## Konsolenausgabe

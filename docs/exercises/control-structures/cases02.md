@@ -1,5 +1,6 @@
 ---
-title: Cases 02
+title: Cases02
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';

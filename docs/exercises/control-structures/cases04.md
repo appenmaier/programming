@@ -1,5 +1,6 @@
 ---
-title: Cases 04
+title: Cases04
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -17,8 +18,7 @@ Zufallszahl: 39, Spieler 1 gewinnt
 ```
 
 ## Hinweise
-
-- Die Methode `int nextInt(int)` der Klasse `Random` gibt eine Zufallszahl zwischen 0 (inklusive) und der eingehenden Zahl (exklusive) zurück
-- Die statische Methode `int abs(int)` der Klasse `Math` gibt den Betrag der eingehenden Zahl zurück
+- Die Methode `int nextInt(bound: int)` der Klasse `Random` gibt eine Zufallszahl zwischen 0 (inklusive) und der eingehenden Zahl (exklusive) zurück
+- Die statische Methode `int abs(a: int)` der Klasse `Math` gibt den Betrag der eingehenden Zahl zurück
 
 <Exercise pullRequest="10" branchSuffix="cases/04" />

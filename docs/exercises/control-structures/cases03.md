@@ -1,5 +1,6 @@
 ---
-title: Cases 03
+title: Cases03
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -9,7 +10,6 @@ sowie das Geschlecht einer Person einliest und je nach Fall eine andere
 Begrüßungsformel anzeigt.
 
 ## Regelwerk
-
 - "Hallo Herr Nachname" für Männer ab 18
 - "Hallo Frau Nachname" für Frauen ab 18
 - "Hallo Vorname" für Kinder, Jugendliche unter 18 und Diverse

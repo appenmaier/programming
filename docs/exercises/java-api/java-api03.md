@@ -1,5 +1,6 @@
 ---
-title: Java API 03
+title: JavaAPI03
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';

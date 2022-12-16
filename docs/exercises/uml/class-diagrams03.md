@@ -1,5 +1,6 @@
 ---
-title: Class Diagrams 03
+title: ClassDiagrams03
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -10,22 +11,19 @@ import Exercise from '@site/src/components/Exercise';
   simuliert
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/177834012-3acc46b6-fd7d-4ed4-b82a-a965de5abb0d.png)
+![image](https://user-images.githubusercontent.com/47243617/208106551-e46a174d-62e7-4eba-8d74-fd372bbac7d4.png)
 
 ## Hinweise zur Klasse Creature
-
-- Passe die Methode `boolean attack(Creature)` so an, dass der Rückgabewert
+- Passe die Methode `boolean attack(creature: Creature)` so an, dass der Rückgabewert
   `true` ist, wenn die Lebenspunkte der angegriffenen Kreatur kleiner gleich
   Null sind, bzw. `false`, wenn nicht
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
 
 ## Hinweise zur Klasse CreatureGame
-
 - Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `void simulateFight()` soll die beiden Kreaturen sich so lange
   gegenseitig angreifen lassen, bis eine der Kreaturen "stirbt"
-- Die Methode `boolean move(Creature, Creature)` soll eine Kreatur die andere
+- Die Methode `boolean move(creature1: Creature, creature2: Creature)` soll eine Kreatur die andere
   angreifen lassen und den Rückgabewert `true` liefern, wenn die angegriffene
   Kreatur "stirbt", bzw. `false`, wenn nicht
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben

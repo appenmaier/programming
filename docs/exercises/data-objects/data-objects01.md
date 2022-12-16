@@ -1,5 +1,6 @@
 ---
-title: Data Objects 01
+title: DataObjects01
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
