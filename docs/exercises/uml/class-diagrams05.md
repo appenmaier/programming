@@ -1,5 +1,6 @@
 ---
-title: Class Diagrams 05
+title: ClassDiagrams05
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -10,11 +11,9 @@ import Exercise from '@site/src/components/Exercise';
   auf der Konsole ausgibt
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/177834439-8e42e2eb-f97c-4ad5-9c44-4f1dcf8dbddc.png)
+![image](https://user-images.githubusercontent.com/47243617/208107791-8daff461-de1b-468d-96d3-088ab089a009.png)
 
 ## Hinweise zur Klasse SkatCardDeck
-
 - Der Konstruktor soll ein Skatblatt, bestehend aus 32 Karten, erzeugen
 - Die Methode `void shuffleSkatCards()` soll das Skatblatt mischen
 
