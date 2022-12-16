@@ -47,7 +47,7 @@ Die Attribute einer Klasse sind Datenobjekte und werdern daher analog zu Variabl
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public String bar;
+  private String bar;
   public int baz;
 
 }
@@ -63,7 +63,7 @@ Methoden ohne Rückgabewert müssen dies mit dem Schlüsselwort `void` kenntlich
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public String bar;
+  private String bar;
   public int baz;
 
   public void setBar(String bar) {
@@ -98,7 +98,7 @@ Beim Erzeugen eines Objekts mit Hilfe des Operators `new` wird der bei der Dekla
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public String bar;
+  private String bar;
   public int baz;
 
   public void setBar(String bar) {
@@ -131,7 +131,7 @@ Erlauben die Zugriffsrechte den Zugriff auf ein Attribut, kann über die deklari
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public String bar;
+  private String bar;
   public int baz;
 
   public void setBar(String bar) {
@@ -149,8 +149,8 @@ public class MainClass {
 
   public static void main(String[] args) {
     Foo foo = new Foo();
-    foo.bar = "Winter is Coming";
-    System.out.println(foo.getBar());
+    foo.setBar("Winter is Coming");
+    foo.baz = 42;
   }
 
 }
@@ -161,28 +161,35 @@ Beim Aufruf einer Methode müssen alle Parameter in der richtigen Reihenfolge ve
 :::
 
 ## Überladene Methoden
-Gleichnamige Methoden mit unterschiedlichen Parameterlisten einer Klasse werden in Java als überladene Methoden bezeichnet.
+Gleichnamige Methoden mit unterschiedlichen Parameterlisten einer Klasse werden als überladene Methoden bezeichnet. Man spricht in diesem Zusammenhang auch von statischer Polymorphie, da der Aufruf gleichnamiger Methoden unterschiedliche Ergebnisse liefern kann.
 
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public String bar;
+  private String bar;
   public int baz;
 
   public void setBar(String bar) {
     this.bar = bar;
   }
 
+  public void setBar(int bar) {
+    this.bar = bar + "";
+  }
+
   public String getBar() {
     return bar;
   }
 
-  public void setBaz(int baz) {
-    this.baz = baz;
-  }
+}
+```
+```java title="MainClass.java" showLineNumbers
+public class MainClass {
 
-  public void setBaz() {
-    this.baz = 42;
+  public static void main(String[] args) {
+    Foo foo = new Foo();
+    foo.setBar("Winter is Coming");
+    foo.setBar(42);
   }
 
 }
@@ -202,9 +209,30 @@ eine Referenzvariable angesprochen werden können) löscht.
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public Foo() { }
-  public Foo(Qux qux) { }
-  public Foo(Qux qux, Quux quux) { }
+  private String bar;
+  public int baz;
+
+  public Foo(String bar) {
+    this.bar = bar;
+  }
+
+  public Foo(int bar) {
+    this.bar = bar + "";
+  }
+
+  public String getBar() {
+    return bar;
+  }
+
+}
+```
+```java title="MainClass.java" showLineNumbers
+public class MainClass {
+
+  public static void main(String[] args) {
+    Foo foo = new Foo("Winter is Coming");
+    Foo foo2 = new Foo(42);
+  }
 
 }
 ```
@@ -223,18 +251,37 @@ bzw. Aufruf erfolgt über den Klassennamen.
 ```java title="Foo.java" showLineNumbers
 public class Foo {
 
-  public static String bar;
-  public static void baz() { }
+  private String bar;
+  public int baz;
+
+  private static int foobar;
+
+  public Foo(String bar) {
+    this.bar = bar;
+    foobar++;
+  }
+
+  public Foo(int bar) {
+    this.bar = bar + "";
+  }
+
+  public String getBar() {
+    return bar;
+  }
+
+  public static int getFoobar() {
+    return foobar;
+  }
 
 }
 ```
-
 ```java title="MainClass.java" showLineNumbers
 public class MainClass {
 
   public static void main(String[] args) {
-    Foo.bar = "Fubar";
-    Foo.baz();
+    Foo foo = new Foo("Winter is Coming");
+    int foobar = Foo.getFoobar();
+    System.out.println(foobar);
   }
 
 }
