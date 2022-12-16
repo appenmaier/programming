@@ -1,5 +1,6 @@
 ---
-title: Polymorphy 02
+title: Polymorphy02
+description: ''
 ---
 
 import Exercise from '@site/src/components/Exercise';
@@ -11,15 +12,13 @@ import Exercise from '@site/src/components/Exercise';
   Fahrzeugvermietung ausgegeben werden
 
 ## Klassendiagramm
-
-![image](https://user-images.githubusercontent.com/47243617/170883813-686bec70-7bbf-44ac-9e30-db42f366e44c.png)
+![image](https://user-images.githubusercontent.com/47243617/208092094-5f674473-a095-452b-9f41-3a222ff87c6f.png)
 
 ## Hinweise zur Klasse Rental
-
 - Der Konstruktor soll alle Attribute initialisieren
-- Die Methode `void addVehicle(Vehicle)` soll der Fahrzeugvermietung ein
+- Die Methode `void addVehicle(vehicle: Vehicle)` soll der Fahrzeugvermietung ein
   Fahrzeug hinzufügen
-- Die Methode `void addAllVehicles(Vehicle...)` soll der Fahrzeugvermietung
+- Die Methode `void addAllVehicles(vehicles: Vehicle...)` soll der Fahrzeugvermietung
   mehrere Fahrzeug hinzufügen
 - Die Methode `void print()` soll alle Attribute auf der Konsole ausgeben
 
