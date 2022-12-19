@@ -1,0 +1,19 @@
+---
+title: Tante-Emma-Laden
+description: ''
+tags: [polymorphy, exceptions, comparators]
+---
+
+Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
+
+## Klassendiagramm
+![image](https://user-images.githubusercontent.com/47243617/208375569-e83439c0-c86e-4c4c-a139-9543022e6929.png)
+
+## Hinweis zur Klasse Goods
+Die Methode `int compareTo(other: Goods)` soll so implementiert werden, dass damit Waren aufsteigend nach ihrer Beschreibung sortiert werden können.
+
+## Hinweise zur Klasse CornerShop
+- Die Methode `int getAmountByDescription(description: String)` soll die Anzahl Waren zur eingehenden Warenbeschreibung zurückgeben
+- Die Methode `void buyGoods(goods: Goods, amount: int)` soll die eingehende Ware im Lager (`store`) um die eingehende Anzahl erhöhen
+- Die Methode `void sellGoods(goods: Goods, amount: int)` soll die eingehende Ware im Lager (`store`) um die eingehende Anzahl reduzieren. Für den Fall, dass keine
+ausreichende Anzahl an Waren vorhanden ist, soll die Ausnahme `OutOfStockException` ausgelöst werden
