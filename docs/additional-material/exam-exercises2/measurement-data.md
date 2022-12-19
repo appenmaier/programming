@@ -26,7 +26,7 @@ public record MeasurementData(String country, LocalDate date, double temperature
       List.of("USA", "Brasilien", "Deutschland", "Japan", "Indien");
   private final static List<Character> CATEGORIES = List.of('D', 'X', 'F');
 
-  public static ArrayList<MeasurementData> getData() {
+  public static ArrayList<MeasurementData> getMeasurementData() {
     ArrayList<MeasurementData> measurementData = new ArrayList<>();
 
     Random rnd = new Random();
