@@ -1,7 +1,7 @@
 ---
 title: Tante-Emma-Laden
 description: ''
-tags: [polymorphy, exceptions, comparators]
+tags: [polymorphy, interfaces, comparators, exceptions]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
