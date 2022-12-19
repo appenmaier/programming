@@ -22,5 +22,5 @@ Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine 
 
 ## Hinweise zur Klasse ElectricCandle
 - Der Konstruktor soll alle Attribute initialisieren und die Energie (`power`) auf den Wert _100_ setzen
-- Die Methode `void lightACandle()` soll die elektrische Kerze "entzünden", wenn diese noch über Energie verfügt und die Energie um 10 reduzieren
+- Die Methode `void lightACandle()` soll die elektrische Kerze "entzünden", wenn diese noch über Energie verfügt und die Energie um den Wert _10_ reduzieren
 - Die Methode `void recharge()` soll die Energie der elektrische Kerze wieder auf den Wert _100_ setzen
