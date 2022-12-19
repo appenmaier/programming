@@ -1,7 +1,7 @@
 ---
 title: Videosammlung
 description: ''
-tags: [polymorphy]
+tags: [polymorphy, io-streams]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
