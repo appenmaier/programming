@@ -7,7 +7,7 @@ tags: [interfaces, comparators, io-streams]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/207316451-0891be90-28a3-4746-86fd-0f65711a2b40.png)
+![image](https://user-images.githubusercontent.com/47243617/208393410-50927e61-5679-46ae-bf17-d414eec1204f.png)
 
 ## Hinweis zur Klasse Word
 Die Methode `int compareTo(other: Word)` soll so implementiert werden, dass damit Wörter aufsteigend nach ihrem Wert sortiert werden können.

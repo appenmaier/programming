@@ -7,7 +7,7 @@ tags: [polymorphy, interfaces, comparators, exceptions]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208375569-e83439c0-c86e-4c4c-a139-9543022e6929.png)
+![image](https://user-images.githubusercontent.com/47243617/208393275-41eac2d1-4e35-448d-8329-b3852fb795da.png)
 
 ## Hinweis zur Klasse Goods
 Die Methode `int compareTo(other: Goods)` soll so implementiert werden, dass damit Waren aufsteigend nach ihrer Beschreibung sortiert werden können.
