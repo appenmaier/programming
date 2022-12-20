@@ -4,10 +4,10 @@ description: ''
 tags: []
 ---
 
-Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
+Setze das abgebildete Klassendiagramm vollständig um. 
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208604609-3ec0a39b-626a-4b9e-92d4-9f400ffd74fb.png)
+![image](https://user-images.githubusercontent.com/47243617/208605391-cb27e4d1-c9f0-4ad0-96e3-856f3554fd40.png)
 
 ## Hinweise zur Klasse CardColorDice
 - Der Konstruktor soll alle Attribute initialisieren
