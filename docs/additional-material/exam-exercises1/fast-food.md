@@ -1,7 +1,7 @@
 ---
 title: Fast Food
 description: ''
-tags: [console-applications, oo, enumerations, inheritance, polymorphy]
+tags: [oo, enumerations, inheritance, polymorphy, io-streams]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse. So nicht anders angegeben, sollen Konstruktoren, Setter, Getter und die Object-Methoden wie üblich implementiert werden.
