@@ -1,13 +1,13 @@
 ---
 title: Bibliothek
 description: ''
-tags: [polymorphy, exceptions]
+tags: [inheritance, polymorphy, exceptions, records, maps]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208377420-aafaf1b8-0873-45cd-91ae-38974ce8f700.png)
+![image](https://user-images.githubusercontent.com/47243617/208609983-16b5d669-5eab-4425-8429-e2e491eec021.png)
 
 ## Hinweis zur Klasse Book
 Der Konstruktor soll alle Attribute initialisieren.

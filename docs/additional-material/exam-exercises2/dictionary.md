@@ -1,7 +1,7 @@
 ---
 title: Wörterbuch
 description: ''
-tags: [interfaces, comparators, io-streams]
+tags: [interfaces, comparators, records, maps, io-streams]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.

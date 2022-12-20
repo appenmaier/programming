@@ -1,13 +1,13 @@
 ---
 title: Warenkorb
 description: ''
-tags: [inner-classes, generics]
+tags: [records, inner-classes, generics]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208393768-1a5ba140-7fde-49a8-ad27-26d1d58b48e5.png)
+![image](https://user-images.githubusercontent.com/47243617/208610623-c79d5aae-c83f-46bf-827a-6ea67c20920b.png)
 
 ## Hinweis zur Klasse Item
 Die Methode `double getSubTotal()` soll die Zwischensumme des Warenkorbeintrags gemäß der Formel _Produktpreis * Anzahl_ zurückgeben.

@@ -1,7 +1,7 @@
 ---
 title: Personalverwaltung
 description: ''
-tags: [exceptions]
+tags: [exceptions, records, maps]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
