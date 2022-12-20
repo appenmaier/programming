@@ -22,13 +22,23 @@ Die Methode `void rollTheDice()` soll mit einer gleichverteilten Wahrscheinlichk
 - Die Methode `void addPoints(points: int)` soll die Punkte des Spielers (`points`) um die eingehenden Punkte erhöhen
 - Die Methode `void deductPoints(points: int)` soll die Punkte des Spielers (`points`) um die eingehenden Punkte reduzieren
 
-## Spielregeln von Würfelspiel 1
+## Hinweise zum Würfelspiel 1
 - Anzahl Spieler: 1
 - Würfel: 5 Formenwürfel
-- Ablauf
+- Ablauf:
     - Das Spiel soll aus mehreren Runden bestehen
     - Zu Beginn soll der Spieler seinen Namen eingeben
     - Zu Beginn einer jeden Runde sollen alle Würfel geworfen werden
     - Nach jedem Wurf soll der Spieler eingeben, ob die Anzahl Ecken (`corners`) aller Würfel höher als 12 ist oder nicht. Liegt der Spieler mit seiner Einschätzung richtig, bekommt er einen Punkt
     - Am Ende einer Runde soll der Spieler eingeben, ob er eine weitere Runde spielen möchte
     - Am Ende des Spiels soll die Anzahl der gespielten Runden sowie die Punktzahl ausgegeben werden
+
+## Hinweise zum Würfelspiel 2
+- Anzahl Spieler: 2
+- Würfel: 1 Formenwürfel, 1 Zahlenwürfel
+- Ablauf:
+    - Beide Spieler sollen zu Beginn des Spiels ihre Namen eingeben
+    - Beide Spieler sollen das Spiel mit 100 Punkte beginnen
+    - Beide Spieler sollen abwechselnd solange zwei Würfel werfen, bis einer der beiden Spieler keine Punkte mehr hat
+    - In jeder Runde verliert der Spieler mit dem schlechteren Wurfwert Punkte und zwar die Differenz der beiden Wurfwerte
+    - Der Wurfwert berechnet sich nach der Formel _Zahlenwert des Zahlenwürfels * Anzahl Ecken des gewürfelten Formensymbols_
