@@ -7,6 +7,7 @@ tags: []
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
 
 ## Klassendiagramm
+![image](https://user-images.githubusercontent.com/47243617/208613836-753e1f6e-b210-498e-9f6d-2e156e03fad2.png)
 
 ## Hinweise zur Klasse Item
 - Der Konstruktor soll alle Attribute initialisieren
