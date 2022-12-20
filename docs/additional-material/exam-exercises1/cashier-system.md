@@ -1,25 +1,22 @@
 ---
 title: Kassensystem
 description: ''
-tags: []
+tags: [oo, enumerations, inheritance, polymorphy]
 ---
 
-Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
+Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse. So nicht anders angegeben, sollen Konstruktoren, Setter, Getter und die Object-Methoden wie üblich implementiert werden.
 
 ## Klassendiagramm
 ![image](https://user-images.githubusercontent.com/47243617/208613836-753e1f6e-b210-498e-9f6d-2e156e03fad2.png)
 
-## Hinweise zur Klasse Item
-- Der Konstruktor soll alle Attribute initialisieren
-- Die Methode `double getSubTotal()` soll die Zwischensumme gemäß der Formel _Anzahl * Preis_ zurückgeben
+## Hinweis zur Klasse Item
+Die Methode `double getSubTotal()` soll die Zwischensumme gemäß der Formel _Anzahl * Preis_ zurückgeben
 
 ## Hinweise zur Klasse ShoppingCart
-- Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `void createItem(goods: Goods, amount: int)` soll den Einträgen des Warenkorbs (`items`) die eingehende Ware und die eingehende Anzahl als Eintrag hinzufügen
 - Die Methode `double getTotal()` soll die Gesamtsumme zurückgeben
 
 ## Hinweise zur Klasse CashierSystem
-- Der Konstruktor soll alle Attribute initialisieren
 - Die Methode `void addGoods(goods: Goods)` soll der Warenliste (`goods`) die eingehende Ware hinzufügen
 - Die Methode `void addCashier(cashier: Cashier)` soll der Kassiererliste (`cashiers`) den eingehenden Kassierer hinzufügen
 - Die Methode `void login(id: int)` soll den Kassierer zur eingehenden Kassierernummer an der Kasse "registrieren"
