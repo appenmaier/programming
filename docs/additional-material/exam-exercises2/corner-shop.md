@@ -1,13 +1,13 @@
 ---
 title: Tante-Emma-Laden
 description: ''
-tags: [polymorphy, interfaces, comparators, exceptions]
+tags: [inheritance, polymorphy, interfaces, comparators, exceptions, maps]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208393275-41eac2d1-4e35-448d-8329-b3852fb795da.png)
+![image](https://user-images.githubusercontent.com/47243617/208609167-1b1fcd46-1da4-4758-803e-ef6f732a5445.png)
 
 ## Hinweis zur Klasse Goods
 Die Methode `int compareTo(other: Goods)` soll so implementiert werden, dass damit Waren aufsteigend nach ihrer Beschreibung sortiert werden können.
