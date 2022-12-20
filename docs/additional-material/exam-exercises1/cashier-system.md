@@ -20,6 +20,8 @@ Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine 
 
 ## Hinweise zur Klasse CashierSystem
 - Der Konstruktor soll alle Attribute initialisieren
+- Die Methode `void addGoods(goods: Goods)` soll der Warenliste (`goods`) die eingehende Ware hinzufügen
+- Die Methode `void addCashier(cashier: Cashier)` soll der Kassiererliste (`cashiers`) den eingehenden Kassierer hinzufügen
 - Die Methode `void login(id: int)` soll den Kassierer zur eingehenden Kassierernummer an der Kasse "registrieren"
 - Die Methode `void createShoppingCart()` soll an der Kasse einen neuen Warenkorb erstellen
 - Die Methode `void addItem(id: int, amount: int)` soll dem Warenkorb (`shoppingCart`) anhand der eingehenden Produktnummer und anhand der eingehenden Anzahl
