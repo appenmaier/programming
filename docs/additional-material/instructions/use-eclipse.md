@@ -4,6 +4,24 @@ description: ''
 sidebar_position: 40
 --- 
 
+## Hilfreiche Tastaturkürzel
+| Kürzel       | Funktion                                    |
+| ------------ | ------------------------------------------- |
+| Ctrl + Space | Autovervollständigung                       |
+| Shift + F1   | Quellcode formatieren                       |
+| Ctrl + 1     | Quick-Fix ausführen                         |
+| Ctrl + 7     | Quellcode auskommentieren / entkommentieren |
+| Ctrl + +     | Quellcode-Schriftgröße erhöhen              |
+| Ctrl + -     | Quellcode-Schriftgröße verringern           |
+
+## Hilfreiche Einstellungen
+- _**Window - Preferences - General - Appearance - Theme**_: Dark
+- _**Window - Preferences - Java - Code Style - Formatter - Active profile**_: GoogleStyle
+- _**Window - Preferences - Java - Editor - Save actions - Perform the selected actions on save**_: Ja
+- _**Window - Preferences - Java - Editor - Save actions - Perform the selected actions on save - Format source code**_: Ja
+- _**Window - Preferences - Java - Editor - Save actions - Perform the selected actions on save - Organize imports**_: Ja
+- _**Window - Preferences - Java - Editor - Save actions - Perform the selected actions on save - Additional actions**_: Ja
+
 ## Perspektiven wechseln
 ![image](https://user-images.githubusercontent.com/47243617/208664588-064c320f-8e4b-4ae8-9b35-1c11fe87c238.png)
 
@@ -45,16 +63,6 @@ Perspektiven können über _**Window – Perspective – Reset Perspective...**_
 ## Lokales Git-Repository aktualisieren (Pullen)
 - In der Java-Perspektive Rechtsklick auf gewünschtes Java-Projekt ausführen
 - Option _**Team – Pull**_ auswählen
-
-## Hilfreiche Tastaturkürzel
-| Kürzel       | Funktion                                    |
-| ------------ | ------------------------------------------- |
-| Ctrl + Space | Autovervollständigung                       |
-| Shift + F1   | Quellcode formatieren                       |
-| Ctrl + 1     | Quick-Fix ausführen                         |
-| Ctrl + 7     | Quellcode auskommentieren / entkommentieren |
-| Ctrl + +     | Quellcode-Schriftgröße erhöhen              |
-| Ctrl + -     | Quellcode-Schriftgröße verringern           |
 
 ## JavaFX-Anwendung ausführen (ab Java 11)
 - Im Package Explorer zur gewünschten JavaFX Anwendung navigieren und gewünschte JavaFX Anwendung auswählen
