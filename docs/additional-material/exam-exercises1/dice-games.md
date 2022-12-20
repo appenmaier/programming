@@ -40,5 +40,5 @@ Die Methode `void rollTheDice()` soll mit einer gleichverteilten Wahrscheinlichk
     - Beide Spieler sollen zu Beginn des Spiels ihre Namen eingeben
     - Beide Spieler sollen das Spiel mit 100 Punkte beginnen
     - Beide Spieler sollen abwechselnd solange zwei Würfel werfen, bis einer der beiden Spieler keine Punkte mehr hat
-    - In jeder Runde verliert der Spieler mit dem schlechteren Wurfwert Punkte und zwar die Differenz der beiden Wurfwerte
-    - Der Wurfwert berechnet sich nach der Formel _Zahlenwert des Zahlenwürfels * Anzahl Ecken des gewürfelten Formensymbols_
+    - In jeder Runde verliert der Spieler mit dem schlechteren Wurfwert Punkte (die Differenz der beiden Wurfwerte)
+- Hinweis: Der Wurfwert berechnet sich nach der Formel _Zahlenwert des Zahlenwürfels * Anzahl Ecken des gewürfelten Formensymbols_
