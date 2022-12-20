@@ -1,7 +1,7 @@
 ---
 title: Geschenkesack
 description: ''
-tags: []
+tags: [oo]
 ---
 
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
