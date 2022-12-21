@@ -4,10 +4,15 @@ description: ''
 tags: [oo, inheritance, polymorphy, io-streams]
 ---
 
-Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse. So nicht anders angegeben, sollen Konstruktoren, Setter, Getter und die Object-Methoden wie üblich implementiert werden.
+Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208437301-8e4b08d6-5137-44a0-a59d-e4166947e58a.png)
+![image](https://user-images.githubusercontent.com/47243617/208894803-2fc57e72-5e5a-4386-8e56-ca60800e173a.png)
+
+## Allgemeine Hinweise
+- Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
+- So nicht anders angegeben, sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie gewohnt implementiert werden
+- Die statische Konstante `PI` der Klasse `Math` stellt die Kreiszahl Pi dar
 
 ## Hinweise zur Klasse Shape
 - Die Methode `double getArea()` soll den Wert _0_ zurückgeben
@@ -26,6 +31,3 @@ Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine 
 - Die Methode `ArrayList<Circle> getCircles()` soll alle Kreise der Formenliste (`shapes`) zurückgeben
 - Die Methode `ArrayList<Shape> getShapesWithMinArea(minArea: double)` soll alle Formen der Formenliste (`shapes`) zurückgeben, die mindestens den eingehenden
 Flächeninhalt aufweisen
-
-## Hinweis
-Die statische Konstante `PI` der Klasse `Math` stellt die Kreiszahl Pi dar.

@@ -7,7 +7,11 @@ tags: [exceptions, records, maps]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/207314769-6ce0ad07-7661-4935-a244-5f27136078fe.png)
+![image](https://user-images.githubusercontent.com/47243617/208895566-dc3aa4f7-8a0c-4fa5-a464-f3ecbab2cfa3.png)
+
+## Allgemeine Hinweise
+- Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
+- So nicht anders angegeben, sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie gewohnt implementiert werden
 
 ## Hinweise zur Klasse HumanResources
 - Die Methode `void addTelephoneNumber(telephoneNumber: TelephoneNumber, person: Person)` soll dem Telefonbuch (`telephoneBook`) die eingehende Telefonnummer als Schlüssel

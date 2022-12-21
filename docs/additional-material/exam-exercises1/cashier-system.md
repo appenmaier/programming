@@ -4,10 +4,14 @@ description: ''
 tags: [oo, enumerations, inheritance, polymorphy]
 ---
 
-Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse. So nicht anders angegeben, sollen Konstruktoren, Setter, Getter und die Object-Methoden wie üblich implementiert werden.
+Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208613836-753e1f6e-b210-498e-9f6d-2e156e03fad2.png)
+![image](https://user-images.githubusercontent.com/47243617/208892246-29018871-fb19-4d4a-9680-e301c1d68027.png)
+
+## Allgemeine Hinweise
+- Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
+- So nicht anders angegeben, sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie gewohnt implementiert werden
 
 ## Hinweis zur Klasse Item
 Die Methode `double getSubTotal()` soll die Zwischensumme gemäß der Formel _Anzahl * Preis_ zurückgeben

@@ -4,10 +4,14 @@ description: ''
 tags: [oo, enumerations, inheritance, polymorphy, io-streams]
 ---
 
-Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse. So nicht anders angegeben, sollen Konstruktoren, Setter, Getter und die Object-Methoden wie üblich implementiert werden.
+Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208616381-8807acc4-6879-4e47-ac2b-c97a70a70069.png)
+![image](https://user-images.githubusercontent.com/47243617/208894172-3c6039fc-4c1c-4190-8da8-bce3cf6ba178.png)
+
+## Allgemeine Hinweise
+- Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
+- So nicht anders angegeben, sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie gewohnt implementiert werden
 
 ## Hinweise zur Klasse FastFood
 - Die Methode `void addRating(rating: int)` soll den Bewertungen (`ratings`) die eingehende Bewertung hinzufügen
@@ -23,5 +27,5 @@ Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine 
 - Die Methode `void printFood(food: ArrayList<Food>)` soll die eingehenden Lebensmittel auf der Konsole ausgeben
 - Die Methode `FoodCategory getFoodCategoryByDescription(description: String)` soll die Lebensmittelkategorie zur eingehenden Beschreibung zurückgeben
 
-## Hinweis
+## Hinweis zur Klasse Burger
 Burger sollen entweder der Lebensmittelkategorie _Gemüse_ oder der Lebensmittelkategorie _Fleisch_ zugeordnet werden.
