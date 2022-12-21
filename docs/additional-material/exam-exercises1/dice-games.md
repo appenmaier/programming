@@ -4,10 +4,14 @@ description: ''
 tags: [console-applications, oo, enumerations, inheritance, polymorphy]
 ---
 
-Setze das abgebildete Klassendiagramm vollständig um. So nicht anders angegeben, sollen Konstruktoren, Setter, Getter und die Object-Methoden wie üblich implementiert werden.
+Setze das abgebildete Klassendiagramm vollständig um.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208619514-8027fd35-0bab-424b-b5b5-c1a2497a7667.png)
+![image](https://user-images.githubusercontent.com/47243617/208893991-9b465a9e-88a0-459c-98f1-055c8a646c47.png)
+
+## Allgemeine Hinweise
+- Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
+- So nicht anders angegeben, sollen Konstruktoren, Setter, Getter sowie die Object-Methoden wie gewohnt implementiert werden
 
 ## Hinweis zur Klasse CardColorDice
 Die Methode `void rollTheDice()` soll mit einer gleichverteilten Wahrscheinlichkeit der Kartenfarbe (`cardColor`) einen Wert zuweisen
