@@ -7,7 +7,7 @@ tags: [records, inner-classes, generics]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208896229-0e69e1a8-5419-4516-ae3f-eb98b49f26bc.png)
+![image](https://user-images.githubusercontent.com/47243617/208920085-77cf6094-ade3-4ed9-981a-3c4aa7c26646.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
