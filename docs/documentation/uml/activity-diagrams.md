@@ -17,4 +17,4 @@ Datenknoten und Kontrollknoten) und Kanten (Kontrollflüsse und Datenflüsse) ve
 - Datenknoten sind Hilfsknoten, die als ein- oder ausgehende Parameter einer Aktion verwendet werden können
 - Kontroll- und Datenflüsse legen Abläufe zwischen Vorgänger- und Nachfolger-Knoten fest
 
-![image](https://user-images.githubusercontent.com/47243617/170695263-f09e5299-bfcd-4b7d-a28e-65a78481e6c0.png)
+![image](https://user-images.githubusercontent.com/47243617/209096940-5f248445-9c58-45b4-adf0-3c1ef8811e92.png)
