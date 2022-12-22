@@ -15,7 +15,7 @@ import Exercise from '@site/src/components/Exercise';
   Attribute des Reisebüros ausgegeben werden
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208110320-9dd546e2-1a85-4e59-8bcc-27312d34bb0f.png)
+![image](https://user-images.githubusercontent.com/47243617/209157029-141cc0aa-a425-4e36-a79b-34f6188fa223.png)
 
 ## Hinweise zur Klasse TravelAgency
 - Der Konstruktor soll alle Attribute initialisieren
