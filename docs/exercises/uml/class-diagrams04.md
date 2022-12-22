@@ -11,7 +11,7 @@ import Exercise from '@site/src/components/Exercise';
   Mitarbeitern erzeugt und auf der Konsole ausgibt
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208106814-adc80a71-93fe-4e43-8cab-2ef0826dcdcc.png)
+![image](https://user-images.githubusercontent.com/47243617/209156255-10033920-eeda-45ba-a347-3cc6c13b2e45.png)
 
 ## Hinweis zur Klasse Person
 Der Konstruktor soll den Namen initialisieren.
