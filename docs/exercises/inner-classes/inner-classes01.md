@@ -11,7 +11,7 @@ import Exercise from '@site/src/components/Exercise';
   erzeugt und auf der Konsole ausgibt
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208085559-28ddaa01-8914-45d2-b38b-adcaa9106461.png)
+![image](https://user-images.githubusercontent.com/47243617/209158347-6abf344a-aa74-45cf-8030-8362c887a3c0.png)
 
 ## Konsolenausgabe
 

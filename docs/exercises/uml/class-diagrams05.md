@@ -11,7 +11,7 @@ import Exercise from '@site/src/components/Exercise';
   auf der Konsole ausgibt
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208107791-8daff461-de1b-468d-96d3-088ab089a009.png)
+![image](https://user-images.githubusercontent.com/47243617/209156321-f1b6ce12-08ab-42e2-812b-8959cc898e99.png)
 
 ## Hinweise zur Klasse SkatCardDeck
 - Der Konstruktor soll ein Skatblatt, bestehend aus 32 Karten, erzeugen

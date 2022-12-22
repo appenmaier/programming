@@ -13,7 +13,7 @@ import Exercise from '@site/src/components/Exercise';
   ausgeführt werden kann
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208110518-3bfb7626-0865-4c4a-a49b-ebcd3448e052.png)
+![image](https://user-images.githubusercontent.com/47243617/209157391-2f2ee299-cb0c-4b3e-b9c2-f07e2acec6b8.png)
 
 ## Hinweise zur Klasse Vehicle
 

@@ -12,7 +12,7 @@ import Exercise from '@site/src/components/Exercise';
   auf der Konsole ausgibt
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208088923-7e237a0b-4462-4940-aed2-d82c31aafd03.png)
+![image](https://user-images.githubusercontent.com/47243617/209158561-199ffe4d-f8aa-41dc-9acb-010e35e1e6fd.png)
 
 ## Hinweise zur Klasse TelephoneBook
 - Die Methode `void addEntry(person: Person, telephoneNumber: TelephoneNumber)` soll einen Eintrag im

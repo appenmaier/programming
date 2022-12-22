@@ -11,7 +11,7 @@ import Exercise from '@site/src/components/Exercise';
   Flaschen erzeugt und die Flaschen in die Getränkekiste stellt
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208059681-12b7c902-c263-4535-a71b-5caf30101ace.png)
+![image](https://user-images.githubusercontent.com/47243617/209157752-8708e5ad-c3d4-45c1-af3e-eda8c69b983a.png)
 
 ## Hinweis zur Klasse BeerBottle
 Die Methode `void chugALug()` soll den Text "Ex und Hopp" auf der Konsole ausgeben.

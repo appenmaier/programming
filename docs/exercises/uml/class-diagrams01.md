@@ -13,7 +13,7 @@ import Exercise from '@site/src/components/Exercise';
   - Würfelwert von Spieler 1 = Würfelwert von Spieler 2: Unentschieden
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208095317-c139c4ad-a31d-460c-9efa-925021733896.png)
+![image](https://user-images.githubusercontent.com/47243617/209155840-8726a76f-bd0e-4018-a14b-3e0568512993.png)
 
 ## Hinweis zur Klasse Player
 Der Konstruktor soll den Namen initialisieren.

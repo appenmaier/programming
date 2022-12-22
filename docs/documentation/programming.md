@@ -54,7 +54,17 @@ realen Welt abstrahiert und maschinengerecht abzubilden und damit die Semantisch
 
 Die Programmiersprachen Java, Python und JavaScript gehören zu den am weitesten verbreiteten bzw. beliebtesten Programmiersprachen.
 
-![image](https://user-images.githubusercontent.com/47243617/171617641-175825ae-3f27-4411-a7bc-4591e78899a7.png)
+| TIOBE  | RedMonk    | PYPL       |
+| ------ | ---------- | ---------- |
+| Python | JavaScript | Python     |
+| C      | Python     | Java       |
+| Java   | Java       | JavaScript |
+| C++    | PHP        | C#         |
+| C#     | C++        | C/C++      |
+
+:::note Quellen
+Tiobe Programming Community Index November 2021, RedMonk Programming Language Rankings Juni 2021, PopularitY of Programming Language November 2021
+:::
 
 ## Die Programmiersprache Java
 Die Programmiersprache Java gehört zu den problemorientierten Programmiersprachen und ist daher einfacher zu erlernen und einfacher zu verstehen als maschinenorientierte Programmiersprachen. Bei der Entwicklung von Java verfolgte man das Ziel, eine einfache, 
