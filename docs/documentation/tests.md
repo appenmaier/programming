@@ -15,7 +15,7 @@ Man unterscheidet bei Softwaretests zwischen verschiedenen Testarten, die in der
 - Integrationstests: Testen mehrerer, voneinander abhängiger Komponenten
 - Komponententests: Testen einzelner, abgeschlossener Softwarebausteine
 
-![image](https://user-images.githubusercontent.com/47243617/171476574-eebee507-6ab3-4b57-9130-ac097785c4cc.png)
+![image](https://user-images.githubusercontent.com/47243617/209136099-fb19c504-1394-4781-87d6-20811bc274f3.png)
 
 ## Testgetriebe Entwicklung (Test Driven Development)
 Komponententests (Unit Tests) spielen vor allem bei der Testgetriebenen Entwicklung (Test Driven Development) eine große Rolle. Hierbei werden Anwendungen Schritt für Schritt (also inkrementell) um neue Funktionen erweitert (Red-Green-Refactor-Methode):
@@ -23,7 +23,7 @@ Komponententests (Unit Tests) spielen vor allem bei der Testgetriebenen Entwickl
 - Green: Genau soviel Produktivcode schreiben, damit der Test erfolgreich durchläuft
 - Refactor: Testcode und Produktivcode aufräumen (vereinfachen und verbessern)
 
-![image](https://user-images.githubusercontent.com/47243617/171477304-f76f562e-e8e0-4412-ae66-a3b8d94e1d37.png)
+![image](https://user-images.githubusercontent.com/47243617/209136163-fd99c88b-6864-41fd-9b13-129a964ab2c3.png)
 
 :::note Hinweis
 Da durch die vorangestellten Tests eine kontinuierliche Designverbesserung stattfindet, wird die Testgetriebene Entwicklung zu den Designstrategien gezählt.
