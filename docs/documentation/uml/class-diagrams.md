@@ -33,7 +33,7 @@ Die formalen Typparameter einer generischen Klassen werden in einem zusätzliche
 ## Darstellung von Datenklassen
 Datenklassen werden im Klassendiagramm durch den Stereotypen `record` kenntlich gemacht. Dieser impliziert, dass die Datenklasse einen entsprechenden Konstruktor, Getter zu allen Attributen sowie entsprechende Implementierungen für die Object-Methoden besitzt.
 
-![image](https://user-images.githubusercontent.com/47243617/209132626-26008f36-10d0-44d8-860c-f7c328eadda9.png)
+![image](https://user-images.githubusercontent.com/47243617/209133752-ce91253e-b31d-4cf9-935f-5635940d66ed.png)
 
 ## Darstellung von Schnittstellen
 Schnittstellen werden im Klassendiagramm durch den Stereotypen `interface` kenntlich gemacht. Dieser impliziert, dass alle Methoden der Schnittstelle abstrakt sind.
