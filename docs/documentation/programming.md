@@ -15,15 +15,23 @@ Ein Algorithmus ist eine Handlungsvorschrift zur Lösung eines Problems.
 
 ## Programmierparadigmen
 Unter einem Programmierparadigma versteht man die grundlegende Herangehensweise, Probleme mit Hilfe einer Programmiersprache zu lösen:
-- Bei der _imperativen Programmierung_ bestehen Programme aus verzweigten und sich wiederholenden Folgen von Anweisungen, die den Programmablauf steuern
-- Die _deklarative Programmierung_ stellt einen Gegenentwurf zur imperativen Programmierung dar, bei der nicht das "Wie", sondern das "Was" im Vordergrund steht
-- Die _objektorientierte Programmierung_ baut auf der imperativen Programmierung auf, setzt den Fokus aber auf abstrakte Datentypen und die Verbindung von Daten und Routinen
-
-![image](https://user-images.githubusercontent.com/47243617/171617439-c2172a87-a744-45b3-97f0-3007864d1b29.png)
 
 :::note Hinweis
 Auch wenn Programmiersprachen oft anhand ihrer grundlegenden Merkmale genau einem Programmierparadigma zugeordnet werden, unterstützen viele Programmiersprachen mehrerer Programmierparadigmen.
 :::
+
+### Imperative Programmierung
+Bei der imperativen Programmierung bestehen Programme aus verzweigten und sich wiederholenden Folgen von Anweisungen, die den Programmablauf steuern.
+
+![image](https://user-images.githubusercontent.com/47243617/209141943-9e9c985d-3c48-4ad5-8766-753f21f923ec.png)
+
+### Deklarative Programmierung
+Die deklarative Programmierung stellt einen Gegenentwurf zur imperativen Programmierung dar, bei der nicht das "Wie", sondern das "Was" im Vordergrund steht.
+
+### Objektorientierte Programmierung
+Die ojektorientierte Programmierung baut auf der imperativen Programmierung auf, setzt den Fokus aber auf abstrakte Datentypen und die Verbindung von Daten und Routinen.
+
+![image](https://user-images.githubusercontent.com/47243617/209142965-301211cc-ea76-4108-be16-015f69db1c25.png)
 
 ## Programmausführung
 Programme auf einem Computer können auf unterschiedliche Arten ausgeführt werden:
