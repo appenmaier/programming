@@ -13,7 +13,7 @@ import Exercise from '@site/src/components/Exercise';
   Fahrzeuge, sondern Autos und Lastwagen erzeugt und ausgegeben werden
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208091860-779f5714-4a7c-4c4d-90e2-a35b356ef82d.png)
+![image](https://user-images.githubusercontent.com/47243617/209156518-166c8cba-5724-4662-8703-ded8e06c60ac.png)
 
 ## Hinweise zur Klasse Car
 - Der Konstruktor soll alle Attribute initialisieren
