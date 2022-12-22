@@ -14,7 +14,7 @@ import Exercise from '@site/src/components/Exercise';
   Mitarbeiter eine Gehaltserhöhung bekommen
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208058673-e351a995-ed00-40e9-a23b-3e6301cc06f3.png)
+![image](https://user-images.githubusercontent.com/47243617/209157552-387c5ab4-0a01-48d9-b346-69a08a523cee.png)
 
 ## Hinweis zur Klasse Employee
 In der Methode `void setSalary(salary: int)` soll bei einer Gehaltserhöhung größer
