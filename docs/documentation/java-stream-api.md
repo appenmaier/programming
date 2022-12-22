@@ -9,7 +9,7 @@ Die Java Stream API stellt Klassen zum Erzeugen von und Arbeiten mit Strömen (S
 ermöglicht. Die Daten, die durch die Elemente des Stromes repräsentiert werden, werden dabei durch den Strom selbst nicht verändert. Die Verarbeitung der Elemente erfolgt nach dem Prinzip der Bedarfsauswertung (Lazy Evaluation). Neben endlichen Strömen stellt 
 die Java Stream API auch Methoden zum Erzeugen unendlicher Ströme bereit.
 
-![image](https://user-images.githubusercontent.com/47243617/170433119-1c214acd-b1c7-4171-8cbc-1f259d824892.png)
+![image](https://user-images.githubusercontent.com/47243617/209135855-a190fe54-8d3a-46e8-82d8-2589da9158a6.png)
 
 :::note Hinweis
 Ströme (Paket `java.util.stream`) haben nichts mit [Datenströmen (IO-Streams)](io-streams.md) (Paket `java.io`) zu tun.
