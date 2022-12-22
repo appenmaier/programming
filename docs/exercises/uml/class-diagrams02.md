@@ -14,7 +14,7 @@ import Exercise from '@site/src/components/Exercise';
   50 Punkte heranzukommen, ohne allerdings die 50 Punkte zu überschreiten
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208096142-5e9a98bf-56d1-4d1d-a86c-b8a048f84635.png)
+![image](https://user-images.githubusercontent.com/47243617/209156029-69be8cff-4ffb-4bd6-9b7b-e52be476b2d9.png)
 
 ## Hinweis zur Klasse Player
 Passe den Konstruktor so an, dass auch weiterhin alle Attribute initialisiert
