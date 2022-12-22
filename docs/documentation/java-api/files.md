@@ -37,7 +37,7 @@ Nach der letzten Verwendung sollte die Methode `void close()` der Klasse `Scanne
 Beim Zugriff auf Verzeichnisse bzw. Dateien unterscheidet man zwischen absoluten und relativen Pfadangaben. Bei absoluten Pfadangaben wird der vollständige Pfad von der Wurzel des jeweiligen Verzeichnissystems bis zum Ziel angegeben, bei relativen der Weg von 
 einem festgelegten Bezugspunkt bis zum Ziel.
 
-![image](https://user-images.githubusercontent.com/47243617/170679603-aae95922-96a4-4e80-bdba-2a8b509115a8.png)
+![image](https://user-images.githubusercontent.com/47243617/209096722-dce8f11a-851b-4535-af37-0b987929c2e3.png)
 
 :::note Hinweis
 Alle Klassen im Paket `java.io` verwenden als Bezugspunkt das Arbeitsverzeichnis des Benutzers (Systemeigenschaft `user.dir`).

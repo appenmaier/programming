@@ -8,7 +8,7 @@ tags: [maps]
 Unter einem Assoziativspeicher (Map) versteht man eine Menge zusammengehöriger Paare von Objekten. Das erste Objekt stellt dabei den Schlüssel (Key), das zweite Objekt den Wert (Value) dar. Jeder Schlüssel kann dabei nur einmal in einem Assoziativspeicher 
 vorhanden sein. Aufgrund dieses Aufbaus werden Assoziativspeicher auch als Wörterbücher bezeichnet.
 
-![image](https://user-images.githubusercontent.com/47243617/178993798-64074bc6-0a7b-4201-9b40-0d37423e718a.png)
+![image](https://user-images.githubusercontent.com/47243617/209135548-62e0e10e-1f7f-4fd7-99cb-1a4d9a15a9de.png)
 
 Um auf die Einträge, Schlüssel und Werte eines Assoziativspeichers zugreifen können, stellt die Schnittstelle `Map` die Methoden `Set<Entry<K, V>> entrySet()`, `Set<K> keySet()` und `Collection<V> values()` zur Verfügung. 
 
@@ -55,5 +55,5 @@ Die Klasse `TreeMap<K, V>` implementiert den Assoziativspeicher in Form eines Bi
 entartet. Da die Paare in einem Binärbaum sortiert vorliegen, ist es für den Einsatz zwingend erforderlich, dass die Klasse, die den Schlüssel bildet, die Schnittstelle `Comparable<T>` implementiert hat. Alternativ kann dem Konstruktor der Klasse `TreeMap<K, V>`
 ein Komparator für den Schlüssel mitgegeben werden.
 
-![image](https://user-images.githubusercontent.com/47243617/178997445-d30d0d12-61e4-4fdc-a2e7-6750384ce8a8.png)
+![image](https://user-images.githubusercontent.com/47243617/209135608-ee2b5bb7-6abc-4cc0-8e6f-cf4c1ad723a2.png)
 

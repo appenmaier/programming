@@ -8,7 +8,7 @@ tags: [uml, class-diagrams]
 Klassendiagramme sind ein Diagrammtyp der UML und gehören dort zum Bereich der Strukturdiagramme. Das Klassendiagramm dient zur leicht lesbaren Dokumentation des Aufbaus von Klassen und deren Beziehungen (Relationen). Klassendiagramme können Informationen zu 
 den Attributen, den Methoden und weiteren Klassen-Bestandteilen enthalten.
 
-![image](https://user-images.githubusercontent.com/47243617/170685059-5d955c86-51e6-45f2-aa70-fbc9a756af42.png)
+![image](https://user-images.githubusercontent.com/47243617/209097570-66e9f911-561c-46d8-885d-6b0d3bf591b3.png)
 
 ## Darstellung von Klassen
 Klassen werden im Klassendiagramm als Rechteck mit verschiedenen Bereichen (Klassenname, Attribute, Methoden und weitere Klassen-Bestandteile) dargestellt:
@@ -23,22 +23,38 @@ Klassen werden im Klassendiagramm als Rechteck mit verschiedenen Bereichen (Klas
     - Die Sichtbarkeit `packaged` wird durch das Symbol **~** bzw. die Farbe **blau** dargestellt
     - Die Sichtbarkeit `private` wird durch das Symbol **-** bzw. die Farbe **rot** dargestellt
 
-![image](https://user-images.githubusercontent.com/47243617/170685479-c07e9088-31c5-40cf-a2ef-700e6846e525.png)
+![image](https://user-images.githubusercontent.com/47243617/209098191-98db853b-d786-4ae3-a102-ec56d77a2bb5.png)
+
+## Darstellung von generischen Klassen
+Die formalen Typparameter einer generischen Klassen werden in einem zusätzlichen Rechteck dargestellt.
+
+![image](https://user-images.githubusercontent.com/47243617/209132219-a29758d4-ec7a-4669-8fe6-edb9f4b9a5ea.png)
+
+## Darstellung von Datenklassen
+Datenklassen werden im Klassendiagramm durch den Stereotypen `record` kenntlich gemacht. Dieser impliziert, dass die Datenklasse einen entsprechenden Konstruktor, Getter zu allen Attributen sowie entsprechende Implementierungen für die Object-Methoden besitzt.
+
+![image](https://user-images.githubusercontent.com/47243617/209133870-6c0f11b6-a5ae-4ea7-b317-fbf6846d8e15.png)
 
 ## Darstellung von Schnittstellen
 Schnittstellen werden im Klassendiagramm durch den Stereotypen `interface` kenntlich gemacht. Dieser impliziert, dass alle Methoden der Schnittstelle abstrakt sind.
 
-![image](https://user-images.githubusercontent.com/47243617/170686174-3586d100-ba10-4632-bac7-74d9a61feb23.png)
+![image](https://user-images.githubusercontent.com/47243617/209098380-6f11ab79-52ca-43d5-9806-3f29451b9c77.png)
 
 ## Darstellung von Aufzählungen
-Aufzählungen werden im Klassendiagramm durch den Stereotypen `enumeration` kenntlich gemacht. Die Aufzählungskonstanten werden in einem zusätzlichen Bereich aufgeführt.
+Aufzählungen werden im Klassendiagramm durch den Stereotypen `enumeration` kenntlich gemacht. Die Aufzählungskonstanten werden in einem zusätzlichen Bereich aufgeführt. Der Stereotyp impliziert, dass die Aufzählung einen privaten Konstruktor sowie ggbfs. passende Setter und Getter besitzt.
 
-![image](https://user-images.githubusercontent.com/47243617/170686310-f1cdb38b-1a69-4af1-92ae-a116b84137b2.png)
+![image](https://user-images.githubusercontent.com/47243617/209119681-d2113e1c-8af2-4bd9-9d84-f2f38fbdf760.png)
 
 ## Darstellung von lokalen Klassen
 Lokale Klassen werden mit einem Kreuz hin zur Top-Level-Klasse kenntlich gemacht.
 
-![image](https://user-images.githubusercontent.com/47243617/170687487-b173f44d-ce62-4593-97d7-c8f571a1fd98.png)
+![image](https://user-images.githubusercontent.com/47243617/209119807-c1052a01-30d4-45fd-8842-3b7c1d5d943a.png)
+
+## Darstellung von Ausnahmen
+Ausnahmen werden im Klassendiagramm durch die Stereotypen `exception` kenntlich gemacht. Die Beziehung zwischen einer Ausnahme und der auslösenden Klasse wird als gestrichelte Linie sowie einem offenen Pfeil hin zur Ausnhame dargestellt.
+
+![image](https://user-images.githubusercontent.com/47243617/209133018-8cc22d0e-04e6-49be-b7d0-853d79350275.png)
+
 
 ## Darstellung von Assoziationen
 Assoziationen stellen allgemeine Relationen zwischen zwei Klassen dar, bei der eine Klasse eine andere Klasse verwendet. Assoziationen können in eine Richtung (unidirektional) und in beide Richtungen (bidirektional) vorliegen. 
@@ -46,11 +62,11 @@ Assoziationen stellen allgemeine Relationen zwischen zwei Klassen dar, bei der e
 Aggregationen und Kompositionen stellen spezielle Formen von Assoziationen dar, bei denen ein Objekt der einen Klasse Teil einer anderen Klasse ist. Im Gegensatz zu Aggregationen hängen bei Kompositionen die Teile von der Existenz des Ganzen ab. Aggregationen 
 werden daher auch als ist-Teil-von-Relationen, Kompositionen als existenzabhängige ist-Teil-von-Relationen bezeichnet.
 
-![image](https://user-images.githubusercontent.com/47243617/170686505-ee43d95d-8f83-4d64-a8dc-d2da78f384c2.png)
+![image](https://user-images.githubusercontent.com/47243617/209120430-c8ce835a-436b-49b6-ba1b-eeb4b5d05735.png)
 
 Assoziationen werden mit einem offenen Pfeil hin zur verwendeten Klasse dargestellt, Aggregationen mit einer nicht ausgefüllten Raute hin zur besitzenden Klasse und Kompositionen mit einer ausgefüllten Raute hin zur besitzenden Klasse.
 
-![image](https://user-images.githubusercontent.com/47243617/170687823-14567433-0128-4b4a-a9ae-6c5db0e10839.png)
+![image](https://user-images.githubusercontent.com/47243617/209131609-17490a59-c8b0-4515-b251-1333701d5349.png)
 
 :::note Hinweis
 Assoziationen können gerichtet und ungerichtet dargestellt werden.
@@ -59,7 +75,7 @@ Assoziationen können gerichtet und ungerichtet dargestellt werden.
 ## Darstellung von Vererbungs-und Realisierungs-Beziehungen
 Vererbungs-Beziehungen werden mit einem geschlossenen Pfeil hin zur Oberklasse sowie einer durchgezogenen Linie dargestellt, Realisierungs-Beziehungen mit einem geschlossenen Pfeil hin zur Schnittstelle sowie einer gestrichelten Linie.
 
-![image](https://user-images.githubusercontent.com/47243617/170689169-b130d88d-0ff2-47be-8425-245ea0313e9f.png)
+![image](https://user-images.githubusercontent.com/47243617/209131716-0978d3b1-1a2b-44a2-b231-10c2be60ad24.png)
 
 ## Darstellung von Multiplizitäten
 Die Multiplizität einer Beziehung legt fest, mit wie vielen Objekten der gegenüberliegenden Klasse ein Objekt in Beziehung stehen kann. Die Multiplizität wird als Intervall aus nicht-negativen ganzen Zahlen dargestellt und wird in der Form 

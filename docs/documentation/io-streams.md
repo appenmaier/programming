@@ -9,7 +9,7 @@ Datenströme (IO-Streams) sind unidirektionale Pipelines, die Schnittstellen ein
 Datenstrom kann dabei immer nur in eine Richtung verwendet werden (also entweder zur Ein- oder Ausgabe). Neben den Standard-Datenströmen zur Ein- und Ausgabe existieren verschiedene Klassen zum Schreiben und Lesen zeichenorientierter Daten, zum 
 Schreiben und Lesen byteorientierter Daten und zum Schreiben und Lesen serialisierter Objekte. Das Arbeiten mit Datenstrom-Klassen kann dabei aufwändig über "normale" try-catch-Anweisungen oder mit Hilfe von try-with-resources-Anweisungen realisiert werden.
 
-![image](https://user-images.githubusercontent.com/47243617/170435801-cb897b17-2ebd-4b70-ad4f-330c4aca649b.png)
+![image](https://user-images.githubusercontent.com/47243617/209137344-814691e9-90c6-4ccf-95fa-5b50d55942aa.png)
 
 ## Standard-Datenströme zur Ein- und Ausgabe
 Java stellt Standard-Datenströme für die Eingabe (`System.in`), die Ausgabe (`System.out`), sowie die Fehlerausgabe (`System.err`) zur Verfügung.

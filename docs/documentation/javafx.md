@@ -11,7 +11,7 @@ machen:
 - Container wie Horizontalboxen und Bereichscontainer ermöglichen die strukturierte Darstellung und Verwaltung anderer Bildschirmelemente:
 - Dialoge wie Nachrichtendialoge und Dateiauswahl-Dialoge stellen vordefinierte Oberflächen dar, mit deren Hilfe wiederkehrende Anwendungsfälle abgedeckt werden können
 
-![image](https://user-images.githubusercontent.com/47243617/170096955-acb2be70-1dea-40a8-820a-b66792c45460.png)
+![image](https://user-images.githubusercontent.com/47243617/209136694-f18f83af-8390-4503-b18c-71c59c3eb3c1.png)
 
 ## Aufbau einer JavaFX-Anwendung
 Eine JavaFX-Anwendung besteht aus einer oder mehreren Bühnen (Stages), die beliebig vielen Szenen (Scenes) enthalten können, wobei jede Szene wiederum beliebig viele Bildschirmelemente (Nodes) enthalten kann:
@@ -19,13 +19,13 @@ Eine JavaFX-Anwendung besteht aus einer oder mehreren Bühnen (Stages), die beli
 - Eine Szene verwaltet den sogenannten _Szenegraphen_ der den sichtbaren Teil einer grafischen Benutzeroberfläche repräsentiert
 - Ein Bildschirmelement ist Teil des Szenegraphen und kann entweder zur Strukturierung (_Container_) oder zur Interaktion (_Control_) genutzt werden
 
-![image](https://user-images.githubusercontent.com/47243617/170097082-91fb3635-d5a6-46c4-aaa5-a082abe42bad.png)
+![image](https://user-images.githubusercontent.com/47243617/209136757-192b49ef-5547-4c11-bb24-1aec9fe4e895.png)
 
 ## Der Szenegraph
 Der Szenegraph verwaltet die einzelnen Bildschirmelemente einer Szene. Die Elemente eines Graphen werden als Knoten, der Ursprung des Graphen als Wurzel-Knoten 
 bezeichnet.
 
-![image](https://user-images.githubusercontent.com/47243617/170097162-be77b953-e445-4e7a-bbdf-2fedf2295e6f.png)
+![image](https://user-images.githubusercontent.com/47243617/209136774-4d61fc1b-3875-4289-b310-c69c47302f4a.png)
 
 ::: note Hinweis
 Beim Szenegraphen ist der Wurzel-Knoten vom Typ `Parent`.
@@ -44,7 +44,7 @@ Der Aufbau einer Szene erfolgt deklarativ mit Hilfe von FXML-Dokumenten. FXML st
 2. Der FXML-Loader überführt das FXML-Dokument in einen Szenegraphen
 3. Der FXML-Loader instanziiert den Controller und ruft die (optionale) initialize-Methode auf
 
-![image](https://user-images.githubusercontent.com/47243617/170098136-eb627556-61e9-4b79-a942-26a9f1ee54e4.png)
+![image](https://user-images.githubusercontent.com/47243617/209136908-9cf06991-9816-402e-a832-bf4b5682ffe2.png)
 
 :::note Hinweis
 _XML_ (Extensible Markup Language) stellt eine Auszeichnungssprache zur Beschreibung strukturierter Daten dar.
@@ -115,7 +115,7 @@ Ereignisse sind Nachrichten, die über das System weitergeleitet werden. Auf gra
 2. Der Sender löst das Ereignis aus und übergibt das erzeugte Ereignis-Objekt an alle registrierten Empfänger
 3. Die Empfänger nehmen das Ereignis-Objekt entgegen und haben dadurch die Möglichkeit, auf das Ereignis zu reagieren
 
-![image](https://user-images.githubusercontent.com/47243617/170099750-69e5778c-d55c-4769-84cd-019f4b8b4e74.png)
+![image](https://user-images.githubusercontent.com/47243617/209137051-486a30c8-2887-4276-bd5e-3f8e89b0074c.png)
 
 ## JavaFX Ereignisse
 JavaFX stellt verschiedene Ereignisse bereit, die auf unterschiedliche Art und Weise ausgelöst werden:

@@ -11,7 +11,7 @@ aus der realen Welt zum Konzept der Objektorientierung zusammengefasst:
 - Konkrete Ausprägungen bzw. Instanzen einer Klasse werden wiederum als _Objekte_ bezeichnet
 - Die Eigenschaften von Objekten werden als _Attribute_ das Verhalten als _Methoden_ bezeichnet
 
-![image](https://user-images.githubusercontent.com/47243617/170762507-dc3f4d1f-0730-44c1-acbf-3b9090832c9b.png)
+![image](https://user-images.githubusercontent.com/47243617/209096416-7128eebe-e05b-42a5-a8ae-3ab898aae81b.png)
 
 :::note Hinweis
 Jedes Objekt ist eindeutig identifizierbar.
@@ -21,7 +21,7 @@ Jedes Objekt ist eindeutig identifizierbar.
 Ein wesentlicher Grundsatz der Objektorientierung ist, dass Attribute durch Methoden gekapselt werden. Datenkapselung bedeutet, dass Attribute nicht direkt geändert werden können, sondern nur durch den indirekten Zugriff über Methoden. Typische Methoden zum 
 Lesen und Schreiben von Attributen sind die sogenannten Getter bzw. Setter.
 
-![image](https://user-images.githubusercontent.com/47243617/170760689-edc2460c-b661-4c90-b93d-da03b2d8acd3.png)
+![image](https://user-images.githubusercontent.com/47243617/209096468-16f7888c-0635-4551-8532-b29050dc22e0.png)
 
 ## Sichtbarkeit von Attributen und Methoden
 Um die Sichtbarkeit von Attributen und Methoden zu definieren, existieren verschiedene Zugriffsrechte. Die Sichtbarkeit bestimmt, von welchem Ort aus Attribute und Methoden verwendet bzw. aufgerufen werden dürfen.
@@ -86,7 +86,7 @@ Technisch gesehen handelt es sich bei einer Klasse um einen komplexen Datentyp. 
 
 Im Gegensatz zu "normalen" Variablen werden bei Referenzvariablen nicht die eigentlichen Werte in den Variablen gespeichert, sondern die Speicheradressen der erzeugten Objekte. Die Selbstreferenz `this` verweist innerhalb einer Klasse auf das eigene Objekt.
 
-![image](https://user-images.githubusercontent.com/47243617/170764624-4e55faa5-179f-4100-b444-f197619fb671.png)
+![image](https://user-images.githubusercontent.com/47243617/209096553-525afb86-d2c8-4323-874f-766f62c12a1b.png)
 
 :::note Hinweis
 Der Standarwert von Referenzvariablen ist `null`.

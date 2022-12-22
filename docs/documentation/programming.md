@@ -7,23 +7,31 @@ tags: [programming]
 
 Als ein Teilbereich der Softwareentwicklung umfasst das Programmieren vor allem die Umsetzung eines Softwareentwurfes in Quellcode. Generell versteht man unter Programmieren die Umsetzung von Algorithmen in lauffähige Computer-Programme.
 
+![image](https://user-images.githubusercontent.com/47243617/209094888-fa91bfac-1968-4213-916f-7ebc1c36ee02.png)
+
 :::note Hinweis
 Ein Algorithmus ist eine Handlungsvorschrift zur Lösung eines Problems.
 :::
 
-![image](https://user-images.githubusercontent.com/47243617/170713188-5d3502a8-1488-422b-a31e-e60105256107.png)
-
 ## Programmierparadigmen
 Unter einem Programmierparadigma versteht man die grundlegende Herangehensweise, Probleme mit Hilfe einer Programmiersprache zu lösen:
-- Bei der _imperativen Programmierung_ bestehen Programme aus verzweigten und sich wiederholenden Folgen von Anweisungen, die den Programmablauf steuern
-- Die _deklarative Programmierung_ stellt einen Gegenentwurf zur imperativen Programmierung dar, bei der nicht das "Wie", sondern das "Was" im Vordergrund steht
-- Die _objektorientierte Programmierung_ baut auf der imperativen Programmierung auf, setzt den Fokus aber auf abstrakte Datentypen und die Verbindung von Daten und Routinen
-
-![image](https://user-images.githubusercontent.com/47243617/171617439-c2172a87-a744-45b3-97f0-3007864d1b29.png)
 
 :::note Hinweis
 Auch wenn Programmiersprachen oft anhand ihrer grundlegenden Merkmale genau einem Programmierparadigma zugeordnet werden, unterstützen viele Programmiersprachen mehrerer Programmierparadigmen.
 :::
+
+### Imperative Programmierung
+Bei der imperativen Programmierung bestehen Programme aus verzweigten und sich wiederholenden Folgen von Anweisungen, die den Programmablauf steuern.
+
+![image](https://user-images.githubusercontent.com/47243617/209141943-9e9c985d-3c48-4ad5-8766-753f21f923ec.png)
+
+### Deklarative Programmierung
+Die deklarative Programmierung stellt einen Gegenentwurf zur imperativen Programmierung dar, bei der nicht das "Wie", sondern das "Was" im Vordergrund steht.
+
+### Objektorientierte Programmierung
+Die ojektorientierte Programmierung baut auf der imperativen Programmierung auf, setzt den Fokus aber auf abstrakte Datentypen und die Verbindung von Daten und Routinen.
+
+![image](https://user-images.githubusercontent.com/47243617/209148346-eb2ea659-5242-4e6e-bf79-56de39fbb88a.png)
 
 ## Programmausführung
 Programme auf einem Computer können auf unterschiedliche Arten ausgeführt werden:
@@ -33,7 +41,7 @@ Programme auf einem Computer können auf unterschiedliche Arten ausgeführt werd
 
 Compilersprachen wie z.B. C++ sind deutlich performanter und ermöglichen eine sicherere Entwicklung, Interpretersprachen wie z.B. PHP sind dagegen plattformunabhängig.
 
-![image](https://user-images.githubusercontent.com/47243617/171617813-15f09fe9-e06c-4f1b-81cf-19c7c594ae6f.png)
+![image](https://user-images.githubusercontent.com/47243617/209095011-8c4920fb-66c7-435d-9f76-279f4fca0612.png)
 
 :::note Hinweis
 In Java wird der Interpreter als _Java Virtual Machine_ bezeichnet.
