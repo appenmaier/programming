@@ -11,7 +11,7 @@ import Exercise from '@site/src/components/Exercise';
   simuliert
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208106551-e46a174d-62e7-4eba-8d74-fd372bbac7d4.png)
+![image](https://user-images.githubusercontent.com/47243617/209156157-b7189204-ea02-46b9-b04a-db6532141471.png)
 
 ## Hinweise zur Klasse Creature
 - Passe die Methode `boolean attack(creature: Creature)` so an, dass der Rückgabewert
