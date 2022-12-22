@@ -1,7 +1,7 @@
 ---
 title: Softwaregestaltung (Softwaredesign)
 description: ''
-sidebar_position: 240
+sidebar_position: 350
 tags: []
 ---
 
