@@ -7,7 +7,7 @@ tags: [inheritance, polymorphy, interfaces, comparators]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208895823-9296f6b9-5ee7-47b2-b9dd-63ad6d66de42.png)
+![image](https://user-images.githubusercontent.com/47243617/209169744-bea6e3cf-b3ad-4fe3-9b5b-f2f61b33a2ea.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt

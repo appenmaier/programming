@@ -7,7 +7,7 @@ tags: [inheritance, polymorphy, io-streams]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208895685-2ef6b600-b0a7-4c6d-956b-f6c29f4fbaf9.png)
+![image](https://user-images.githubusercontent.com/47243617/209169641-39f0e148-f65d-4212-9b61-16117787297c.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt

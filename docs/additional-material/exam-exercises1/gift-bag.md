@@ -7,7 +7,7 @@ tags: [oo]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208894425-f4294cdf-5296-4181-8897-9d8ef2a39a42.png)
+![image](https://user-images.githubusercontent.com/47243617/209169050-403a7f98-a785-4f3d-9bd6-f5cfee1b1848.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt

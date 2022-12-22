@@ -7,7 +7,7 @@ tags: [exceptions, records, maps]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208895566-dc3aa4f7-8a0c-4fa5-a464-f3ecbab2cfa3.png)
+![image](https://user-images.githubusercontent.com/47243617/209169536-3e30b4a4-0d9a-4c35-b27c-bf5c95a56611.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt

@@ -7,7 +7,7 @@ tags: [interfaces, comparators, records, maps, io-streams]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse und/oder eine Testklasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208895330-9e81472a-2ae8-4300-9a15-f9c217fd4a4e.png)
+![image](https://user-images.githubusercontent.com/47243617/209169445-4e2b4675-0025-451c-96ea-aa7548cc5a57.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt

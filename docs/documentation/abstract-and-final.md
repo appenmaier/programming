@@ -10,19 +10,19 @@ Mit Hilfe der Schlüsselwörter `abstract` und `final` kann die Verwendung von K
 ## Abstrakte Klassen
 Abstrakte Klassen können nicht instanziiert werden.
 
-![image](https://user-images.githubusercontent.com/47243617/209134114-0580b35a-8b7d-4bdc-bd50-0b776eb46a3b.png)
+![image](https://user-images.githubusercontent.com/47243617/209166284-ad66e8a2-6a85-4cc4-afd6-a5424a0a6ad5.png)
 
 ## Abstrakte Methoden
 Abstrakte Methoden werden in abstrakten Klassen definiert, besitzen dort keinen Methodenrumpf und müssen in den abgeleiteten Klassen der abstrakten Klasse überschrieben werden.
 
-![image](https://user-images.githubusercontent.com/47243617/209134167-3fc7687c-861b-4029-a627-128b752607e3.png)
+![image](https://user-images.githubusercontent.com/47243617/209166331-be93409b-0501-4c0e-b1f1-0399e93c4d15.png)
 
 ## Finale Klassen
 Finale Klassen können nicht abgeleitet werden.
 
-![image](https://user-images.githubusercontent.com/47243617/209134217-59e32c5c-e1f9-44bd-b82e-aa071ba25445.png)
+![image](https://user-images.githubusercontent.com/47243617/209166368-f9f79258-d0e8-49c7-8de3-55697583da6a.png)
 
 ## Finale Methoden
 Finale Methoden können nicht überschrieben werden.
 
-![image](https://user-images.githubusercontent.com/47243617/209134275-5d904207-9975-4d2c-9330-ee29fbb0405d.png)
+![image](https://user-images.githubusercontent.com/47243617/209166415-492e73ef-c103-4859-a879-863dea21953b.png)
