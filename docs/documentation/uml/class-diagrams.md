@@ -25,13 +25,23 @@ Klassen werden im Klassendiagramm als Rechteck mit verschiedenen Bereichen (Klas
 
 ![image](https://user-images.githubusercontent.com/47243617/209098191-98db853b-d786-4ae3-a102-ec56d77a2bb5.png)
 
+## Darstellung von generischen Klassen
+Die formalen Typparameter einer generischen Klassen werden in einem zusätzlichen Rechteck dargestellt.
+
+![image](https://user-images.githubusercontent.com/47243617/209132219-a29758d4-ec7a-4669-8fe6-edb9f4b9a5ea.png)
+
+## Darstellung von Datenklassen
+Datenklassen werden im Klassendiagramm durch den Stereotypen `record` kenntlich gemacht. Dieser impliziert, dass die Datenklasse einen entsprechenden Konstruktor, Getter zu allen Attributen sowie entsprechende Implementierungen für die Object-Methoden besitzt.
+
+![image](https://user-images.githubusercontent.com/47243617/209132626-26008f36-10d0-44d8-860c-f7c328eadda9.png)
+
 ## Darstellung von Schnittstellen
 Schnittstellen werden im Klassendiagramm durch den Stereotypen `interface` kenntlich gemacht. Dieser impliziert, dass alle Methoden der Schnittstelle abstrakt sind.
 
 ![image](https://user-images.githubusercontent.com/47243617/209098380-6f11ab79-52ca-43d5-9806-3f29451b9c77.png)
 
 ## Darstellung von Aufzählungen
-Aufzählungen werden im Klassendiagramm durch den Stereotypen `enumeration` kenntlich gemacht. Die Aufzählungskonstanten werden in einem zusätzlichen Bereich aufgeführt. Der Stereotyp impliziert, dass alle Aufzählungskonstanten öffentliche, statische Konstanten vom Typ der Aufzählung sind. zudem impliziert der Stereotyp, dass es einen passenden, privaten Konstruktor sowie ggbfs. passende Getter gibt.
+Aufzählungen werden im Klassendiagramm durch den Stereotypen `enumeration` kenntlich gemacht. Die Aufzählungskonstanten werden in einem zusätzlichen Bereich aufgeführt. Der Stereotyp impliziert, dass die Aufzählung einen privaten Konstruktor sowie ggbfs. passende Setter und Getter besitzt.
 
 ![image](https://user-images.githubusercontent.com/47243617/209119681-d2113e1c-8af2-4bd9-9d84-f2f38fbdf760.png)
 
@@ -39,6 +49,12 @@ Aufzählungen werden im Klassendiagramm durch den Stereotypen `enumeration` kenn
 Lokale Klassen werden mit einem Kreuz hin zur Top-Level-Klasse kenntlich gemacht.
 
 ![image](https://user-images.githubusercontent.com/47243617/209119807-c1052a01-30d4-45fd-8842-3b7c1d5d943a.png)
+
+## Darstellung von Ausnahmen
+Ausnahmen werden im Klassendiagramm durch die Stereotypen `exception` kenntlich gemacht. Die Beziehung zwischen einer Ausnahme und der auslösenden Klasse wird als gestrichelte Linie sowie einem offenen Pfeil hin zur Ausnhame dargestellt.
+
+![image](https://user-images.githubusercontent.com/47243617/209133018-8cc22d0e-04e6-49be-b7d0-853d79350275.png)
+
 
 ## Darstellung von Assoziationen
 Assoziationen stellen allgemeine Relationen zwischen zwei Klassen dar, bei der eine Klasse eine andere Klasse verwendet. Assoziationen können in eine Richtung (unidirektional) und in beide Richtungen (bidirektional) vorliegen. 
