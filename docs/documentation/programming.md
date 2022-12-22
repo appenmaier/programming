@@ -11,7 +11,7 @@ Als ein Teilbereich der Softwareentwicklung umfasst das Programmieren vor allem 
 Ein Algorithmus ist eine Handlungsvorschrift zur Lösung eines Problems.
 :::
 
-![image](https://user-images.githubusercontent.com/47243617/170713188-5d3502a8-1488-422b-a31e-e60105256107.png)
+![image](https://user-images.githubusercontent.com/47243617/209094658-01f73c86-4fa7-41f7-9fe5-01cc4d52f90a.png)
 
 ## Programmierparadigmen
 Unter einem Programmierparadigma versteht man die grundlegende Herangehensweise, Probleme mit Hilfe einer Programmiersprache zu lösen:
@@ -33,7 +33,7 @@ Programme auf einem Computer können auf unterschiedliche Arten ausgeführt werd
 
 Compilersprachen wie z.B. C++ sind deutlich performanter und ermöglichen eine sicherere Entwicklung, Interpretersprachen wie z.B. PHP sind dagegen plattformunabhängig.
 
-![image](https://user-images.githubusercontent.com/47243617/171617813-15f09fe9-e06c-4f1b-81cf-19c7c594ae6f.png)
+![image](https://user-images.githubusercontent.com/47243617/209094726-f0677b1e-ae05-4596-9717-dde726299921.png)
 
 :::note Hinweis
 In Java wird der Interpreter als _Java Virtual Machine_ bezeichnet.
