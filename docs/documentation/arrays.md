@@ -8,7 +8,7 @@ tags: [arrays]
 Wenn eine große Menge an Daten verarbeitet werden soll, kann man auf spezielle Datenstruktur-Variablen, sogenannte _Felder_ (Arrays), zurückgreifen. Die einzelnen Speicherplätze in einem Feld werden als Elemente bezeichnet, die über einen Index angesprochen 
 werden können.
 
-![image](https://user-images.githubusercontent.com/47243617/209095882-eddb875c-c121-44b0-932e-14ab03b80ce4.png)
+![image](https://user-images.githubusercontent.com/47243617/209096157-f67edf3e-3e24-46f8-a241-a1fb37c9a6d1.png)
 
 ## Erzeugen von Feldern
 Da es sich bei Feldern um Objekte handelt, müssen diese vor Verwendung erzeugt werden. Bei der Erzeugung muss immer die Länge des Feldes (d.h. die Anzahl der Elemente) angegeben werden. Jedes Feld verfügt über das Attribut `length`, welches die Länge des Feldes 
