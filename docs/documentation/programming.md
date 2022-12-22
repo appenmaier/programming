@@ -7,11 +7,10 @@ tags: [programming]
 
 Als ein Teilbereich der Softwareentwicklung umfasst das Programmieren vor allem die Umsetzung eines Softwareentwurfes in Quellcode. Generell versteht man unter Programmieren die Umsetzung von Algorithmen in lauffähige Computer-Programme.
 
+![image](https://user-images.githubusercontent.com/47243617/209094888-fa91bfac-1968-4213-916f-7ebc1c36ee02.png)
 :::note Hinweis
 Ein Algorithmus ist eine Handlungsvorschrift zur Lösung eines Problems.
 :::
-
-![image](https://user-images.githubusercontent.com/47243617/209094658-01f73c86-4fa7-41f7-9fe5-01cc4d52f90a.png)
 
 ## Programmierparadigmen
 Unter einem Programmierparadigma versteht man die grundlegende Herangehensweise, Probleme mit Hilfe einer Programmiersprache zu lösen:
@@ -33,7 +32,7 @@ Programme auf einem Computer können auf unterschiedliche Arten ausgeführt werd
 
 Compilersprachen wie z.B. C++ sind deutlich performanter und ermöglichen eine sicherere Entwicklung, Interpretersprachen wie z.B. PHP sind dagegen plattformunabhängig.
 
-![image](https://user-images.githubusercontent.com/47243617/209094726-f0677b1e-ae05-4596-9717-dde726299921.png)
+![image](https://user-images.githubusercontent.com/47243617/209095011-8c4920fb-66c7-435d-9f76-279f4fca0612.png)
 
 :::note Hinweis
 In Java wird der Interpreter als _Java Virtual Machine_ bezeichnet.
