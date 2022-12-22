@@ -31,7 +31,7 @@ Die deklarative Programmierung stellt einen Gegenentwurf zur imperativen Program
 ### Objektorientierte Programmierung
 Die ojektorientierte Programmierung baut auf der imperativen Programmierung auf, setzt den Fokus aber auf abstrakte Datentypen und die Verbindung von Daten und Routinen.
 
-![image](https://user-images.githubusercontent.com/47243617/209142965-301211cc-ea76-4108-be16-015f69db1c25.png)
+![image](https://user-images.githubusercontent.com/47243617/209148346-eb2ea659-5242-4e6e-bf79-56de39fbb88a.png)
 
 ## Programmausführung
 Programme auf einem Computer können auf unterschiedliche Arten ausgeführt werden:
