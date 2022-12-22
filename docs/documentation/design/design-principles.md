@@ -22,7 +22,7 @@ Das Akronym SOLID geht auf den Softwareentwickler Robert C. Martin zurück, der 
 Unter dem Begriff _Separation of Concerns_ versteht man in der Informatik das Gestaltungsprinzip, die verschiedenen Aufgaben einer Anwendung in verschiedene Bereiche aufzuteilen. Grafische Benutzeroberflächen werden zum Beispiel in der Regel in die Bereiche 
 Aufbau, Aussehen und Verhalten aufgeteilt.
 
-![image](https://user-images.githubusercontent.com/47243617/170881912-9a82825c-4f88-401c-adc1-369de09ccecf.png)
+![image](https://user-images.githubusercontent.com/47243617/209138235-87d70f98-93dd-433a-bbc4-d20bd396463f.png)
 
 ## Inversion of Control
 Der Begriff _Inversion of Control_ beschreibt die Arbeitsweise von Frameworks: Die Funktionen einer Anwendung werden beim Framework registriert, welches die Funktionen zu einem späteren Zeitpunkt aufruft, d.h. die Steuerung des Kontrollfluss obliegt nicht der 
