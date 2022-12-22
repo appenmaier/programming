@@ -7,7 +7,7 @@ tags: [console-applications, oo, enumerations, inheritance, polymorphy]
 Setze das abgebildete Klassendiagramm vollständig um.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208893991-9b465a9e-88a0-459c-98f1-055c8a646c47.png)
+![image](https://user-images.githubusercontent.com/47243617/209168872-259dd07c-e76c-45ed-ab84-76c4b4f9d135.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
