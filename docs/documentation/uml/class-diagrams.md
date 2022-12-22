@@ -8,7 +8,7 @@ tags: [uml, class-diagrams]
 Klassendiagramme sind ein Diagrammtyp der UML und gehören dort zum Bereich der Strukturdiagramme. Das Klassendiagramm dient zur leicht lesbaren Dokumentation des Aufbaus von Klassen und deren Beziehungen (Relationen). Klassendiagramme können Informationen zu 
 den Attributen, den Methoden und weiteren Klassen-Bestandteilen enthalten.
 
-![image](https://user-images.githubusercontent.com/47243617/209097570-66e9f911-561c-46d8-885d-6b0d3bf591b3.png)
+![image](https://user-images.githubusercontent.com/47243617/209165477-023f634a-4413-4907-baa6-7667305fd459.png)
 
 ## Darstellung von Klassen
 Klassen werden im Klassendiagramm als Rechteck mit verschiedenen Bereichen (Klassenname, Attribute, Methoden und weitere Klassen-Bestandteile) dargestellt:
@@ -23,38 +23,37 @@ Klassen werden im Klassendiagramm als Rechteck mit verschiedenen Bereichen (Klas
     - Die Sichtbarkeit `packaged` wird durch das Symbol **~** bzw. die Farbe **blau** dargestellt
     - Die Sichtbarkeit `private` wird durch das Symbol **-** bzw. die Farbe **rot** dargestellt
 
-![image](https://user-images.githubusercontent.com/47243617/209098191-98db853b-d786-4ae3-a102-ec56d77a2bb5.png)
+![image](https://user-images.githubusercontent.com/47243617/209165572-788980f2-51cd-4d99-929c-2b9b93af54e7.png)
 
 ## Darstellung von generischen Klassen
 Die formalen Typparameter einer generischen Klassen werden in einem zusätzlichen Rechteck dargestellt.
 
-![image](https://user-images.githubusercontent.com/47243617/209132219-a29758d4-ec7a-4669-8fe6-edb9f4b9a5ea.png)
+![image](https://user-images.githubusercontent.com/47243617/209165618-d695a34b-92fb-4f4f-bd7a-d65b2768c112.png)
 
 ## Darstellung von Datenklassen
 Datenklassen werden im Klassendiagramm durch den Stereotypen `record` kenntlich gemacht. Dieser impliziert, dass die Datenklasse einen entsprechenden Konstruktor, Getter zu allen Attributen sowie entsprechende Implementierungen für die Object-Methoden besitzt.
 
-![image](https://user-images.githubusercontent.com/47243617/209133870-6c0f11b6-a5ae-4ea7-b317-fbf6846d8e15.png)
+![image](https://user-images.githubusercontent.com/47243617/209165706-16c0ca58-fc0c-4b6a-b073-e9e9df59e084.png)
 
 ## Darstellung von Schnittstellen
 Schnittstellen werden im Klassendiagramm durch den Stereotypen `interface` kenntlich gemacht. Dieser impliziert, dass alle Methoden der Schnittstelle abstrakt sind.
 
-![image](https://user-images.githubusercontent.com/47243617/209098380-6f11ab79-52ca-43d5-9806-3f29451b9c77.png)
+![image](https://user-images.githubusercontent.com/47243617/209165629-da42b8c4-763c-4fe2-a9fb-06654fda81f7.png)
 
 ## Darstellung von Aufzählungen
 Aufzählungen werden im Klassendiagramm durch den Stereotypen `enumeration` kenntlich gemacht. Die Aufzählungskonstanten werden in einem zusätzlichen Bereich aufgeführt. Der Stereotyp impliziert, dass die Aufzählung einen privaten Konstruktor sowie ggbfs. passende Setter und Getter besitzt.
 
-![image](https://user-images.githubusercontent.com/47243617/209119681-d2113e1c-8af2-4bd9-9d84-f2f38fbdf760.png)
+![image](https://user-images.githubusercontent.com/47243617/209165765-57054b0c-dc01-4270-99e6-436b8057ee16.png)
 
 ## Darstellung von lokalen Klassen
 Lokale Klassen werden mit einem Kreuz hin zur Top-Level-Klasse kenntlich gemacht.
 
-![image](https://user-images.githubusercontent.com/47243617/209119807-c1052a01-30d4-45fd-8842-3b7c1d5d943a.png)
+![image](https://user-images.githubusercontent.com/47243617/209165818-5833caf7-a1de-48c7-b650-103cf5ea7925.png)
 
 ## Darstellung von Ausnahmen
 Ausnahmen werden im Klassendiagramm durch die Stereotypen `exception` kenntlich gemacht. Die Beziehung zwischen einer Ausnahme und der auslösenden Klasse wird als gestrichelte Linie sowie einem offenen Pfeil hin zur Ausnhame dargestellt.
 
-![image](https://user-images.githubusercontent.com/47243617/209133018-8cc22d0e-04e6-49be-b7d0-853d79350275.png)
-
+![image](https://user-images.githubusercontent.com/47243617/209165865-b441372d-4330-4607-bf70-718949b92b42.png)
 
 ## Darstellung von Assoziationen
 Assoziationen stellen allgemeine Relationen zwischen zwei Klassen dar, bei der eine Klasse eine andere Klasse verwendet. Assoziationen können in eine Richtung (unidirektional) und in beide Richtungen (bidirektional) vorliegen. 
@@ -66,7 +65,7 @@ werden daher auch als ist-Teil-von-Relationen, Kompositionen als existenzabhäng
 
 Assoziationen werden mit einem offenen Pfeil hin zur verwendeten Klasse dargestellt, Aggregationen mit einer nicht ausgefüllten Raute hin zur besitzenden Klasse und Kompositionen mit einer ausgefüllten Raute hin zur besitzenden Klasse.
 
-![image](https://user-images.githubusercontent.com/47243617/209131609-17490a59-c8b0-4515-b251-1333701d5349.png)
+![image](https://user-images.githubusercontent.com/47243617/209166000-d4f2a631-7502-4b7c-a0e9-f03e489c8e37.png)
 
 :::note Hinweis
 Assoziationen können gerichtet und ungerichtet dargestellt werden.
@@ -75,7 +74,7 @@ Assoziationen können gerichtet und ungerichtet dargestellt werden.
 ## Darstellung von Vererbungs-und Realisierungs-Beziehungen
 Vererbungs-Beziehungen werden mit einem geschlossenen Pfeil hin zur Oberklasse sowie einer durchgezogenen Linie dargestellt, Realisierungs-Beziehungen mit einem geschlossenen Pfeil hin zur Schnittstelle sowie einer gestrichelten Linie.
 
-![image](https://user-images.githubusercontent.com/47243617/209131716-0978d3b1-1a2b-44a2-b231-10c2be60ad24.png)
+![image](https://user-images.githubusercontent.com/47243617/209166051-5ef3514c-e2b6-4c1d-bc8f-ad533f913ae9.png)
 
 ## Darstellung von Multiplizitäten
 Die Multiplizität einer Beziehung legt fest, mit wie vielen Objekten der gegenüberliegenden Klasse ein Objekt in Beziehung stehen kann. Die Multiplizität wird als Intervall aus nicht-negativen ganzen Zahlen dargestellt und wird in der Form 
