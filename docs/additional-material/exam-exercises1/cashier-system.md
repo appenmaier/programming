@@ -7,7 +7,7 @@ tags: [oo, enumerations, inheritance, polymorphy]
 Setze das abgebildete Klassendiagramm vollständig um. Erstelle zum Testen eine ausführbare Klasse.
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208892246-29018871-fb19-4d4a-9680-e301c1d68027.png)
+![image](https://user-images.githubusercontent.com/47243617/209168669-32e3b92c-94bd-4b33-9973-0806ea0c63dd.png)
 
 ## Allgemeine Hinweise
 - Aus Gründen der Übersicht werden im Klassendiagramm keine Getter und Object-Methoden dargestellt
