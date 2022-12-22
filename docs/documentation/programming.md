@@ -8,6 +8,7 @@ tags: [programming]
 Als ein Teilbereich der Softwareentwicklung umfasst das Programmieren vor allem die Umsetzung eines Softwareentwurfes in Quellcode. Generell versteht man unter Programmieren die Umsetzung von Algorithmen in lauffähige Computer-Programme.
 
 ![image](https://user-images.githubusercontent.com/47243617/209094888-fa91bfac-1968-4213-916f-7ebc1c36ee02.png)
+
 :::note Hinweis
 Ein Algorithmus ist eine Handlungsvorschrift zur Lösung eines Problems.
 :::
