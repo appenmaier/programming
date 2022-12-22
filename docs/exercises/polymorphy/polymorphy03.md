@@ -12,7 +12,7 @@ import Exercise from '@site/src/components/Exercise';
   Fahrzeugvermietung in Autobots verwandeln
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208092433-ae6d3e89-7c44-4427-a09c-29674500e080.png)
+![image](https://user-images.githubusercontent.com/47243617/209156712-bdd0af15-bf09-48b3-a32a-f7090f492244.png)
 
 ## Hinweis zur Klasse Rental
 Die Methode `void transformAllTrucks()` soll alle Lastwagen in Autobots
