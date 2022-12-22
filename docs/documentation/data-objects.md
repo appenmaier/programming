@@ -9,7 +9,7 @@ Ein Datenobjekt ist ein Platzhalter, der zur Laufzeit eine bestimmte Stelle des 
 ermöglichen das Ansprechen im Programmablauf. Man unterscheidet zwischen variablen Datenobjekten (_Variablen_) und fixen Datenobjekten (_Konstanten_ und _Literale_). Konstanten sind fixe Datenobjekte, die über einen Bezeichner angesprochen werden können. Sie werden 
 mit dem Schlüsselwort `final` deklariert. Literale sind sogenannte wörtliche Konstanten, d.h. fixe Datenobjekte ohne Bezeichner. Da Literale über keinen Bezeichner verfügen, können Sie im Programm nicht angesprochen werden.
 
-![image](https://user-images.githubusercontent.com/47243617/170474485-efa5dbeb-13e5-489d-ab86-dd4ce222d96e.png)
+![image](https://user-images.githubusercontent.com/47243617/209095425-92e2425a-e9f8-4051-a1dc-c0130f8f88d6.png)
 
 ## Deklaration von Datenobjekten
 Durch Angabe von Datentyp und Bezeichner wird ein Datenobjekt deklariert, d.h. dem Compiler bekannt gegeben. Deklarationen werden wie jede Anweisung mit einem Semikolon abgeschlossen. Datenobjekte gleichen Datentyps können mit Komma getrennt aufgeführt werden.
@@ -119,7 +119,7 @@ public class MainClass {
 
 Die Wertigkeit von Datentypen entscheidet darüber, welche Typumwandlungen möglich sind.
 
-![image](https://user-images.githubusercontent.com/47243617/170633184-e5f0e9c3-0d17-4f46-b718-4b12657aa53c.png)
+![image](https://user-images.githubusercontent.com/47243617/209095514-5f22cd05-584d-4091-b70f-17975eabb7eb.png)
 
 :::note Hinweis
 Für den Datentyp `boolean` ist keine Typumwandlung möglich.
