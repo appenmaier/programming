@@ -18,7 +18,7 @@ import Exercise from '@site/src/components/Exercise';
   mit 4-5-6-Würfeln oder 1-2-3-Würfeln zu würfeln
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/208109131-c6f1b46b-61bd-46ba-9c85-fb320d1a1563.png)
+![image](https://user-images.githubusercontent.com/47243617/209156833-abc8b6ab-d9a2-4f45-96a8-b2df8fdf9c3a.png)
 
 ## Hinweis zur Klasse HighValueDice
 Die Methode `void rollTheDice()` soll nur 4er, 5er und 6er "würfeln".
