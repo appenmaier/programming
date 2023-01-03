@@ -167,7 +167,7 @@ export default function TemplatePresentation() {
               Installiert JDK und JRE
             </li>
             <li className='fragment'>
-              Installiert und Konfiguriert eure IDE
+              Installiert und konfiguriert eure IDE
             </li>
             <li className='fragment'>
               Entwickelt alles lokal an eurem Rechner
