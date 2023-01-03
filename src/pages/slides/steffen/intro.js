@@ -242,7 +242,7 @@ export default function TemplatePresentation() {
         <section>
           <h2>Aufgaben</h2>
           <p className='fragment'>
-            Development Environment einrichten (Gitpod oder Lokal)
+            Development Environment einrichten (GitPod oder lokal)
           </p>
           <p className='fragment'>
             <a 
