@@ -249,7 +249,7 @@ export default function TemplatePresentation() {
               target='_blank'
               href='https://appenmaier.github.io/programming/exercises/class-structure/class-structure01'
             >
-              Hello World aufgabe machen
+              Hello-World-Aufgabe machen
             </a>
           </p>
         </section>
