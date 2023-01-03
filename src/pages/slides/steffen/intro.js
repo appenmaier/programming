@@ -211,7 +211,7 @@ export default function TemplatePresentation() {
             Quellcode verfassen
           </p>
           <p className='fragment'>
-            Quellcode zu einem Java Programm compilieren
+            Quellcode zu einem Java Programm kompilieren
           </p>
           <p className='fragment'>
             Java Programm mit der Java Runtime ausführen
