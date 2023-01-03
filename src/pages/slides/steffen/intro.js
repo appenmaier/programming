@@ -200,7 +200,7 @@ export default function TemplatePresentation() {
             <code className='bash'  dangerouslySetInnerHTML={{ __html: 
               'ls # alle Ordner und Dateien anzeigen \n' +
               'ls -l # wie Z1, aber als Liste anzeigen \n' + 
-              'ls -la # wie Z2, aber auch versteckte dateien und ordner \n' +
+              'ls -la # wie Z2, aber auch versteckte Dateien und Ordner \n' +
               'ls docs -la # wie Z3, aber im Unterordner docs \n' 
               }} ></code>
           </pre>
