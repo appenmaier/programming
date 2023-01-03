@@ -86,7 +86,7 @@ export default function TemplatePresentation() {
           <h2>Real talk Steffen: Macht es Spaß?</h2>
           <ul>
             <li className='fragment'>Keine UI bringt weniger Motivation</li>
-            <li className='fragment'>ohne Programmiergrundlagen keine Apps</li>
+            <li className='fragment'>Ohne Programmiergrundlagen keine Apps</li>
             <li className='fragment'>Java 2, Verteilte Systeme, ABAP</li>
           </ul>
         </section>
