@@ -69,7 +69,7 @@ export default function TemplatePresentation() {
         <section>
           <h2>Wie erreicht ihr eine gute Note?</h2>
           <ol>
-            <li className='fragment'>Versteht was ihr programmiert</li>
+            <li className='fragment'>Versteht, was ihr programmiert</li>
             <li className='fragment'>Fragt nach! Mich oder Kommilitonen</li>
             <li className='fragment'>Macht die Aufgaben zeitnah!</li>
           </ol>
