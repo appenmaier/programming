@@ -40,10 +40,10 @@ export default function TemplatePresentation() {
         <section>
           <h2>Top Focus Topics</h2>
           <p className='fragment'>
-            Zuletzt: vim + ngrx + kubernetes
+            Zuletzt: NeoVim + NgRx + Kubernetes
           </p>
           <p className='fragment'>
-            Jetzt: vim + mongodb + nestjs
+            Jetzt: NeoVim +  NestJS + MongoDB
           </p>
         </section>
         <section data-background-iframe="https://giphy.com/embed/8dgmMbeCA8jeg">
