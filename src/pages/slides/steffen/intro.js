@@ -145,7 +145,7 @@ export default function TemplatePresentation() {
                 style={{ marginRight: '0.5rem'}}
                 href='https://github.com'
                 target="_blank">
-                Github
+                GitHub
               </a> 
               Account erstellen
             </li>
