@@ -236,7 +236,7 @@ export default function TemplatePresentation() {
             GUI, TUI &amp; Hintergrund
           </p>
           <p className='fragment'>
-            Quellcode wird in Programm compiliert
+            Quellcode wird in Programm kompiliert
           </p>
         </section>
         <section>
