@@ -150,7 +150,7 @@ export default function TemplatePresentation() {
               Account erstellen
             </li>
             <li className='fragment'>
-              Registrieren mit Github Account bei Gitpod
+              Registrieren mit GitHub Account bei GitPod
             </li>
             <li className='fragment'>
               Kostet nach 50 Stunden pro Monat
