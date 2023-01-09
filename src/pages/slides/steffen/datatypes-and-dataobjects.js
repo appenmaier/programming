@@ -19,7 +19,7 @@ export default function DataTypesAndDataObjects() {
           </p>
           <div className='fragment'>
             <p>
-              aber warum braucht man: 
+              Aber warum braucht man: 
             </p>
             <pre>
               <code className='java'>
@@ -46,7 +46,7 @@ export default function DataTypesAndDataObjects() {
         </section>
         <section>
           <h2>git switch</h2>
-          <p>wechseln zwischen branches</p>
+          <p>Wechseln zwischen Branches</p>
           <pre className='fragment'>
             <code className='bash'  dangerouslySetInnerHTML={{ __html: 
               'Syntax: git switch &lt;branchname&gt;\n' +
@@ -194,7 +194,7 @@ export default function DataTypesAndDataObjects() {
           </table>
         </section>
         <section>
-          <h2>Primitive und Komplexe Datentypen</h2>
+          <h2>Primitive und komplexe Datentypen</h2>
           <p className='fragment'>
             Primitive Datentypen haben keine Methoden.
           </p>
@@ -210,7 +210,7 @@ export default function DataTypesAndDataObjects() {
         <section>
           <h2>Eigenschaften</h2>
           <ul>
-            <li className='fragment'>Platzhalter um Werte zwischenzuspeichern</li>
+            <li className='fragment'>Platzhalter, um Werte zwischenzuspeichern</li>
             <li className='fragment'>werden durch einen Bezeichner und Datentyp deklariert</li>
             <li className='fragment'>werden durch einen Wert initialisiert</li>
           </ul>
