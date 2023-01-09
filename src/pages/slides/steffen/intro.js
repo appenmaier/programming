@@ -2,7 +2,7 @@ import React from 'react';
 import Slides from '../../../components/Slides';
 import { defaultInitSlides } from '../../../components/Slides/initSlides';
 
-export default function TemplatePresentation() {
+export default function Intro() {
   return (
     <Slides initSlides={defaultInitSlides}>
       <section>
@@ -216,7 +216,7 @@ export default function TemplatePresentation() {
           <p className='fragment'>
             Java Programm mit der Java Runtime ausführen
           </p>
-          <aside class="notes">
+          <aside className="notes">
             <h3>Beispiel: Hello World</h3>
             <ul>
               <li>javac</li>
