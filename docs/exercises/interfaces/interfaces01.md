@@ -35,4 +35,4 @@ MAN TGX (Diesel, 20t)
 Opel Zafira Life (Diesel, 7 Sitzplätze)
 ```
 
-<Exercise pullRequest="46" branchSuffix="" />
+<Exercise pullRequest="46" branchSuffix="interfaces/01" />
