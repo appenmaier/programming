@@ -101,7 +101,7 @@ export default function Intro() {
             <a
               target="_blank"
               href='https://appenmaier.github.io/programming/'>
-              Folien, Dokumentation, Aufgaben, Lösungen und Anleitungen
+              Folien, Dokumentation, Aufgaben (auch Externe), Lösungen und Anleitungen
             </a>
           </p>
           <p className='fragment'>
